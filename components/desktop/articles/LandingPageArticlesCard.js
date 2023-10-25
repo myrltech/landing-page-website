@@ -16,7 +16,7 @@ const LandingPageArticlesCard = () => {
         </p>
         <div className="d-flex justify-content-between align-items-center pt-50">
           <img
-            src={"/imgs/desktop/icons/gradient-bookmark.svg"}
+            src={"./imgs/desktop/icons/gradient-bookmark.svg"}
             alt="bookmark"
             className="article-card-bookmark-icon"
           />
@@ -27,7 +27,7 @@ const LandingPageArticlesCard = () => {
         </div>
       </div>
       <img
-        src={"/imgs/desktop/articles/article-card-img.png"}
+        src={"./imgs/desktop/articles/article-card-img.png"}
         alt="articles card img"
         className="articles-card-img"
       />

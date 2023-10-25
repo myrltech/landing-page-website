@@ -67,7 +67,7 @@ const LandingPageBlogFoldThree = () => {
         </div>
         <div className="resources-fold-two-img-section resources-fold-two-img-section--blog">
           <img
-            src="/imgs/desktop/blog/blog-newsletter-img.svg"
+            src="./imgs/desktop/blog/blog-newsletter-img.svg"
             alt="fold two img"
           />
         </div>

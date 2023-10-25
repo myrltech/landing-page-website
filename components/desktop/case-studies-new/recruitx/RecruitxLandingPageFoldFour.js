@@ -38,27 +38,27 @@ export default function RecruitxLandingPageFoldFour() {
           </h5>
           <div className="d-flex flex-column">
             <img
-              src="/imgs/desktop/case-studies-new/recruitx/recruitx-design-com-1.svg"
+              src="./imgs/desktop/case-studies-new/recruitx/recruitx-design-com-1.svg"
               alt="recruitx"
               className="recruitx-design-com-1"
             />
             <img
-              src="/imgs/desktop/case-studies-new/recruitx/recruitx-design-com-2.svg"
+              src="./imgs/desktop/case-studies-new/recruitx/recruitx-design-com-2.svg"
               alt="recruitx"
               className="recruitx-design-com-2"
             />
             <img
-              src="/imgs/desktop/case-studies-new/recruitx/recruitx-design-com-3.svg"
+              src="./imgs/desktop/case-studies-new/recruitx/recruitx-design-com-3.svg"
               alt="recruitx"
               className="recruitx-design-com-3"
             />
             <img
-              src="/imgs/desktop/case-studies-new/recruitx/recruitx-design-com-4.svg"
+              src="./imgs/desktop/case-studies-new/recruitx/recruitx-design-com-4.svg"
               alt="recruitx"
               className="recruitx-design-com-4"
             />
             <img
-              src="/imgs/desktop/case-studies-new/recruitx/recruitx-design-com-5.svg"
+              src="./imgs/desktop/case-studies-new/recruitx/recruitx-design-com-5.svg"
               alt="recruitx"
               className="recruitx-design-com-5"
             />

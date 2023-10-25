@@ -167,7 +167,7 @@ export default function LandingPageHomeNewFoldTwo() {
           <div className="col-md-4 col-12 p-0">
             <div className="home-new-dominate-card mobile-new-dominate-card">
               <ProductCard
-                imgPath="/imgs/desktop/home-new/dominate.png"
+                imgPath="./imgs/desktop/home-new/dominate.png"
                 imgClass="home-new-dominate-img"
                 title="dominate"
                 para="An AI-powered tool that makes high-ticket B2b sales a breeze. Built specifically around the needs of the most demanding tech agencies - if you run a tech agency businiess, this product will transform and significantly enhance the way you operate."
@@ -180,7 +180,7 @@ export default function LandingPageHomeNewFoldTwo() {
           <div className="col-md-4 col-12 p-0">
             <div className="home-new-remote-teams-card mobile-new-remote-teams-card">
               <ProductCard
-                imgPath="/imgs/desktop/home-new/remote-teams.png"
+                imgPath="./imgs/desktop/home-new/remote-teams.png"
                 imgClass="home-new-remote-teams-img"
                 title="Remote teams"
                 para="Managing productivity of remote-working teams is a new-age / post-pandemic challenge and we’ve solved that effectively using tons of automation, chat bots and templated workflows. If your team builds software, you will love this."
@@ -193,7 +193,7 @@ export default function LandingPageHomeNewFoldTwo() {
           <div className="col-md-4 col-12 p-0">
             <div className="home-new-airi-card mobile-new-airi-card">
               <ProductCard
-                imgPath="/imgs/desktop/home-new/airi.png"
+                imgPath="./imgs/desktop/home-new/airi.png"
                 imgClass="home-new-airi-img"
                 title="Airi"
                 para="Mental Wellbeing cannot be taken lightly, especially for us working in tech. Airi is an A.I assistant with advanced NLP and sentiment analysis capabilities and she helps you uncover deep-routed triggers and helps you to avoid them."
@@ -228,7 +228,7 @@ export default function LandingPageHomeNewFoldTwo() {
             <ul className="home-new-abou-methodologies-list pt-50">
               <li className="font-36-proxima-700">
                 <img
-                  src={"/imgs/desktop/icons/gradient-square-icon.svg"}
+                  src={"./imgs/desktop/icons/gradient-square-icon.svg"}
                   alt="gradient"
                   className="home-new-about-gradient"
                 />
@@ -236,7 +236,7 @@ export default function LandingPageHomeNewFoldTwo() {
               </li>
               <li className="font-36-proxima-700 pt-40">
                 <img
-                  src={"/imgs/desktop/icons/gradient-square-icon.svg"}
+                  src={"./imgs/desktop/icons/gradient-square-icon.svg"}
                   alt="gradient"
                   className="home-new-about-gradient"
                 />
@@ -244,7 +244,7 @@ export default function LandingPageHomeNewFoldTwo() {
               </li>
               <li className="font-36-proxima-700 pt-40">
                 <img
-                  src={"/imgs/desktop/icons/gradient-square-icon.svg"}
+                  src={"./imgs/desktop/icons/gradient-square-icon.svg"}
                   alt="gradient"
                   className="home-new-about-gradient"
                 />

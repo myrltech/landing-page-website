@@ -16,7 +16,7 @@ export default function AiriLandingPageFoldFour() {
             <div className="airi-design-color-one">
               <img
                 src={
-                  "/imgs/desktop/case-studies-new/airi/airi-design-color-one.png"
+                  "./imgs/desktop/case-studies-new/airi/airi-design-color-one.png"
                 }
                 alt="airi color"
                 className="airi-design-color-one"
@@ -59,23 +59,23 @@ export default function AiriLandingPageFoldFour() {
           </h5>
           <div className="d-flex flex-column">
             <img
-              src={"/imgs/desktop/case-studies-new/airi/airi-design-com-1.png"}
+              src={"./imgs/desktop/case-studies-new/airi/airi-design-com-1.png"}
               alt="airi btn"
               className="airi-design-com-1"
             />
             <img
-              src={"/imgs/desktop/case-studies-new/airi/airi-design-com-2.png"}
+              src={"./imgs/desktop/case-studies-new/airi/airi-design-com-2.png"}
               alt="airi navbar"
               className="airi-design-com-2"
             />
 
             <img
-              src={"/imgs/desktop/case-studies-new/airi/airi-design-com-3.png"}
+              src={"./imgs/desktop/case-studies-new/airi/airi-design-com-3.png"}
               alt="airi tabs"
               className="airi-design-com-3"
             />
             <img
-              src={"/imgs/desktop/case-studies-new/airi/airi-design-com-4.png"}
+              src={"./imgs/desktop/case-studies-new/airi/airi-design-com-4.png"}
               alt="airi option"
               className="airi-design-com-4"
             />

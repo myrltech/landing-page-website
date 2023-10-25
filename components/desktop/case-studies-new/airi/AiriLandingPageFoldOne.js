@@ -8,7 +8,7 @@ export default function AiriLandingPageFoldOne() {
         <div className="d-flex flex-nowrap justify-content-between align-items-center airi-fold-one-div">
           <div>
             <img
-              src="/imgs/desktop/case-studies-new/airi/airi-logo.png"
+              src="./imgs/desktop/case-studies-new/airi/airi-logo.png"
               alt="airi"
               className="airi-logo"
             />
@@ -40,7 +40,7 @@ export default function AiriLandingPageFoldOne() {
           </div>
           <div>
             <img
-              src="/imgs/desktop/case-studies-new/airi/airi-main-img.png"
+              src="./imgs/desktop/case-studies-new/airi/airi-main-img.png"
               alt="airi main"
               className="airi-main-img"
             />
@@ -49,14 +49,14 @@ export default function AiriLandingPageFoldOne() {
       </div>
       <div className="d-block d-md-none airi-fold-one-div">
         <img
-          src="/imgs/desktop/case-studies-new/airi/airi-logo.png"
+          src="./imgs/desktop/case-studies-new/airi/airi-logo.png"
           alt="airi"
           className="airi-logo"
         />
         <PageTitle title={"Airi"} extraClass="pt-40 mv-pt-10" />
         <div className="mobile-text-center">
           <img
-            src="/imgs/desktop/case-studies-new/airi/airi-main-img.png"
+            src="./imgs/desktop/case-studies-new/airi/airi-main-img.png"
             alt="airi main"
             className="airi-main-img"
           />

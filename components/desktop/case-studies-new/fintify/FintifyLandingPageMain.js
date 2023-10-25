@@ -14,26 +14,26 @@ export default function FintifyLandingPageMain() {
     <>
       <FintifyLandingPageFoldOne />
       <RemoteTeamsLandingPageFoldTwo
-        imgPath="/imgs/desktop/case-studies-new/fintify/fintify-low-screen.png"
+        imgPath="./imgs/desktop/case-studies-new/fintify/fintify-low-screen.png"
         imgClass="fintify-low-screen"
         imgName="fintify low screen"
         lowContainerClass="fintify-low-screen-section"
       />
       <RemoteTeamsLandingPageFoldThree
-        imgPath="/imgs/desktop/case-studies-new/fintify/fintify-info-chart.png"
+        imgPath="./imgs/desktop/case-studies-new/fintify/fintify-info-chart.png"
         imgClass="fintify-info-chart"
         imgName="fintify info chart"
         infoContainerClass="fintify-info-chart-section"
       />
       <FintifyLandingPageFoldFour />
       <RemoteTeamsLandingPageFive
-        hiImg="/imgs/desktop/case-studies-new/fintify/fintify-hi-screen.png"
+        hiImg="./imgs/desktop/case-studies-new/fintify/fintify-hi-screen.png"
         hiImgName="fintify hi screen"
         hiImgClass="fintify-hi-screen"
         hiImgOuterClass="fintify-hi-screen-section"
         prototypeImgClass="fintify-prototype-screen"
         prototypeImgName="fintify prototype screen"
-        prototypeImg="/imgs/desktop/case-studies-new/fintify/fintify-prototype-screen.png"
+        prototypeImg="./imgs/desktop/case-studies-new/fintify/fintify-prototype-screen.png"
         prototypeImgOuterClass="fintify-prototype-screen-section"
       />
       <FintifyLandingPageFoldSix />

@@ -7,7 +7,7 @@ export default function RemoteTeamsLandingPageFoldOne() {
         <div className="d-flex flex-nowrap justify-content-between remote-teams-fold-one-div">
           <div>
             <img
-              src="/imgs/desktop/case-studies-new/remote-teams/logo.png"
+              src="./imgs/desktop/case-studies-new/remote-teams/logo.png"
               alt="remote teams"
               className="remote-teams-logo"
             />
@@ -39,7 +39,7 @@ export default function RemoteTeamsLandingPageFoldOne() {
           </div>
           <div>
             <img
-              src="/imgs/desktop/case-studies-new/remote-teams/remote-team-img.png"
+              src="./imgs/desktop/case-studies-new/remote-teams/remote-team-img.png"
               alt="remote teams main"
               className="remote-teams-img"
             />
@@ -49,7 +49,7 @@ export default function RemoteTeamsLandingPageFoldOne() {
       <div className="d-block d-md-none">
         <div className="remote-teams-fold-one-div">
           <img
-            src="/imgs/desktop/case-studies-new/remote-teams/logo.png"
+            src="./imgs/desktop/case-studies-new/remote-teams/logo.png"
             alt="remote teams"
             className="remote-teams-logo"
           />
@@ -58,7 +58,7 @@ export default function RemoteTeamsLandingPageFoldOne() {
           </h2>
           <div className="mobile-text-center mv-pt-20">
             <img
-              src="/imgs/desktop/home-new/remote-teams.png"
+              src="./imgs/desktop/home-new/remote-teams.png"
               alt="remote teams main"
               className="remote-teams-img"
             />

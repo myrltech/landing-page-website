@@ -5,7 +5,7 @@ const BlogCard = () => {
     <div className="blog-small-card">
       <div className="d-flex justify-content-between align-items-start">
         <img
-          src={"/imgs/desktop/blog/blog-small-card-img.png"}
+          src={"./imgs/desktop/blog/blog-small-card-img.png"}
           alt="blog card img"
           className={"blog-small-card-img"}
         />

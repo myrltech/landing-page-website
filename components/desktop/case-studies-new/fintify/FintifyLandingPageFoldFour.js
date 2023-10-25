@@ -44,7 +44,7 @@ export default function FintifyLandingPageFoldFour() {
           </h5>
           <div className="pt-60 mv-pt-20">
             <img
-              src={"/imgs/desktop/case-studies-new/fintify/design-tab-img.png"}
+              src={"./imgs/desktop/case-studies-new/fintify/design-tab-img.png"}
               alt="fintify tab"
               className="fintify-design-tab-img"
             />
@@ -52,7 +52,7 @@ export default function FintifyLandingPageFoldFour() {
           <div className="fintify-design-component-2"></div>
           <div className="fintify-design-component-3">
             <img
-              src={"/imgs/desktop/case-studies-new/fintify/fintify-navbar.png"}
+              src={"./imgs/desktop/case-studies-new/fintify/fintify-navbar.png"}
               alt="fintify navbar"
               className="fintify-navbar-img"
             />

@@ -34,7 +34,7 @@ const LandingPageArticlesFoldOne = () => {
             <br /> ARTICLES
           </h1>
           <img
-            src={"/imgs/desktop/articles/article-fold-one-img.svg"}
+            src={"./imgs/desktop/articles/article-fold-one-img.svg"}
             alt="articles fold one"
             className="articles-fold-one-img"
           />

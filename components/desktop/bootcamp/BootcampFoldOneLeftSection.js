@@ -16,17 +16,17 @@ import { resetNextUuid } from "react-accessible-accordion";
 =======================================================*/
 const listArray = [
   {
-    imgPath: "/imgs/desktop/bootcamp/course-play-icon.png",
+    imgPath: "./imgs/desktop/bootcamp/course-play-icon.png",
     imgClass: "bootcamp-course-play-icon-icon",
     text: "10 courses",
   },
   {
-    imgPath: "/imgs/desktop/bootcamp/clock.png",
+    imgPath: "./imgs/desktop/bootcamp/clock.png",
     imgClass: "bootcamp-clock-icon",
     text: "16 hours",
   },
   {
-    imgPath: "/imgs/desktop/bootcamp/map.png",
+    imgPath: "./imgs/desktop/bootcamp/map.png",
     imgClass: "bootcamp-map-icon",
     text: "Skill IQ",
   },
@@ -212,7 +212,7 @@ const BootcampFoldOneLeftSection = () => {
                         <h4 className="font-16-NunitoSans-600 mobile-font-14-Nunito-600 mv-pt-10 mr-30">
                           {data.duration} &nbsp;
                           <img
-                            src={"/imgs/desktop/bootcamp/clock.png"}
+                            src={"./imgs/desktop/bootcamp/clock.png"}
                             alt="clock"
                             className="bootcamp-clock-icon"
                           />

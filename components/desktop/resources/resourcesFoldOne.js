@@ -108,7 +108,7 @@ const ResourcesFoldOne = () => {
                   <div key={key} className="col-3">
                     <div className="resources-tag-two mx-auto">
                       <img
-                        src={"/imgs/desktop/resources/four-arrow-img.svg"}
+                        src={"./imgs/desktop/resources/four-arrow-img.svg"}
                         alt="arrow icon"
                         className="resources-four-icon"
                       />
@@ -122,7 +122,7 @@ const ResourcesFoldOne = () => {
                       <div className="text-right ">
                         <img
                           src={
-                            "/imgs/desktop/resources/resources-right-arrow-icon.svg"
+                            "./imgs/desktop/resources/resources-right-arrow-icon.svg"
                           }
                           className="resource-arrow-icon"
                           alt="resources right arrow"
@@ -143,7 +143,7 @@ const ResourcesFoldOne = () => {
             >
               <div className="d-flex align-items-center">
                 <img
-                  src={"/imgs/desktop/resources/four-arrow-img.svg"}
+                  src={"./imgs/desktop/resources/four-arrow-img.svg"}
                   alt="arrow icon"
                   className="resources-four-icon"
                 />
@@ -153,7 +153,9 @@ const ResourcesFoldOne = () => {
               </div>
               <div className="text-right">
                 <img
-                  src={"/imgs/desktop/resources/resources-right-arrow-icon.svg"}
+                  src={
+                    "./imgs/desktop/resources/resources-right-arrow-icon.svg"
+                  }
                   className="resource-arrow-icon"
                   alt="resources right arrow"
                 />
@@ -214,13 +216,13 @@ const ResourcesFoldOne = () => {
         </div>
         <div className="resource-fold-one-img-section d-md-block d-none">
           <img
-            src={"/imgs/desktop/resources/fold-one-img.svg"}
+            src={"./imgs/desktop/resources/fold-one-img.svg"}
             alt="fold-one-img"
           />
         </div>
         <div className="resource-fold-one-img-section d-md-none d-block">
           <img
-            src={"/imgs/desktop/resources/mobile-resources-fold.png"}
+            src={"./imgs/desktop/resources/mobile-resources-fold.png"}
             alt="fold-one-img"
           />
         </div>

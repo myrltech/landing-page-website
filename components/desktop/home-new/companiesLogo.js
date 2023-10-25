@@ -52,34 +52,34 @@ export const trustedCompaniesArrayOne = [
   // },
 
   {
-    imgPath: "/imgs/desktop/home-new/near-icon.svg",
+    imgPath: "./imgs/desktop/home-new/near-icon.svg",
     imgClass: "home-new-near-icon",
   },
   {
-    imgPath: "/imgs/desktop/home-new/solana-icon.svg",
+    imgPath: "./imgs/desktop/home-new/solana-icon.svg",
     imgClass: "home-new-solana-icon",
   },
   {
-    imgPath: "/imgs/desktop/home-new/cardano-icon.svg",
+    imgPath: "./imgs/desktop/home-new/cardano-icon.svg",
     imgClass: "home-new-cardano-icon",
   },
 
   {
-    imgPath: "/imgs/desktop/home-new/avalanche-icon.svg",
+    imgPath: "./imgs/desktop/home-new/avalanche-icon.svg",
     imgClass: "home-new-avalanche-icon",
   },
 
   {
-    imgPath: "/imgs/desktop/home-new/chainlink-icon.svg",
+    imgPath: "./imgs/desktop/home-new/chainlink-icon.svg",
     imgClass: "home-new-chainlink-icon",
   },
 
   {
-    imgPath: "/imgs/desktop/home-new/algorand-icon.svg",
+    imgPath: "./imgs/desktop/home-new/algorand-icon.svg",
     imgClass: "home-new-algorand-icon",
   },
   {
-    imgPath: "/imgs/desktop/home-new/polygon-icon.svg",
+    imgPath: "./imgs/desktop/home-new/polygon-icon.svg",
     imgClass: "home-new-polygon-icon",
   },
 ];

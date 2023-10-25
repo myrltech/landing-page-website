@@ -8,7 +8,7 @@ export default function DominateLandingPageFoldOne() {
         <div className="d-flex flex-nowrap justify-content-between align-items-center dominate-fold-one-div">
           <div>
             <img
-              src="/imgs/desktop/case-studies-new/dominate/dominate-logo.png"
+              src="./imgs/desktop/case-studies-new/dominate/dominate-logo.png"
               alt="dominate"
               className="dominate-logo"
             />
@@ -45,7 +45,7 @@ export default function DominateLandingPageFoldOne() {
           </div>
           <div>
             <img
-              src="/imgs/desktop/case-studies-new/dominate/dominate-main-img.png"
+              src="./imgs/desktop/case-studies-new/dominate/dominate-main-img.png"
               alt="dominate main"
               className="dominate-main-img"
             />
@@ -55,7 +55,7 @@ export default function DominateLandingPageFoldOne() {
       <div className="d-block d-md-none">
         <div className="dominate-fold-one-div">
           <img
-            src="/imgs/desktop/case-studies-new/dominate/dominate-logo.png"
+            src="./imgs/desktop/case-studies-new/dominate/dominate-logo.png"
             alt="dominate"
             className="dominate-logo"
           />
@@ -63,7 +63,7 @@ export default function DominateLandingPageFoldOne() {
           {/* <h2 className="font-72-NunitoSans-900 pt-50">Dominate</h2> */}
           <div className="mv-pt-20 mobile-text-center">
             <img
-              src="/imgs/desktop/case-studies-new/dominate/dominate-main-img.png"
+              src="./imgs/desktop/case-studies-new/dominate/dominate-main-img.png"
               alt="dominate main"
               className="dominate-main-img"
             />

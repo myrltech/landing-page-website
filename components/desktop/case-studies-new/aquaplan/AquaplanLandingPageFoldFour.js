@@ -38,22 +38,22 @@ export default function AquaplanLandingPageFoldFour() {
           </h5>
           <div className="d-flex flex-column">
             <img
-              src="/imgs/desktop/case-studies-new/aquaplan/aquaplan-design-com-1.svg"
+              src="./imgs/desktop/case-studies-new/aquaplan/aquaplan-design-com-1.svg"
               alt="aquaplan"
               className="aquaplan-design-com-1"
             />{" "}
             <img
-              src="/imgs/desktop/case-studies-new/aquaplan/aquaplan-design-com-2.svg"
+              src="./imgs/desktop/case-studies-new/aquaplan/aquaplan-design-com-2.svg"
               alt="aquaplan"
               className="aquaplan-design-com-2"
             />{" "}
             <img
-              src="/imgs/desktop/case-studies-new/aquaplan/aquaplan-design-com-3.svg"
+              src="./imgs/desktop/case-studies-new/aquaplan/aquaplan-design-com-3.svg"
               alt="aquaplan"
               className="aquaplan-design-com-3"
             />{" "}
             <img
-              src="/imgs/desktop/case-studies-new/aquaplan/aquaplan-design-com-4.svg"
+              src="./imgs/desktop/case-studies-new/aquaplan/aquaplan-design-com-4.svg"
               alt="aquaplan"
               className="aquaplan-design-com-4"
             />{" "}

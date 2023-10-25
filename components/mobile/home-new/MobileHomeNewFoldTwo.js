@@ -2,31 +2,31 @@ import Link from "next/link";
 import React, { Fragment } from "react";
 const servicesArray = [
   {
-    iconPath: "/imgs/mobile/home-new/home-services-icon-1.svg",
+    iconPath: "./imgs/mobile/home-new/home-services-icon-1.svg",
     iconClass: "home-services-icon-1",
     // name: "Disruptive Tech advisory for VCs and Angel Investors.",
     name: "Smart Contract and ICO Development",
   },
   {
-    iconPath: "/imgs/mobile/home-new/home-services-icon-2.svg",
+    iconPath: "./imgs/mobile/home-new/home-services-icon-2.svg",
     iconClass: "home-services-icon-2",
     // name: "Tech consulting for A.I / ML, Big Data and Web 3.0 products.",
     name: "Crypto Exchange Development",
   },
   {
-    iconPath: "/imgs/mobile/home-new/home-services-icon-3.svg",
+    iconPath: "./imgs/mobile/home-new/home-services-icon-3.svg",
     iconClass: "home-services-icon-3",
     // name: "Fractional CTO services",
     name: "Crypto Tracking and Trading Bots Development",
   },
   {
-    iconPath: "/imgs/mobile/home-new/home-services-icon-4.svg",
+    iconPath: "./imgs/mobile/home-new/home-services-icon-4.svg",
     iconClass: "home-services-icon-4",
     // name: "API Development and Technical Product Management",
     name: "Customized Blockchain Solutions",
   },
   {
-    iconPath: "/imgs/mobile/home-new/home-services-icon-5.svg",
+    iconPath: "./imgs/mobile/home-new/home-services-icon-5.svg",
     iconClass: "home-services-icon-5",
     // name: "Help with CTO and VP Engineering recruitment.",
     name: "NFT Marketplace Development",
@@ -46,7 +46,7 @@ export default function MobileHomeNewFoldTwo() {
         <ul className="mobile-font-14-proxima-400">
           <li className="mv-pt-25">
             <img
-              src={"/imgs/mobile/icons/gradient-square-icon.svg"}
+              src={"./imgs/mobile/icons/gradient-square-icon.svg"}
               alt="home new gradient square icon"
               className="home-new-gradient-square-icon"
             />{" "}
@@ -54,7 +54,7 @@ export default function MobileHomeNewFoldTwo() {
           </li>
           <li className="mv-pt-25">
             <img
-              src={"/imgs/mobile/icons/gradient-square-icon.svg"}
+              src={"./imgs/mobile/icons/gradient-square-icon.svg"}
               alt="home new gradient square icon"
               className="home-new-gradient-square-icon"
             />
@@ -62,7 +62,7 @@ export default function MobileHomeNewFoldTwo() {
           </li>
           <li className="mv-pt-25">
             <img
-              src={"/imgs/mobile/icons/gradient-square-icon.svg"}
+              src={"./imgs/mobile/icons/gradient-square-icon.svg"}
               alt="home new gradient square icon"
               className="home-new-gradient-square-icon"
             />

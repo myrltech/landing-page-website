@@ -36,14 +36,14 @@ const LandingPageBlogFoldTwo = () => {
           <div className="d-flex justify-content-center mt-50">
             <ButtonBack>
               <img
-                src={"/imgs/desktop/blog/blog-slider-left-arrow.svg"}
+                src={"./imgs/desktop/blog/blog-slider-left-arrow.svg"}
                 alt=" left arrow"
               />
             </ButtonBack>
             <ButtonNext>
               {" "}
               <img
-                src={"/imgs/desktop/blog/blog-slider-right-arrow.svg"}
+                src={"./imgs/desktop/blog/blog-slider-right-arrow.svg"}
                 alt=" right arrow"
               />
             </ButtonNext>
@@ -70,7 +70,7 @@ const LandingPageBlogFoldTwo = () => {
           </div>
           <div className="text-right">
             <img
-              src={"/imgs/desktop/blog/blog-arrow-icon.svg"}
+              src={"./imgs/desktop/blog/blog-arrow-icon.svg"}
               alt="blog arrow"
               className="blog-small-card--bottom-card-arrow"
             />
@@ -78,7 +78,7 @@ const LandingPageBlogFoldTwo = () => {
         </div>
         <div className="blog-fold-two-img">
           <img
-            src="/imgs/desktop/blog/blog-fold-two-img.png"
+            src="./imgs/desktop/blog/blog-fold-two-img.png"
             alt="blog fold "
           />
         </div>

@@ -8,7 +8,7 @@ export default function DeepSleepLandingPageFoldOne() {
         <div className="d-flex flex-nowrap justify-content-between align-items-center deep-sleep-fold-one-div">
           <div>
             <img
-              src="/imgs/desktop/case-studies-new/deep-sleep/deep-sleep-logo.png"
+              src="./imgs/desktop/case-studies-new/deep-sleep/deep-sleep-logo.png"
               alt="deep sleep"
               className="deep-sleep-logo"
             />
@@ -31,7 +31,7 @@ export default function DeepSleepLandingPageFoldOne() {
           </div>
           <div>
             <img
-              src="/imgs/desktop/case-studies-new/deep-sleep/deep-sleep-main-img.png"
+              src="./imgs/desktop/case-studies-new/deep-sleep/deep-sleep-main-img.png"
               alt="deep sleep main"
               className="deep-sleep-main-img"
             />
@@ -40,7 +40,7 @@ export default function DeepSleepLandingPageFoldOne() {
       </div>{" "}
       <div className="d-block d-md-none deep-sleep-fold-one-div">
         <img
-          src="/imgs/desktop/case-studies-new/deep-sleep/deep-sleep-logo.png"
+          src="./imgs/desktop/case-studies-new/deep-sleep/deep-sleep-logo.png"
           alt="deep sleep"
           className="deep-sleep-logo"
         />
@@ -50,7 +50,7 @@ export default function DeepSleepLandingPageFoldOne() {
         />
         <div className="mobile-text-center mv-pt-20">
           <img
-            src="/imgs/desktop/case-studies-new/deep-sleep/deep-sleep-main-img.png"
+            src="./imgs/desktop/case-studies-new/deep-sleep/deep-sleep-main-img.png"
             alt="deep sleep main"
             className="deep-sleep-main-img"
           />

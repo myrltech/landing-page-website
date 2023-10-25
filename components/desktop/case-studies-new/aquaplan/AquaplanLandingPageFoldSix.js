@@ -4,37 +4,37 @@ import { Fragment } from "react";
 
 const techArray = [
   {
-    imgPath: "/imgs/desktop/case-studies-new/tech-logo/next-js.png",
+    imgPath: "./imgs/desktop/case-studies-new/tech-logo/next-js.png",
     imgClass: "aquaplan-nextjs-logo",
     imgName: "nextjs",
   },
   {
-    imgPath: "/imgs/desktop/case-studies-new/tech-logo/kubernets.png",
+    imgPath: "./imgs/desktop/case-studies-new/tech-logo/kubernets.png",
     imgClass: "aquaplan-kubernets-logo",
     imgName: "kubernetes",
   },
   {
-    imgPath: "/imgs/desktop/case-studies-new/tech-logo/graphql.png",
+    imgPath: "./imgs/desktop/case-studies-new/tech-logo/graphql.png",
     imgClass: "aquaplan-graphql-logo",
     imgName: "apollo",
   },
   {
-    imgPath: "/imgs/desktop/case-studies-new/tech-logo/tensorflow.png",
+    imgPath: "./imgs/desktop/case-studies-new/tech-logo/tensorflow.png",
     imgClass: "aquaplan-tensorflow-logo",
     imgName: "tensorflow",
   },
   {
-    imgPath: "/imgs/desktop/case-studies-new/tech-logo/aws-congnito.png",
+    imgPath: "./imgs/desktop/case-studies-new/tech-logo/aws-congnito.png",
     imgClass: "aquaplan-aws-congnito-logo",
     imgName: "aws congnito",
   },
   {
-    imgPath: "/imgs/desktop/case-studies-new/tech-logo/aws-lambda.png",
+    imgPath: "./imgs/desktop/case-studies-new/tech-logo/aws-lambda.png",
     imgClass: "aquaplan-aws-lambda-logo",
     imgName: "aws lambda",
   },
   {
-    imgPath: "/imgs/desktop/case-studies-new/tech-logo/aws-api-gateway.png",
+    imgPath: "./imgs/desktop/case-studies-new/tech-logo/aws-api-gateway.png",
     imgClass: "aquaplan-aws-api-gateway-logo",
     imgName: "aws api gateway",
   },

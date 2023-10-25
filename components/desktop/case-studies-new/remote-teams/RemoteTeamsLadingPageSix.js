@@ -2,17 +2,17 @@ import React from "react";
 import { Fragment } from "react";
 const techArray = [
   {
-    imgPath: "/imgs/desktop/case-studies-new/tech-logo/react.png",
+    imgPath: "./imgs/desktop/case-studies-new/tech-logo/react.png",
     imgClass: "remote-teams-react-logo",
     imgName: "react",
   },
   {
-    imgPath: "/imgs/desktop/case-studies-new/tech-logo/nodejs.png",
+    imgPath: "./imgs/desktop/case-studies-new/tech-logo/nodejs.png",
     imgClass: "remote-teams-nodejs-logo",
     imgName: "node js",
   },
   {
-    imgPath: "/imgs/desktop/case-studies-new/tech-logo/ansible.png",
+    imgPath: "./imgs/desktop/case-studies-new/tech-logo/ansible.png",
     imgClass: "remote-teams-ansible-logo",
     imgName: "ansible",
   },
@@ -22,12 +22,12 @@ const techArray = [
     imgName: "mongodb",
   },
   {
-    imgPath: "/imgs/desktop/case-studies-new/tech-logo/jenkins.png",
+    imgPath: "./imgs/desktop/case-studies-new/tech-logo/jenkins.png",
     imgClass: "remote-teams-jenkins-logo",
     imgName: "jenkins",
   },
   {
-    imgPath: "/imgs/desktop/case-studies-new/tech-logo/docker.png",
+    imgPath: "./imgs/desktop/case-studies-new/tech-logo/docker.png",
     imgClass: "remote-teams-docker-logo",
     imgName: "docker",
   },
@@ -37,7 +37,7 @@ const techArray = [
   //   imgName: "kubernetes",
   // },
   {
-    imgPath: "/imgs/desktop/case-studies-new/tech-logo/aws.png",
+    imgPath: "./imgs/desktop/case-studies-new/tech-logo/aws.png",
     imgClass: "remote-teams-aws-logo",
     imgName: "aws",
   },

@@ -3,17 +3,17 @@ import { Fragment } from "react";
 
 const techArray = [
   {
-    imgPath: "/imgs/desktop/case-studies-new/tech-logo/react.png",
+    imgPath: "./imgs/desktop/case-studies-new/tech-logo/react.png",
     imgClass: "fintify-react-logo",
     imgName: "firebase",
   },
   {
-    imgPath: "/imgs/desktop/case-studies-new/tech-logo/firebase.png",
+    imgPath: "./imgs/desktop/case-studies-new/tech-logo/firebase.png",
     imgClass: "fintify-firebase-logo",
     imgName: "firebase",
   },
   {
-    imgPath: "/imgs/desktop/case-studies-new/tech-logo/gcp.png",
+    imgPath: "./imgs/desktop/case-studies-new/tech-logo/gcp.png",
     imgClass: "fintify-gcp-logo",
     imgName: "gcp",
   },

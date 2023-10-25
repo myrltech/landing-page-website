@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 
-const logo = "/imgs/desktop/logo/myrl-tech-logo.svg";
+const logo = "./imgs/desktop/logo/myrl-tech-logo.svg";
 
 export default function Footer() {
   /*=============================================================
@@ -103,17 +103,17 @@ export default function Footer() {
         </h4>
         <div className="d-flex align-items-center mt-50 justify-content-center">
           <img
-            src={"/imgs/desktop/icons/white-m-icon.svg"}
+            src={"./imgs/desktop/icons/white-m-icon.svg"}
             alt="myrl"
             className="footer-m-icon"
           />
           <img
-            src={"/imgs/desktop/icons/white-hand-icon.svg"}
+            src={"./imgs/desktop/icons/white-hand-icon.svg"}
             alt="myrl"
             className="footer-white-hand-icon"
           />
           <img
-            src={"/imgs/desktop/icons/white-linkedin-icon.svg"}
+            src={"./imgs/desktop/icons/white-linkedin-icon.svg"}
             alt="linked"
             className="footer-linkedin-icon"
           />

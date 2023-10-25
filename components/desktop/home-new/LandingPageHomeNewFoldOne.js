@@ -7,22 +7,22 @@ import LandingPageHomeNewFoldThree from "./LandingPageHomeNewFoldThree";
 const list = [
   {
     title: "Bootcamp",
-    imgPath: "/imgs/desktop/icons/arrow-circle-icon.svg",
+    imgPath: "./imgs/desktop/icons/arrow-circle-icon.svg",
     link: "/",
   },
   {
     title: "Web3 Resources",
-    imgPath: "/imgs/desktop/icons/arrow-circle-icon.svg",
+    imgPath: "./imgs/desktop/icons/arrow-circle-icon.svg",
     link: "/resources",
   },
   {
     title: "Consultancy",
-    imgPath: "/imgs/desktop/icons/arrow-circle-icon.svg",
+    imgPath: "./imgs/desktop/icons/arrow-circle-icon.svg",
     link: "/",
   },
   {
     title: "Community",
-    imgPath: "/imgs/desktop/icons/arrow-circle-icon.svg",
+    imgPath: "./imgs/desktop/icons/arrow-circle-icon.svg",
     link: "/",
   },
 ];
@@ -88,7 +88,7 @@ export default function LandingPageHomeNewFoldOne() {
                   <a>
                     {data.title}
                     <img
-                      src={"/imgs/desktop/icons/arrow-circle-icon.svg"}
+                      src={"./imgs/desktop/icons/arrow-circle-icon.svg"}
                       alt="arrow"
                       className="home-arrow-with-circle-icon"
                     />{" "}

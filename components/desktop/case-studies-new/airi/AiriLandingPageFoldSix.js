@@ -4,27 +4,27 @@ import { Fragment } from "react";
 
 const techArray = [
   {
-    imgPath: "/imgs/desktop/case-studies-new/tech-logo/react-native.png",
+    imgPath: "./imgs/desktop/case-studies-new/tech-logo/react-native.png",
     imgClass: "airi-react-native-logo",
     imgName: "react-native",
   },
   {
-    imgPath: "/imgs/desktop/case-studies-new/tech-logo/sagemaker.png",
+    imgPath: "./imgs/desktop/case-studies-new/tech-logo/sagemaker.png",
     imgClass: "airi-sagemaker-logo",
     imgName: "sagemaker",
   },
   {
-    imgPath: "/imgs/desktop/case-studies-new/tech-logo/firebase.png",
+    imgPath: "./imgs/desktop/case-studies-new/tech-logo/firebase.png",
     imgClass: "airi-firebase-logo",
     imgName: "firebase",
   },
   {
-    imgPath: "/imgs/desktop/case-studies-new/tech-logo/go.png",
+    imgPath: "./imgs/desktop/case-studies-new/tech-logo/go.png",
     imgClass: "airi-go-logo",
     imgName: "go",
   },
   {
-    imgPath: "/imgs/desktop/case-studies-new/tech-logo/dialogflow.png",
+    imgPath: "./imgs/desktop/case-studies-new/tech-logo/dialogflow.png",
     imgClass: "airi-dialogflow-logo",
     imgName: "dialogflow",
   },

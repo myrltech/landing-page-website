@@ -4,32 +4,32 @@ import { Fragment } from "react";
 
 const techArray = [
   {
-    imgPath: "/imgs/desktop/case-studies-new/tech-logo/next-js.png",
+    imgPath: "./imgs/desktop/case-studies-new/tech-logo/next-js.png",
     imgClass: "recruitx-nextjs-logo",
     imgName: "nextjs",
   },
   {
-    imgPath: "/imgs/desktop/case-studies-new/tech-logo/nodejs.png",
+    imgPath: "./imgs/desktop/case-studies-new/tech-logo/nodejs.png",
     imgClass: "recruitx-nodejs-logo",
     imgName: "nodejs",
   },
   {
-    imgPath: "/imgs/desktop/case-studies-new/tech-logo/graphql.png",
+    imgPath: "./imgs/desktop/case-studies-new/tech-logo/graphql.png",
     imgClass: "recruitx-graphql-logo",
     imgName: "apollo",
   },
   {
-    imgPath: "/imgs/desktop/case-studies-new/tech-logo/mongodb.png",
+    imgPath: "./imgs/desktop/case-studies-new/tech-logo/mongodb.png",
     imgClass: "recruitx-mongodb-logo",
     imgName: "mongodb",
   },
   {
-    imgPath: "/imgs/desktop/case-studies-new/tech-logo/apache.png",
+    imgPath: "./imgs/desktop/case-studies-new/tech-logo/apache.png",
     imgClass: "recruitx-apache-logo",
     imgName: "apache",
   },
   {
-    imgPath: "/imgs/desktop/case-studies-new/tech-logo/apache-kafka.png",
+    imgPath: "./imgs/desktop/case-studies-new/tech-logo/apache-kafka.png",
     imgClass: "recruitx-apache-kafka-logo",
     imgName: "apache kafka",
   },

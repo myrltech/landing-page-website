@@ -42,27 +42,27 @@ export default function DominateLandingPageFoldFour() {
           </h5>
           <div className="d-flex flex-column">
             <img
-              src="/imgs/desktop/case-studies-new/dominate/dominate-design-com-1.svg"
+              src="./imgs/desktop/case-studies-new/dominate/dominate-design-com-1.svg"
               alt="dominate"
               className="dominate-design-com-1"
             />{" "}
             <img
-              src="/imgs/desktop/case-studies-new/dominate/dominate-design-com-2.svg"
+              src="./imgs/desktop/case-studies-new/dominate/dominate-design-com-2.svg"
               alt="dominate"
               className="dominate-design-com-2"
             />{" "}
             <img
-              src="/imgs/desktop/case-studies-new/dominate/dominate-design-com-3.svg"
+              src="./imgs/desktop/case-studies-new/dominate/dominate-design-com-3.svg"
               alt="dominate"
               className="dominate-design-com-3"
             />{" "}
             <img
-              src="/imgs/desktop/case-studies-new/dominate/dominate-design-com-4.svg"
+              src="./imgs/desktop/case-studies-new/dominate/dominate-design-com-4.svg"
               alt="dominate"
               className="dominate-design-com-1"
             />{" "}
             <img
-              src="/imgs/desktop/case-studies-new/dominate/dominate-design-com-5.svg"
+              src="./imgs/desktop/case-studies-new/dominate/dominate-design-com-5.svg"
               alt="dominate"
               className="dominate-design-com-5"
             />{" "}

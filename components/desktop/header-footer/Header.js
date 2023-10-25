@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 
-const logo = "/imgs/desktop/logo/myrl-tech-logo.svg";
+const logo = "./imgs/desktop/logo/myrl-tech-logo.svg";
 
 export default function Header({ activeLink }) {
   /*===========================================================

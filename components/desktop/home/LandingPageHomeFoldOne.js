@@ -4,17 +4,17 @@ import Link from "next/link";
 const howItWorks = [
   {
     para: "Post your requirements for Product & Engineering Teams.",
-    imgPath: "/imgs/desktop/home/how-it-works-one.svg",
+    imgPath: "./imgs/desktop/home/how-it-works-one.svg",
     imgClass: "how-it-works-img-one",
   },
   {
     para: "Discover top resource augmentation firms across the world that match your requirements.",
-    imgPath: "/imgs/desktop/home/how-it-works-two.svg",
+    imgPath: "./imgs/desktop/home/how-it-works-two.svg",
     imgClass: "how-it-works-img-two",
   },
   {
     para: "Connect with the most competent team and build your product.",
-    imgPath: "/imgs/desktop/home/how-it-works-three.png",
+    imgPath: "./imgs/desktop/home/how-it-works-three.png",
     imgClass: "how-it-works-img-three",
   },
 ];
@@ -67,7 +67,7 @@ export default function LandingPageHomeFoldOne() {
           ))}
           <div className="how-it-works-line-circle-div d-flex flex-column ">
             <img
-              src={"/imgs/desktop/home/how-it-works-line-circle.png"}
+              src={"./imgs/desktop/home/how-it-works-line-circle.png"}
               alt=""
             />
             <span className="font-72-NunitoSans-600 purple-green-gradient-text">
@@ -109,7 +109,7 @@ export default function LandingPageHomeFoldOne() {
         </div>
         <div className="animZoomInOut">
           <img
-            src={"/imgs/desktop/home/home-fold-one-new.png"}
+            src={"./imgs/desktop/home/home-fold-one-new.png"}
             alt=""
             className="home-fold-one-img"
           />

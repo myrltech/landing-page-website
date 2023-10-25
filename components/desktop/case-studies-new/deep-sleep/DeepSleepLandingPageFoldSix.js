@@ -4,22 +4,22 @@ import { Fragment } from "react";
 
 const techArray = [
   {
-    imgPath: "/imgs/desktop/case-studies-new/tech-logo/firebase.png",
+    imgPath: "./imgs/desktop/case-studies-new/tech-logo/firebase.png",
     imgClass: "deep-sleep-firebase-logo",
     imgName: "firebase",
   },
   {
-    imgPath: "/imgs/desktop/case-studies-new/tech-logo/go.png",
+    imgPath: "./imgs/desktop/case-studies-new/tech-logo/go.png",
     imgClass: "deep-sleep-go-logo",
     imgName: "go",
   },
   {
-    imgPath: "/imgs/desktop/case-studies-new/tech-logo/flutter.png",
+    imgPath: "./imgs/desktop/case-studies-new/tech-logo/flutter.png",
     imgClass: "deep-sleep-flutter-logo",
     imgName: "flutter",
   },
   {
-    imgPath: "/imgs/desktop/case-studies-new/tech-logo/app-engine.png",
+    imgPath: "./imgs/desktop/case-studies-new/tech-logo/app-engine.png",
     imgClass: "deep-sleep-app-engine-logo",
     imgName: "app-engine",
   },

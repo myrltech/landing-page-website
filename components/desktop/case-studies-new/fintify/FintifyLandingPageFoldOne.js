@@ -8,7 +8,7 @@ export default function FintifyLandingPageFoldOne() {
         <div className="d-flex flex-nowrap justify-content-between align-items-center fintify-fold-one-div">
           <div>
             <img
-              src="/imgs/desktop/case-studies-new/fintify/fintify-logo.png"
+              src="./imgs/desktop/case-studies-new/fintify/fintify-logo.png"
               alt="deep sleep"
               className="fintify-logo"
             />
@@ -35,7 +35,7 @@ export default function FintifyLandingPageFoldOne() {
           </div>
           <div>
             <img
-              src="/imgs/desktop/case-studies-new/fintify/fintify-main-img.png"
+              src="./imgs/desktop/case-studies-new/fintify/fintify-main-img.png"
               alt="fintify main"
               className="fintify-main-img"
             />
@@ -44,14 +44,14 @@ export default function FintifyLandingPageFoldOne() {
       </div>
       <div className="d-block d-md-none fintify-fold-one-div">
         <img
-          src="/imgs/desktop/case-studies-new/fintify/fintify-logo.png"
+          src="./imgs/desktop/case-studies-new/fintify/fintify-logo.png"
           alt="deep sleep"
           className="fintify-logo"
         />
         <PageTitle title="fintify" extraClass="pt-50 mv-pt-20" />
         <div className="mobile-text-center mv-pt-30">
           <img
-            src="/imgs/desktop/case-studies-new/fintify/fintify-main-img.png"
+            src="./imgs/desktop/case-studies-new/fintify/fintify-main-img.png"
             alt="fintify main"
             className="fintify-main-img"
           />

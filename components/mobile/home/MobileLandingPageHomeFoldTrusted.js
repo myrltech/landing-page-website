@@ -9,23 +9,23 @@ import "pure-react-carousel/dist/react-carousel.es.css";
 
 const testArray = [
   {
-    imgPath: "/imgs/mobile/home-new/testomonial/clutch.svg",
+    imgPath: "./imgs/mobile/home-new/testomonial/clutch.svg",
     imgClass: "clutch-img",
   },
   {
-    imgPath: "/imgs/mobile/home-new/testomonial/winter.svg",
+    imgPath: "./imgs/mobile/home-new/testomonial/winter.svg",
     imgClass: "winter-img",
   },
   {
-    imgPath: "/imgs/mobile/home-new/testomonial/trustpilot.svg",
+    imgPath: "./imgs/mobile/home-new/testomonial/trustpilot.svg",
     imgClass: "trustpilot-img",
   },
   {
-    imgPath: "/imgs/mobile/home-new/testomonial/capterra.svg",
+    imgPath: "./imgs/mobile/home-new/testomonial/capterra.svg",
     imgClass: "capterra-img",
   },
   {
-    imgPath: "/imgs/mobile/home-new/testomonial/gartner.svg",
+    imgPath: "./imgs/mobile/home-new/testomonial/gartner.svg",
     imgClass: "gartner-img",
   },
 ];

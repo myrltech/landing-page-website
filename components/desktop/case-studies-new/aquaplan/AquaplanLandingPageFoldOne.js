@@ -8,7 +8,7 @@ export default function AquaplanLandingPageFoldOne() {
         <div className="d-flex flex-nowrap justify-content-between align-items-center aquaplan-fold-one-div">
           <div>
             <img
-              src="/imgs/desktop/case-studies-new/aquaplan/aquaplan-logo.png"
+              src="./imgs/desktop/case-studies-new/aquaplan/aquaplan-logo.png"
               alt="aquaplan"
               className="aquaplan-logo"
             />
@@ -37,7 +37,7 @@ export default function AquaplanLandingPageFoldOne() {
           </div>
           <div>
             <img
-              src="/imgs/desktop/case-studies-new/aquaplan/aquaplan-main-img.png"
+              src="./imgs/desktop/case-studies-new/aquaplan/aquaplan-main-img.png"
               alt="aquaplan main"
               className="aquaplan-main-img"
             />
@@ -46,14 +46,14 @@ export default function AquaplanLandingPageFoldOne() {
       </div>
       <div className="d-block d-md-none aquaplan-fold-one-div">
         <img
-          src="/imgs/desktop/case-studies-new/aquaplan/aquaplan-logo.png"
+          src="./imgs/desktop/case-studies-new/aquaplan/aquaplan-logo.png"
           alt="aquaplan"
           className="aquaplan-logo"
         />
         <PageTitle title="Aquaplan" extraClass="pt-50" />
         <div className="mobile-text-center mv-pt-20">
           <img
-            src="/imgs/desktop/case-studies-new/aquaplan/aquaplan-main-img.png"
+            src="./imgs/desktop/case-studies-new/aquaplan/aquaplan-main-img.png"
             alt="aquaplan main"
             className="aquaplan-main-img"
           />

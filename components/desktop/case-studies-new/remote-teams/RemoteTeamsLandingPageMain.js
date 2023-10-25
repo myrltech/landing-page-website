@@ -13,21 +13,21 @@ export default function RemoteTeamsLandingPageMain() {
       {/* <Header /> */}
       <RemoteTeamsLandingPageFoldOne />
       <RemoteTeamsLandingPageFoldTwo
-        imgPath="/imgs/desktop/case-studies-new/remote-teams/low-screen-img.png"
+        imgPath="./imgs/desktop/case-studies-new/remote-teams/low-screen-img.png"
         imgName="remote teams low fidelity screens"
         imgClass="remote-teams-low-screen-img"
       />
       <RemoteTeamsLandingPageFoldThree
-        imgPath="/imgs/desktop/case-studies-new/remote-teams/information-img.png"
+        imgPath="./imgs/desktop/case-studies-new/remote-teams/information-img.png"
         imgName="remote teams information architecture"
         imgClass="remote-teams-information-img"
       />
       <RemoteTeamsLandingPageFoldFour />
       <RemoteTeamsLandingPageFive
-        hiImg="/imgs/desktop/case-studies-new/remote-teams/hi-screen-img.png"
+        hiImg="./imgs/desktop/case-studies-new/remote-teams/hi-screen-img.png"
         hiImgName="remote teams hi fidelity screens"
         hiImgClass="remote-teams-hi-screen-img"
-        prototypeImg="/imgs/desktop/case-studies-new/remote-teams/prototype-img.png"
+        prototypeImg="./imgs/desktop/case-studies-new/remote-teams/prototype-img.png"
         prototypeImgName="remote teams prototype"
         prototypeImgClass="remote-teams-prototype-img"
       />

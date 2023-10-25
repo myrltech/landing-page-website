@@ -47,14 +47,14 @@ export default function DeepSleepLandingPageFoldFour() {
             </h5>
             <img
               src={
-                "/imgs/desktop/case-studies-new/deep-sleep/deep-sleep-design-com-1.png"
+                "./imgs/desktop/case-studies-new/deep-sleep/deep-sleep-design-com-1.png"
               }
               alt="deep sleep"
               className="deep-sleep-design-com-1"
             />
             <img
               src={
-                "/imgs/desktop/case-studies-new/deep-sleep/deep-sleep-design-com-2.png"
+                "./imgs/desktop/case-studies-new/deep-sleep/deep-sleep-design-com-2.png"
               }
               alt="deep sleep"
               className="deep-sleep-design-com-2"
@@ -68,14 +68,14 @@ export default function DeepSleepLandingPageFoldFour() {
             />
             <img
               src={
-                "/imgs/desktop/case-studies-new/deep-sleep/deep-sleep-design-com-4.png"
+                "./imgs/desktop/case-studies-new/deep-sleep/deep-sleep-design-com-4.png"
               }
               alt="deep sleep"
               className="deep-sleep-design-com-4"
             />
             <img
               src={
-                "/imgs/desktop/case-studies-new/deep-sleep/deep-sleep-design-com-5.png"
+                "./imgs/desktop/case-studies-new/deep-sleep/deep-sleep-design-com-5.png"
               }
               alt="deep sleep"
               className="deep-sleep-design-com-5"

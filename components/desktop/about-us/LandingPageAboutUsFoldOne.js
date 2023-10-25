@@ -9,14 +9,14 @@ export default function LandingPageAboutUsFoldOne() {
     {
       name: " For Clients",
       para: "You want to innovate but may not always have the right team. Augment your team with experts across the globe.",
-      imgPath: "/imgs/mobile/icons/about-us-client-icon.svg",
+      imgPath: "./imgs/mobile/icons/about-us-client-icon.svg",
       imgClass: "mobile-client-icons",
       // linkPath: "/augment-client-landing-page",
     },
     {
       name: " For Agencies",
       para: "If you’re a tech services provider, you can find clients that your resources can collaborate with.",
-      imgPath: "/imgs/mobile/icons/about-us-agency-icon.svg",
+      imgPath: "./imgs/mobile/icons/about-us-agency-icon.svg",
       imgClass: "mobile-agency-icons",
       // linkPath: "/augment-agency-landing-page",
     },
@@ -114,7 +114,7 @@ export default function LandingPageAboutUsFoldOne() {
       <div className="d-flex flex-nowrap align-items-center about-us-fold-one-logo-para-section">
         <div className="col-md-4 col-sm-12 about-us-fold-one-logo-para-left-section text-right mobile-text-center">
           <img
-            src={"/imgs/desktop/logo/myrl-tech-white-logo.svg"}
+            src={"./imgs/desktop/logo/myrl-tech-white-logo.svg"}
             alt="myrl tech"
             className="about-us-myrl-white-logo"
           />

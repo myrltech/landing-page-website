@@ -3,42 +3,42 @@ import { Fragment } from "react";
 
 const techArray = [
   {
-    imgPath: "/imgs/desktop/case-studies-new/tech-logo/next-js.png",
+    imgPath: "./imgs/desktop/case-studies-new/tech-logo/next-js.png",
     imgClass: "dominate-nextjs-logo",
     imgName: "nextjs",
   },
   {
-    imgPath: "/imgs/desktop/case-studies-new/tech-logo/kubernets.png",
+    imgPath: "./imgs/desktop/case-studies-new/tech-logo/kubernets.png",
     imgClass: "dominate-nodejs-logo",
     imgName: "kubernetes",
   },
   {
-    imgPath: "/imgs/desktop/case-studies-new/tech-logo/apollo.png",
+    imgPath: "./imgs/desktop/case-studies-new/tech-logo/apollo.png",
     imgClass: "dominate-apollo-logo",
     imgName: "apollo",
   },
   {
-    imgPath: "/imgs/desktop/case-studies-new/tech-logo/docker.png",
+    imgPath: "./imgs/desktop/case-studies-new/tech-logo/docker.png",
     imgClass: "dominate-docker-logo",
     imgName: "docker",
   },
   {
-    imgPath: "/imgs/desktop/case-studies-new/tech-logo/jenkins.png",
+    imgPath: "./imgs/desktop/case-studies-new/tech-logo/jenkins.png",
     imgClass: "dominate-jenkins-logo",
     imgName: "jenkins",
   },
   {
-    imgPath: "/imgs/desktop/case-studies-new/tech-logo/graphql.png",
+    imgPath: "./imgs/desktop/case-studies-new/tech-logo/graphql.png",
     imgClass: "dominate-graphql-logo",
     imgName: "graphql",
   },
   {
-    imgPath: "/imgs/desktop/case-studies-new/tech-logo/prisma.png",
+    imgPath: "./imgs/desktop/case-studies-new/tech-logo/prisma.png",
     imgClass: "dominate-prisma-logo",
     imgName: "prisma",
   },
   {
-    imgPath: "/imgs/desktop/case-studies-new/tech-logo/aws.png",
+    imgPath: "./imgs/desktop/case-studies-new/tech-logo/aws.png",
     imgClass: "dominate-aws-logo",
     imgName: "aws",
   },

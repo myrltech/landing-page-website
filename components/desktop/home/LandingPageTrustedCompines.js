@@ -84,7 +84,7 @@ export default function LandingPageTrustedCompines() {
         <div className="text-center pt-40 scroll-btn-section">
           <h5 className="font-24-NunitoSans-600">
             <img
-              src={"/imgs/desktop/icons/white-left-arrow.svg"}
+              src={"./imgs/desktop/icons/white-left-arrow.svg"}
               alt=""
               className="home-left-arrow-img"
             />{" "}

@@ -23,7 +23,7 @@ const LandingPageBlogFoldOne = () => {
 
         <div className="articles-fold-one-img-section">
           <img
-            src={"/imgs/desktop/blog/fold-one-img.png"}
+            src={"./imgs/desktop/blog/fold-one-img.png"}
             alt="articles fold one"
             className="articles-fold-one-img"
           />
@@ -77,7 +77,7 @@ const LandingPageBlogFoldOne = () => {
             </div>
             <div>
               <img
-                src={"/imgs/desktop/blog/blog-card-one.png"}
+                src={"./imgs/desktop/blog/blog-card-one.png"}
                 className="blog-card-one-img"
                 alt="blog card one"
               />
@@ -93,7 +93,7 @@ const LandingPageBlogFoldOne = () => {
           <div className="d-flex justify-content-between align-items-end article-card ">
             <div>
               <img
-                src={"/imgs/desktop/blog/blog-card-two.png"}
+                src={"./imgs/desktop/blog/blog-card-two.png"}
                 className="blog-card-two-img"
                 alt="blog card two"
               />

@@ -4,25 +4,25 @@ import { slide as Menu } from "react-burger-menu";
 
 const listMenu = [
   {
-    imgPath: "/imgs/mobile/icons/home-icon.svg",
+    imgPath: "./imgs/mobile/icons/home-icon.svg",
     imgClass: "mobile-home-icon",
     link: "/",
     name: "Home",
   },
   {
-    imgPath: "/imgs/mobile/icons/star-icon.svg",
+    imgPath: "./imgs/mobile/icons/star-icon.svg",
     imgClass: "mobile-star-icon",
     link: "/our-portfolio",
     name: "Our Portfolio",
   },
   {
-    imgPath: "/imgs/mobile/icons/agency-icon.svg",
+    imgPath: "./imgs/mobile/icons/agency-icon.svg",
     imgClass: "mobile-star-icon",
     link: "/bootcamp",
     name: "Bootcamp",
   },
   {
-    imgPath: "/imgs/mobile/icons/two-user-icon.svg",
+    imgPath: "./imgs/mobile/icons/two-user-icon.svg",
     imgClass: "mobile-two-user-icon",
     // link: "/about-us",
     name: "Blogs",
@@ -46,7 +46,7 @@ const listMenu = [
   //   name: "For Agencies",
   // },
   {
-    imgPath: "/imgs/mobile/icons/mail-icon.svg",
+    imgPath: "./imgs/mobile/icons/mail-icon.svg",
     imgClass: "mobile-contact-us-icon",
     link: "/contact-us",
     name: "Contact Us",
@@ -81,17 +81,17 @@ export default function MobileHeader({ activeMenu }) {
           </h4>
           <div className="mv-pt-17 d-flex align-items-center justify-content-center">
             <img
-              src={"/imgs/mobile/icons/white-m-icon.svg"}
+              src={"./imgs/mobile/icons/white-m-icon.svg"}
               alt="myrl"
               className="mobile-footer-m-icon"
             />
             <img
-              src={"/imgs/mobile/icons/white-hand-icon.svg"}
+              src={"./imgs/mobile/icons/white-hand-icon.svg"}
               alt="myrl"
               className="mobile-footer-white-hand-icon"
             />
             <img
-              src={"/imgs/mobile/icons/white-linkedin-icon.svg"}
+              src={"./imgs/mobile/icons/white-linkedin-icon.svg"}
               alt="linked"
               className="mobile-footer-linkedin-icon"
             />
@@ -107,7 +107,7 @@ export default function MobileHeader({ activeMenu }) {
         <Link href="/">
           <a>
             <img
-              src="/imgs/mobile/logo/myrl-tech-logo.svg"
+              src="./imgs/mobile/logo/myrl-tech-logo.svg"
               alt="logo"
               className="web-nav-logo-mobile"
             />
@@ -120,14 +120,14 @@ export default function MobileHeader({ activeMenu }) {
           overlayClassName={"myOverlay"}
           customBurgerIcon={
             <img
-              src="/imgs/mobile/icons/menu-icon.svg"
+              src="./imgs/mobile/icons/menu-icon.svg"
               className="front"
               alt="nav front"
             />
           }
           customCrossIcon={
             <img
-              src="/imgs/mobile/icons/cross.svg"
+              src="./imgs/mobile/icons/cross.svg"
               className="nav-close-img"
               alt="nav back"
             />
@@ -136,7 +136,7 @@ export default function MobileHeader({ activeMenu }) {
         >
           <div className="menu-myrl-logo-img-div">
             <img
-              src="/imgs/mobile/logo/myrl-tech-logo.svg"
+              src="./imgs/mobile/logo/myrl-tech-logo.svg"
               alt="logo"
               className="menu-myrl-logo-img"
             />
@@ -167,7 +167,7 @@ export default function MobileHeader({ activeMenu }) {
                     />
                     {data.name}
                     <img
-                      src={"/imgs/mobile/icons/arrow-icon.svg"}
+                      src={"./imgs/mobile/icons/arrow-icon.svg"}
                       alt={"arrow"}
                       className={"mobile-arrow-icon"}
                     />
@@ -187,7 +187,7 @@ export default function MobileHeader({ activeMenu }) {
                       />
                       {data.name}
                       <img
-                        src={"/imgs/mobile/icons/arrow-icon.svg"}
+                        src={"./imgs/mobile/icons/arrow-icon.svg"}
                         alt={"arrow"}
                         className={"mobile-arrow-icon"}
                       />

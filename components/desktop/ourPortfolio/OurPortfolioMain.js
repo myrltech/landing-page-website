@@ -42,7 +42,7 @@ export default function OurPortfolioMain() {
           <div className="col-4 p-0 ">
             <div className="our-products-dominate-card">
               <ProductCard
-                imgPath="/imgs/desktop/our-portfolio/dominate.png"
+                imgPath="./imgs/desktop/our-portfolio/dominate.png"
                 imgClass="our-portfolio-dominate-img"
                 title="dominate"
                 link={"/dominate"}
@@ -54,7 +54,7 @@ export default function OurPortfolioMain() {
           <div className="col-4 p-0">
             <div className="our-products-remote-team-card">
               <ProductCard
-                imgPath="/imgs/desktop/our-portfolio/remote-teams.png"
+                imgPath="./imgs/desktop/our-portfolio/remote-teams.png"
                 imgClass="our-portfolio-remote-team-img"
                 title="Remote teams"
                 link={"/remote-teams"}
@@ -66,7 +66,7 @@ export default function OurPortfolioMain() {
           <div className="col-4 p-0">
             <div className="our-products-airi-section">
               <ProductCard
-                imgPath="/imgs/desktop/our-portfolio/airi.png"
+                imgPath="./imgs/desktop/our-portfolio/airi.png"
                 imgClass="our-portfolio-airi-img"
                 title="airi"
                 link={"/airi"}
@@ -108,7 +108,7 @@ export default function OurPortfolioMain() {
           <div className="col-6 p-0">
             <div className="our-portfolio-aquaplan-card">
               <ProductCard
-                imgPath="/imgs/desktop/our-portfolio/aquaplan.png"
+                imgPath="./imgs/desktop/our-portfolio/aquaplan.png"
                 imgClass="our-portfolio-aquaplan-img"
                 title="aquaplan"
                 link={"/aquaplan"}
@@ -122,7 +122,7 @@ export default function OurPortfolioMain() {
            =================================================================*/}
             <div className="our-portfolio-recruitx-card">
               <ProductCard
-                imgPath="/imgs/desktop/our-portfolio/recruitx.png"
+                imgPath="./imgs/desktop/our-portfolio/recruitx.png"
                 imgClass="our-portfolio-recruitx-img"
                 title="recruitx"
                 link={"/recruitx"}
@@ -138,7 +138,7 @@ export default function OurPortfolioMain() {
            =================================================================*/}
             <div className="our-portfolio-deep-sleep-card">
               <ProductCard
-                imgPath="/imgs/desktop/our-portfolio/deep-sleep.png"
+                imgPath="./imgs/desktop/our-portfolio/deep-sleep.png"
                 imgClass="our-portfolio-deep-sleep-img"
                 title="deep-sleep"
                 link={"/deep-sleep"}
@@ -152,7 +152,7 @@ export default function OurPortfolioMain() {
            =================================================================*/}
             <div className="our-portfolio-fintify-card">
               <ProductCard
-                imgPath="/imgs/desktop/our-portfolio/fintify.png"
+                imgPath="./imgs/desktop/our-portfolio/fintify.png"
                 imgClass="our-portfolio-fintify-img"
                 title="fintify"
                 link={"/fintify"}

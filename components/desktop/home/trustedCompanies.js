@@ -1,31 +1,31 @@
 export const trustedCompaniesArrayOne = [
   {
-    imgPath: "/imgs/desktop/home/trusted-company/revolut.svg",
+    imgPath: "./imgs/desktop/home/trusted-company/revolut.svg",
     imgClass: "trusted-company-revolut",
   },
   { isInvisibleCard: true },
   {
-    imgPath: "/imgs/desktop/home/trusted-company/citibank.svg",
+    imgPath: "./imgs/desktop/home/trusted-company/citibank.svg",
     imgClass: "trusted-company-citibank",
   },
   { isInvisibleCard: true },
   { isInvisibleCard: true },
   {
-    imgPath: "/imgs/desktop/home/trusted-company/airtable.svg",
+    imgPath: "./imgs/desktop/home/trusted-company/airtable.svg",
     imgClass: "trusted-company-airtable",
   },
   { isInvisibleCard: true },
   {
-    imgPath: "/imgs/desktop/home/trusted-company/philips.svg",
+    imgPath: "./imgs/desktop/home/trusted-company/philips.svg",
     imgClass: "trusted-company-philips",
   },
   {
-    imgPath: "/imgs/desktop/home/trusted-company/elephant.svg",
+    imgPath: "./imgs/desktop/home/trusted-company/elephant.svg",
     imgClass: "trusted-company-elephant",
   },
   { isInvisibleCard: true },
   {
-    imgPath: "/imgs/desktop/home/trusted-company/bose.svg",
+    imgPath: "./imgs/desktop/home/trusted-company/bose.svg",
     imgClass: "trusted-company-bose",
   },
   { isInvisibleCard: true },
@@ -33,32 +33,32 @@ export const trustedCompaniesArrayOne = [
 
 export const trustedCompaniesArrayTwo = [
   {
-    imgPath: "/imgs/desktop/home/trusted-company/fedex.svg",
+    imgPath: "./imgs/desktop/home/trusted-company/fedex.svg",
     imgClass: "trusted-company-fedex",
   },
   { isInvisibleCard: true },
   {
-    imgPath: "/imgs/desktop/home/trusted-company/honda.svg",
+    imgPath: "./imgs/desktop/home/trusted-company/honda.svg",
     imgClass: "trusted-company-honda",
   },
   { isInvisibleCard: true },
   { isInvisibleCard: true },
   {
-    imgPath: "/imgs/desktop/home/trusted-company/notion.svg",
+    imgPath: "./imgs/desktop/home/trusted-company/notion.svg",
     imgClass: "trusted-company-notion",
   },
   { isInvisibleCard: true },
   {
-    imgPath: "/imgs/desktop/home/trusted-company/mastercard.svg",
+    imgPath: "./imgs/desktop/home/trusted-company/mastercard.svg",
     imgClass: "trusted-company-mastercard",
   },
   {
-    imgPath: "/imgs/desktop/home/trusted-company/canva.svg",
+    imgPath: "./imgs/desktop/home/trusted-company/canva.svg",
     imgClass: "trusted-company-canva",
   },
   { isInvisibleCard: true },
   {
-    imgPath: "/imgs/desktop/home/trusted-company/adobe.svg",
+    imgPath: "./imgs/desktop/home/trusted-company/adobe.svg",
     imgClass: "trusted-company-adobe",
   },
   { isInvisibleCard: true },
@@ -66,7 +66,7 @@ export const trustedCompaniesArrayTwo = [
 
 export const trustedCompaniesArrayThree = [
   {
-    imgPath: "/imgs/desktop/home/trusted-company/3m.svg",
+    imgPath: "./imgs/desktop/home/trusted-company/3m.svg",
     imgClass: "trusted-company-3m",
   },
   { isInvisibleCard: true },
@@ -74,13 +74,13 @@ export const trustedCompaniesArrayThree = [
   { isInvisibleCard: true },
   { isInvisibleCard: true },
   {
-    imgPath: "/imgs/desktop/home/trusted-company/moto.svg",
+    imgPath: "./imgs/desktop/home/trusted-company/moto.svg",
     imgClass: "trusted-company-moto",
   },
   { isInvisibleCard: true },
   { isInvisibleCard: true },
   {
-    imgPath: "/imgs/desktop/home/trusted-company/hp.svg",
+    imgPath: "./imgs/desktop/home/trusted-company/hp.svg",
     imgClass: "trusted-company-hp",
   },
   { isInvisibleCard: true },

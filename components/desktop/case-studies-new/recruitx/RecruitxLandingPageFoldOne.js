@@ -33,7 +33,7 @@ export default function RecruitxLandingPageFoldOne() {
           </div>
           <div>
             <img
-              src="/imgs/desktop/case-studies-new/recruitx/recruitx-main-img.png"
+              src="./imgs/desktop/case-studies-new/recruitx/recruitx-main-img.png"
               alt="recruitx main"
               className="recruitx-main-img"
             />
@@ -45,7 +45,7 @@ export default function RecruitxLandingPageFoldOne() {
         {/* <h2 className="font-72-NunitoSans-900">Recruitx</h2> */}
         <div className="mobile-text-center mv-pt-20">
           <img
-            src="/imgs/desktop/case-studies-new/recruitx/recruitx-main-img.png"
+            src="./imgs/desktop/case-studies-new/recruitx/recruitx-main-img.png"
             alt="recruitx main"
             className="recruitx-main-img"
           />

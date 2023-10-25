@@ -40,27 +40,27 @@ export default function RemoteTeamsLandingPageFoldFour() {
           </h5>
           <div className="d-flex flex-column">
             <img
-              src="/imgs/desktop/case-studies-new/remote-teams/remote-design-com-1.svg"
+              src="./imgs/desktop/case-studies-new/remote-teams/remote-design-com-1.svg"
               alt="remote teams"
               className="remote-design-com-1"
             />
             <img
-              src="/imgs/desktop/case-studies-new/remote-teams/remote-design-com-2.svg"
+              src="./imgs/desktop/case-studies-new/remote-teams/remote-design-com-2.svg"
               alt="remote teams"
               className="remote-design-com-2"
             />
             <img
-              src="/imgs/desktop/case-studies-new/remote-teams/remote-design-com-3.svg"
+              src="./imgs/desktop/case-studies-new/remote-teams/remote-design-com-3.svg"
               alt="remote teams"
               className="remote-design-com-3"
             />
             <img
-              src="/imgs/desktop/case-studies-new/remote-teams/remote-design-com-4.svg"
+              src="./imgs/desktop/case-studies-new/remote-teams/remote-design-com-4.svg"
               alt="remote teams"
               className="remote-design-com-4"
             />
             <img
-              src="/imgs/desktop/case-studies-new/remote-teams/remote-design-com-5.svg"
+              src="./imgs/desktop/case-studies-new/remote-teams/remote-design-com-5.svg"
               alt="remote teams"
               className="remote-design-com-5"
             />

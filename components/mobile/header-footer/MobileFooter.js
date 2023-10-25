@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 
-const logo = "/imgs/mobile/logo/myrl-tech-logo.svg";
+const logo = "./imgs/mobile/logo/myrl-tech-logo.svg";
 
 export default function MobileFooter() {
   /*=============================================================
@@ -100,17 +100,17 @@ export default function MobileFooter() {
           <h4 className="mobile-font-14-Nunito-600">Check Us Out On</h4>
           <div className="mv-pt-17 d-flex align-items-center justify-content-start">
             <img
-              src={"/imgs/mobile/icons/white-m-icon.svg"}
+              src={"./imgs/mobile/icons/white-m-icon.svg"}
               alt="myrl"
               className="mobile-footer-m-icon"
             />
             <img
-              src={"/imgs/mobile/icons/white-hand-icon.svg"}
+              src={"./imgs/mobile/icons/white-hand-icon.svg"}
               alt="myrl"
               className="mobile-footer-white-hand-icon"
             />
             <img
-              src={"/imgs/mobile/icons/white-linkedin-icon.svg"}
+              src={"./imgs/mobile/icons/white-linkedin-icon.svg"}
               alt="linked"
               className="mobile-footer-linkedin-icon"
             />

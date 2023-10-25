@@ -47,7 +47,7 @@ const ResourcesFoldTwo = () => {
       </div>
       <div className="resources-fold-two-img-section">
         <img
-          src="/imgs/desktop/resources/resorces-fold-three-img.png"
+          src="./imgs/desktop/resources/resorces-fold-three-img.png"
           alt="fold two img"
         />
       </div>

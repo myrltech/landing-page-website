@@ -25,7 +25,7 @@ export default function MobileHomeNewFoldOne() {
         </div>
         <div className="mobile-new-dominate-card">
           <ProductCard
-            imgPath="/imgs/mobile/home-new/dominate.png"
+            imgPath="./imgs/mobile/home-new/dominate.png"
             imgClass="home-new-dominate-img"
             title="DOMINATE"
             // link="/dominate"
@@ -38,7 +38,7 @@ export default function MobileHomeNewFoldOne() {
         </div>
         <div className="mobile-new-remote-teams-card">
           <ProductCard
-            imgPath="/imgs/mobile/home-new/remote-teams.png"
+            imgPath="./imgs/mobile/home-new/remote-teams.png"
             imgClass="home-new-remote-teams-img"
             title="remote teams"
             // link="/remote-teams"
@@ -50,7 +50,7 @@ export default function MobileHomeNewFoldOne() {
         </div>
         <div className="mobile-new-airi-card">
           <ProductCard
-            imgPath="/imgs/mobile/home-new/airi.png"
+            imgPath="./imgs/mobile/home-new/airi.png"
             imgClass="home-new-airi-img"
             title="airi"
             para="Mental Wellbeing cannot be taken lightly, especially for us working in tech. Airi is an A.I assistant with advanced NLP and sentiment analysis capabilities and she helps you uncover deep-routed triggers and helps you to avoid them."

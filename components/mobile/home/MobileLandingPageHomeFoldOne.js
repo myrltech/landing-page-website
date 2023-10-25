@@ -6,17 +6,17 @@ import Link from "next/link";
 ===================================================*/
 const howItWorksArray = [
   {
-    imgPath: "/imgs/mobile/icons/gradient-pencil-with-circle-icon.svg",
+    imgPath: "./imgs/mobile/icons/gradient-pencil-with-circle-icon.svg",
     para: "Post your requirements for Product & Engineering Teams.",
     imgclass: "home-how-it-works-post-icon",
   },
   {
-    imgPath: "/imgs/mobile/icons/gradient-star-with-check-icon.svg",
+    imgPath: "./imgs/mobile/icons/gradient-star-with-check-icon.svg",
     para: "Top resource augmentation firms across the world access your requirements.",
     imgclass: "home-how-it-works-star-icon",
   },
   {
-    imgPath: "/imgs/mobile/icons/gradient-circle-lines-icon.svg",
+    imgPath: "./imgs/mobile/icons/gradient-circle-lines-icon.svg",
     para: "Connect with the best team for your specific requirements.",
     imgclass: "home-how-it-works-connect-icon",
   },

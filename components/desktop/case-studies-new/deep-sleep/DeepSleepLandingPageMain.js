@@ -14,24 +14,24 @@ export default function DeepSleepLandingPageMain() {
     <>
       <DeepSleepLandingPageFoldOne />
       <RemoteTeamsLandingPageFoldTwo
-        imgPath="/imgs/desktop/case-studies-new/deep-sleep/deep-sleep-low-screen.png"
+        imgPath="./imgs/desktop/case-studies-new/deep-sleep/deep-sleep-low-screen.png"
         imgName="deep sleep low screen"
         imgClass="deep-sleep-low-screen"
         lowContainerClass="deep-sleep-low-screen-section"
       />
       <RemoteTeamsLandingPageFoldThree
-        imgPath="/imgs/desktop/case-studies-new/deep-sleep/deep-sleep-info-chart.png"
+        imgPath="./imgs/desktop/case-studies-new/deep-sleep/deep-sleep-info-chart.png"
         imgName="deep sleep info chart"
         imgClass="deep-sleep-info-chart"
         infoContainerClass="deep-sleep-info-chart-section"
       />
       <DeepSleepLandingPageFoldFour />
       <RemoteTeamsLandingPageFive
-        hiImg="/imgs/desktop/case-studies-new/deep-sleep/deep-sleep-hi-screen.png"
+        hiImg="./imgs/desktop/case-studies-new/deep-sleep/deep-sleep-hi-screen.png"
         hiImgClass="deep-sleep-hi-screen"
         hiImgName="deep sleep hi screen"
         hiImgOuterClass="deep-sleep-hi-section"
-        prototypeImg="/imgs/desktop/case-studies-new/deep-sleep/deep-sleep-prototype.png"
+        prototypeImg="./imgs/desktop/case-studies-new/deep-sleep/deep-sleep-prototype.png"
         prototypeImgName="deep sleep prototype"
         prototypeImgClass="deep-sleep-prototype-img"
         prototypeImgOuterClass="deep-sleep-prototype-section"

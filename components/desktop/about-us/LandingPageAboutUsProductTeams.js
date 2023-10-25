@@ -1,14 +1,14 @@
 import React, { Fragment } from "react";
 const cardArray = [
   {
-    imgPath: "/imgs/desktop/about-us/remote-teams.svg",
+    imgPath: "./imgs/desktop/about-us/remote-teams.svg",
     imgClass: "remote-team-logo",
     name: "Remote Teams",
     para: "Collaborate with your product teams across geographies using a modern set of tools including gantt charts, kanban boards, burndown charts and pipelines.",
     link: "https://www.remote-teams.io/",
   },
   {
-    imgPath: "/imgs/desktop/about-us/dominate.svg",
+    imgPath: "./imgs/desktop/about-us/dominate.svg",
     imgClass: "dominate-logo",
     name: "Dominate",
     para: "Sales as we know it has changed, you may no longer have the luxury of a face to face meeting.",
