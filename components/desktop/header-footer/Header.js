@@ -15,6 +15,10 @@ export default function Header({ activeLink }) {
         <Link href="/">
           <a>
             <img
+              onClick={() =>
+                (window.location.href =
+                  "https://myrltech.github.io/landing-page-website")
+              }
               src={logo}
               alt="myrl"
               className={

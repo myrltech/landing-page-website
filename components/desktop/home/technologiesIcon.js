@@ -1,4 +1,4 @@
-const url = "/imgs/desktop/home/technologies/new-logo";
+const url = "./imgs/desktop/home/technologies/new-logo";
 
 export const technologiesIconArrayOne = [
   {
