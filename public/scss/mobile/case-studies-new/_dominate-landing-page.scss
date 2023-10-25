@@ -1,0 +1,174 @@
+/*========================================================
+                    fold one
+=========================================================*/
+.dominate-main-img {
+  width: vw(1008px);
+  height: auto;
+}
+.dominate-fold-one-div {
+  padding-left: vw(158px);
+  padding-top: vw(330px);
+  padding-right: mvw(25px);
+  padding-bottom: vw(242px);
+}
+.dominate-logo {
+  width: vw(271px);
+  height: auto;
+}
+/*========================================================
+                    fold two
+=========================================================*/
+.dominate-low-screen-img {
+  width: vw(1600px);
+  height: auto;
+}
+/*========================================================
+                    fold three
+=========================================================*/
+.dominate-info-chart-img {
+  width: vw(1726px);
+  height: auto;
+}
+.dominate-info-chart-img-section {
+  .remote-teams-information-img-div {
+    padding-left: vw(100px);
+  }
+}
+/*========================================================
+                    fold four
+=========================================================*/
+.dominate-design-color-one,
+.dominate-design-color-two,
+.dominate-design-color-three,
+.dominate-design-color-four {
+  @include theme-mixin-radius-width;
+}
+.dominate-design-color-one {
+  background: $theme-dominate-black-one;
+  margin-right: vw(21px);
+}
+.dominate-design-color-two {
+  background: $theme-dominate-blue-one;
+}
+.dominate-design-color-three {
+  background: $theme-dominate-black-two;
+  margin-right: vw(21px);
+}
+.dominate-design-color-four {
+  background: $theme-dominate-white;
+}
+.dominate-desgin-div {
+  padding-top: vw(196px);
+  padding-left: vw(168px);
+}
+.dominate-design-text1 {
+  letter-spacing: 0.1em;
+  span {
+    letter-spacing: 0.28em;
+  }
+}
+.dominate-design-com-1 {
+  width: vw(524px);
+  height: auto;
+  margin-top: vw(54px);
+}
+.dominate-design-com-2 {
+  width: vw(545px);
+  height: auto;
+  margin-top: vw(69px);
+}
+.dominate-design-com-3 {
+  width: vw(222px);
+  height: auto;
+  margin-top: vw(63px);
+}
+.dominate-design-com-4 {
+  width: vw(544px);
+  height: auto;
+  margin-top: vw(72px);
+}
+.dominate-design-com-5 {
+  width: vw(547px);
+  height: auto;
+  margin-top: vw(97px);
+}
+/*========================================================
+                    fold five
+=========================================================*/
+.dominate-hi-screen-img {
+  width: 100%;
+}
+.dominate-prototype-screen {
+  width: vw(1653px);
+  height: auto;
+}
+.dominate-hi-screen-img-section {
+  margin-left: vw(134px);
+}
+.dominate-prototype-screen-section {
+  .remote-teams-prototype-img-div {
+    padding-right: vw(133px);
+  }
+}
+/*========================================================
+                    fold six
+=========================================================*/
+.dominate-tech-div {
+  padding-top: vw(363px);
+}
+.remote-teams-fold-two-subtitle--dominate-tech {
+  padding-left: vw(129px);
+  &::after {
+    bottom: vw(-30px);
+    left: vw(323px);
+  }
+}
+.dominate-tech-inner-div {
+  padding-top: vw(149px);
+  padding-left: vw(219px);
+  padding-right: vw(250px);
+  padding-bottom: vw(200px);
+}
+.dominate-nextjs-logo {
+  width: vw(178px);
+  height: auto;
+  margin-right: vw(46px);
+}
+.dominate-nodejs-logo {
+  width: vw(216px);
+  height: auto;
+  margin-right: vw(47px);
+}
+.dominate-apollo-logo {
+  width: vw(167px);
+  height: auto;
+  margin-right: vw(47px);
+}
+.dominate-docker-logo {
+  width: vw(219px);
+  height: auto;
+  margin-right: vw(47px);
+}
+.dominate-jenkins-logo {
+  width: vw(196px);
+  height: auto;
+  margin-right: vw(47px);
+}
+.dominate-graphql-logo {
+  width: vw(188px);
+  height: auto;
+}
+.dominate-prisma-logo {
+  width: vw(152px);
+  height: auto;
+  margin-right: vw(72px);
+  margin-top: vw(100px);
+}
+.dominate-aws-logo {
+  width: vw(101px);
+  height: auto;
+  margin-top: vw(100px);
+}
+.dominate-tech-inner-div {
+  padding-top: vw(149px);
+}

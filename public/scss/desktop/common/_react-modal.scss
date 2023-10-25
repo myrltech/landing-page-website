@@ -1,0 +1,66 @@
+// @import "react-responsive-modal/styles.css";
+/* ===============================================================
+                    
+                        modal
+                    
+================================================================== */
+
+.customOverlay {
+  background: $theme-bg-color-overlay;
+  backdrop-filter: blur(5px);
+  z-index: 0;
+}
+
+.customModal {
+  -webkit-box-shadow: 0 0 0;
+  box-shadow: 0 0 0;
+  max-width: 90%;
+  height: fit-content;
+  width: 56.35417vw;
+  border-radius: vw(44px);
+  //   @include theme-mixin-modal-bg;
+  background: rgba(15, 15, 15, 1) !important;
+  padding: vw(30px);
+  z-index: 999999;
+}
+
+.customCloseButton {
+  display: none;
+}
+
+.customOverlay {
+  z-index: 9999 !important;
+}
+
+.closeIconInModal {
+  cursor: pointer;
+
+  &::before,
+  &::after {
+    content: " ";
+    position: absolute;
+    // top: vw(30px);
+    // right: vw(30px);
+    // background-color: #848484;
+    top: vw(60px);
+    right: vw(90px);
+    background-color: $theme-text-color-popup-close;
+    height: vw(25px);
+    width: vw(4px);
+    z-index: 111 !important;
+  }
+
+  &::before {
+    transform: rotate(45deg);
+  }
+
+  &::after {
+    transform: rotate(-45deg);
+  }
+}
+
+.customModal--contactDetails {
+  width: vw(1119px) !important;
+  padding: vw(97px) vw(74px) vw(76px) vw(74px);
+  max-width: vw(1119px) !important;
+}

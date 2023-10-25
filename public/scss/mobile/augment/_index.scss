@@ -1,0 +1,16 @@
+@import "./augment-login";
+@import "./augment-requirement";
+@import "./augment-preview";
+@import "./augment-request-modal";
+
+.augment-main-section {
+  padding: vw(68px) vw(74px) vw(113px) vw(63px);
+  background: url("../../../imgs/mobile/backgrounds-and-gradients/backgrounds/augment-bg.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-clip: padding-box;
+  background-origin: padding-box;
+}
+.augment-login-section {
+  width: 100%;
+}

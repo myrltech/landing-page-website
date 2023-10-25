@@ -1,0 +1,25 @@
+.case-studies-title {
+  position: relative;
+  width: fit-content;
+  z-index: 99;
+  text-transform: capitalize;
+}
+.case-studies-title--shadow {
+  position: absolute;
+  bottom: mvwDivide(50px);
+  left: 0;
+  font-size: mvwDivide(150px);
+  line-height: mvwDivide(100px);
+  // font-size: mvwDivide(288px);
+  // line-height: mvwDivide(288px);
+  color: rgba(255, 255, 255, 0.03);
+  @include fontBlack900;
+  z-index: -1;
+  white-space: nowrap;
+  user-select: none;
+}
+.deep-sleep-title {
+  .case-studies-title--shadow {
+    bottom: mvwDivide(-50px);
+  }
+}

@@ -1,0 +1,37 @@
+.myrl-input-modal-outer-div {
+  .myrl-input-div-modal {
+    width: 100%;
+    height: auto;
+    margin-top: mvw(17px);
+    position: relative;
+
+    &::after {
+      position: absolute;
+      content: "";
+      width: 100%;
+      height: mvw(3px);
+      left: 0;
+      bottom: 0;
+      background: $blue-and-green-gradient;
+      border-radius: mvw(6px);
+      transform: matrix(-1, 0, 0, 1, 0, 0);
+    }
+
+    input {
+      width: 100%;
+      height: 100%;
+      font-size: mvw(16px);
+      line-height: mvw(21px);
+      @include fontBold700;
+      border: none;
+      background: transparent;
+      border-radius: inherit;
+      padding: 0 mvw(10px) mvw(20px) vw(13px);
+
+      &::placeholder {
+        color: $theme-text-color-gray;
+        @include fontSemiBold600;
+      }
+    }
+  }
+}

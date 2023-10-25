@@ -1,0 +1,140 @@
+// .mv-client-main-section {
+//   //   padding: mvw(80px) mvw(27px) mvw(100px) mvw(23px);
+//   background-image: url("../../../imgs/mobile/backgrounds-and-gradients/backgrounds/client-bg.svg");
+//   background-position: top;
+//   background-size: 100%;
+//   background-repeat: no-repeat;
+// }
+// .client-how-it-card {
+//   position: relative;
+//   background: rgba(255, 255, 255, 0.06);
+//   backdrop-filter: blur(600px);
+//   border-radius: mvw(10px) mvw(20px) mvw(20px) mvw(10px);
+//   margin-bottom: mvw(25px);
+//   padding: mvw(20px) mvw(5px) mvw(20px) mvw(28px);
+
+//   &::before {
+//     // position: absolute;
+//     // content: "";
+//     // background: rgba(255, 255, 255, 0.06);
+//     // backdrop-filter: blur(600px);
+//     // border-radius: 20px;
+//     // // transform: rotate(-90deg);
+//     // width: mvw(3px);
+//     // height: 70%;
+//     // left: 0;
+//     // top: 13%;
+//     // // border: 1px solid;
+//     // // border-image-source: linear-gradient(
+//     // //   225deg,
+//     // //   rgba(0, 255, 136, 0.69) 0%,
+//     // //   rgba(239, 4, 255, 0.69) 100%
+//     // // );
+
+//     // &::before {
+//     //   position: absolute;
+//     //   content: "";
+//     //   left: 0;
+//     //   top: 0;
+//     //   background: pink;
+//     //   width: mvw(30px);
+//     //   height: mvw(30px);
+//     //   z-index: 99;
+//     // }
+//     content: "";
+//     position: absolute;
+//     top: 8%;
+//     left: 0;
+//     right: 0;
+//     bottom: 0;
+//     border-radius: mvw(20px);
+//     // width: vw(20px);
+//     width: mvw(3px);
+//     height: 85%;
+//     padding: mvw(0.5px);
+//     background: linear-gradient(
+//       225deg,
+//       rgba(0, 255, 136, 0.69) 0%,
+//       rgba(239, 4, 255, 0.69) 100%
+//     );
+//     -webkit-mask: linear-gradient(#fff 0 0) content-box,
+//       linear-gradient(#fff 0 0);
+//     -webkit-mask-composite: destination-out;
+//     mask-composite: exclude;
+//     z-index: -1;
+//   }
+// }
+// .client-how-it-card--top-row {
+//   padding-bottom: mvw(10px);
+//   position: relative;
+
+//   &::after {
+//     position: absolute;
+//     width: mvw(200px);
+//     height: mvw(1px);
+//     content: "";
+//     border-top: mvw(1px) solid $theme-border-color-white-18;
+//     left: 0;
+//     bottom: 0;
+//   }
+// }
+// .client-how-it-card--para {
+//   letter-spacing: 0.025em;
+//   color: $theme-text-color-white-83;
+// }
+// .client-benefit-text {
+//   position: relative;
+//   z-index: 99;
+
+//   &::after {
+//     position: absolute;
+//     content: "";
+//     right: mvw(5px);
+//     bottom: 0;
+//     background-image: url("../../../imgs/mobile/backgrounds-and-gradients/gradients/client-gradient.svg");
+//     background-repeat: no-repeat;
+//     background-size: 100%;
+//     width: mvw(141px);
+//     height: mvw(25px);
+//     z-index: -1;
+//   }
+// }
+// .client-benefit-augmnt-title {
+//   letter-spacing: -0.025em;
+// }
+// .mv-client-interested-div {
+//   padding-top: mvw(123px);
+//   padding-bottom: mvw(100px);
+// }
+// .mv-client-interested-text {
+//   font-size: mvw(18px);
+//   line-height: mvw(25px);
+//   text-transform: uppercase;
+//   @include fontExtraLight200;
+//   margin-bottom: 0;
+// }
+// .mv-agency-form-card--client {
+//   width: mvw(344px);
+//   margin: auto;
+//   margin-top: mvw(32px);
+//   padding: mvw(28px) mvw(36px) mvw(40px) mvw(29px);
+// }
+// .mv-client-title-para-div {
+//   padding: mvw(118px) 0 0 mvw(40px);
+// }
+// .mv-client-para-div {
+//   //   padding-left: mvw(33px);
+//   font-size: mvw(23px);
+// }
+// .mv-client-here-title-para-div {
+//   padding-left: mvw(41px);
+// }
+// .mv-client-how-section-div {
+//   padding: mvw(65px) mvw(23px) 0 mvw(27px);
+// }
+// .mv-client-benefit-of-augmnt-section {
+//   padding: 0 mvw(42px) 0 mvw(41px);
+// }
+// .mv-client-interested-title-div {
+//   padding-left: mvw(52px);
+// }

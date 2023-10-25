@@ -1,0 +1,235 @@
+.mv-pt-5 {
+  padding-top: mvw(5px);
+}
+
+.mv-pt-10 {
+  padding-top: mvw(10px);
+}
+.mv-pt-20 {
+  padding-top: mvw(20px);
+}
+.mv-pt-15 {
+  padding-top: mvw(15px);
+}
+.mv-pt-17 {
+  padding-top: mvw(17px);
+}
+.mv-pt-22 {
+  padding-top: mvw(22px);
+}
+.mv-pt-25 {
+  padding-top: mvw(25px);
+}
+.mv-pt-27 {
+  padding-top: mvw(27px);
+}
+.mv-pt-32 {
+  padding-top: mvw(32px);
+}
+.mv-pt-35 {
+  padding-top: mvw(35px);
+}
+.mv-pt-40 {
+  padding-top: mvw(40px);
+}
+.mv-pt-47 {
+  padding-top: mvw(47px);
+}
+.mv-pt-55 {
+  padding-top: mvw(55px);
+}
+.mv-pt-74 {
+  padding-top: mvw(74px);
+}
+.mv-pt-65 {
+  padding-top: mvw1(65px);
+}
+.mv-pt-83 {
+  padding-top: mvw(83px);
+}
+.mv-pl-20 {
+  padding-left: mvw(20px);
+}
+.mv-mt-20 {
+  margin-top: mvw(20px);
+}
+.mv-pb-20 {
+  padding-bottom: mvw(20px);
+}
+.mv-pr-12 {
+  padding-right: mvw(12px);
+}
+.ml-auto {
+  margin-left: auto;
+}
+
+//text color
+.mobile-purple-green-gradient-text {
+  width: fit-content;
+  background: $blue-and-green-gradient;
+  background-clip: text;
+  color: transparent;
+}
+
+.green-purple-gradient-text {
+  width: fit-content;
+  background: $blue-and-green-gradient-8;
+  background-clip: text;
+  color: transparent;
+}
+
+.color-white-17 {
+  color: rgba(255, 255, 255, 0.17);
+}
+
+.color-white-66 {
+  color: rgba(255, 255, 255, 0.66);
+}
+.color-white-72 {
+  color: rgba(255, 255, 255, 0.72);
+}
+
+.color-white-35 {
+  color: rgba(255, 255, 255, 0.35);
+}
+.color-gray-1 {
+  color: #bdbdbd;
+}
+.color-white-93 {
+  color: rgba(255, 255, 255, 0.93);
+}
+
+.color-white-21 {
+  color: rgba(255, 255, 255, 0.21);
+}
+
+// align
+.mobile-text-center {
+  text-align: center !important;
+}
+.mobile-text-right {
+  text-align: right !important;
+}
+.mobile-text-left {
+  text-align: left !important;
+}
+.margin-auto {
+  margin: auto !important;
+}
+// btn
+.gradient-btn {
+  width: mvw(210px);
+  height: mvw(50px);
+  font-size: mvw(14px);
+  line-height: mvw(47px);
+  @include fontSemiBold600;
+  border: none;
+  border-radius: mvw(10px);
+  background: rgb(0, 255, 136);
+  background: linear-gradient(
+    225deg,
+    rgba(0, 255, 136, 1) 0%,
+    rgba(239, 4, 255, 1) 100%
+  );
+}
+/*===================================
+       text
+==================================*/
+.title-line {
+  width: fit-content;
+  position: relative;
+  z-index: 99;
+
+  &::after {
+    position: absolute;
+    background: url("../../../imgs/mobile/backgrounds-and-gradients/gradients/blue-green-line.svg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: mvw(133px);
+    height: mvw(11px);
+    content: "";
+    right: mvw(2px);
+    bottom: 0;
+    z-index: -1;
+  }
+}
+.title-line--truted1,
+.title-line--truted2 {
+  &::after {
+    bottom: mvw(10px);
+    right: mvw(-5px);
+  }
+}
+.title-line--why-they-trust {
+  &::after {
+    bottom: mvw(40px);
+    right: mvw(20px);
+  }
+}
+.title-line--technologies {
+  width: auto;
+  &::after {
+    width: mvw(194px);
+    height: mvw(34px);
+    background: url("../../../imgs/mobile/backgrounds-and-gradients/gradients/blue-green-line-technologies.svg");
+    right: mvw(40px);
+    bottom: mvw(-18px);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+}
+.mv-opacity-0 {
+  display: none;
+}
+.mv-line-break {
+  line-break: normal;
+}
+.mv-flex-wrap {
+  flex-wrap: wrap !important;
+}
+.mv-flex-direction-column {
+  flex-direction: column;
+}
+// custom-d-flex
+.custom-d-flex {
+  display: block;
+}
+.ag-pt-25 {
+  padding-top: mvwDivide(25px);
+}
+.ag-mt-50 {
+  margin-top: mvwDivide(50px);
+}
+.ag-pt-35 {
+  padding-top: mvwDivide(35px);
+}
+.ag-pt-20 {
+  padding-top: mvwDivide(20px);
+}
+.ag-pr-25 {
+  padding-right: mvwDivide(25px);
+}
+
+.mobile-mr-10 {
+  margin-right: mvw(10px);
+}
+.ag-mb-8 {
+  margin-bottom: mvwDivide(8px);
+}
+.ag-mb-23 {
+  margin-bottom: mvwDivide(23px);
+}
+.mobile-mb-26 {
+  margin-bottom: mvw(26px);
+}
+.mobile-mb-23 {
+  margin-bottom: mvw(23px);
+}
+
+.width-max-content {
+  width: max-content;
+}
+
+b {
+  @include fontBold700;
+}

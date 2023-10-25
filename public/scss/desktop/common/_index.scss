@@ -1,0 +1,14 @@
+@import "./common-fonts";
+@import "./common";
+@import "./common-components";
+@import "./common-all-pages-bg-img";
+@import "./react-select";
+@import "./react-phoneNumber";
+@import "./pagination";
+@import "./react-modal";
+@import "./pageTitle";
+@import "./rc-pagination.scss";
+
+.d-md-flex {
+  display: flex;
+}

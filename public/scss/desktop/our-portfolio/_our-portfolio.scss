@@ -1,0 +1,179 @@
+.our-portfolio-main-section {
+  padding-top: vw(210px);
+}
+.our-protfolio-products-section {
+  padding: vw(155px) 0 0 vw(99px);
+}
+.our-portfolio-dominate-img {
+  width: vw(511px);
+  height: auto;
+  margin-bottom: vw(87px);
+}
+.our-products-dominate-card {
+  padding-top: vw(126px);
+  position: relative;
+
+  &::after {
+    position: absolute;
+    width: vw(1px);
+    height: 68%;
+    content: "";
+    right: 0;
+    top: 0;
+    background: $theme-bg-white;
+    z-index: 99;
+  }
+}
+.our-protfolio-projects-section {
+  padding: vw(132px) vw(119px) vw(157px) vw(147px);
+  position: relative;
+
+  &::after {
+    position: absolute;
+    width: vw(1px);
+    height: 72%;
+    content: "";
+    left: 50%;
+    top: vw(450px);
+    background: $theme-bg-white;
+    z-index: 99;
+  }
+}
+.our-portfolio-remote-team-img {
+  width: vw(511px);
+  height: auto;
+  margin: auto;
+  margin-bottom: vw(92px);
+}
+.our-products-remote-team-card {
+  padding-top: vw(121px);
+  position: relative;
+
+  &::after {
+    position: absolute;
+    width: vw(1px);
+    height: 68%;
+    content: "";
+    right: 0;
+    top: 0;
+    background: $theme-bg-white;
+    z-index: 99;
+  }
+  .our-product-card-para {
+    padding-bottom: vw(30px);
+  }
+}
+.our-products-airi-section {
+  padding-top: vw(81px);
+  .our-product-card-para {
+    padding-bottom: vw(35px);
+  }
+}
+.our-portfolio-airi-img {
+  width: vw(445px);
+  height: auto;
+  margin-bottom: vw(102px);
+}
+// .our-portfolio-recruitx-card {
+//   .our-product-card-para {
+//     padding-bottom: vw(5px);
+//   }
+// }
+/*====================================
+          product card
+=======================================*/
+.our-product-card-outer-btn {
+  width: vw(322px);
+  height: vw(89px);
+  margin: auto;
+  background: rgba(132, 112, 112, 0.03);
+  backdrop-filter: blur(49px);
+  border-radius: vw(8px);
+  margin-top: vw(97px);
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: inherit;
+    padding: vw(1px);
+    background: $blue-and-green-gradient-5;
+    -webkit-mask: linear-gradient(#fff 0 0) content-box,
+      linear-gradient(#fff 0 0);
+    -webkit-mask-composite: destination-out;
+    mask-composite: exclude;
+    z-index: -1;
+  }
+  h5 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.our-product-card-btn {
+  width: 100%;
+  .product-card-font-24-NunitoSans-600 {
+    line-height: vw(89px);
+  }
+}
+.our-product-card-para {
+  width: vw(457px);
+  height: auto;
+  margin: auto;
+}
+.our-product-card-text {
+  letter-spacing: 0.145em;
+  background: linear-gradient(225deg, #ef04ff 0%, #00ff88 100%);
+  background-size: 100% 100%;
+  -webkit-background-clip: text;
+  -webkit-text-stroke: vw(2px) transparent;
+}
+/*======================================================
+                    cards
+=====================================================*/
+.our-protfolio-projects-card-section {
+  padding-top: vw(204px);
+}
+.our-portfolio-aquaplan-img {
+  width: vw(511px);
+  height: auto;
+  margin-bottom: vw(76px);
+}
+.our-portfolio-recruitx-img {
+  width: vw(511px);
+  height: auto;
+  margin-bottom: vw(76px);
+}
+.our-portfolio-deep-sleep-img {
+  width: vw(742px);
+  height: auto;
+  margin-bottom: vw(97px);
+}
+.our-portfolio-fintify-card,
+.our-portfolio-deep-sleep-card {
+  padding-top: vw(70px);
+}
+.our-portfolio-deep-sleep-card {
+  .our-product-card-para {
+    padding-bottom: vw(30px);
+  }
+}
+.our-portfolio-fintify-img {
+  width: vw(614px);
+  height: auto;
+  margin-bottom: vw(55px);
+}
+.our-protfolio-projects-cards-row-two {
+  margin-top: vw(76px);
+  border-top: vw(0.5px) solid $theme-border-color-white;
+}
+.our-product-card {
+  height: 100%;
+}

@@ -1,0 +1,628 @@
+.mobile-font-12-Nunito-300 {
+  font-size: mvw1(12px);
+  line-height: mvw1(16px);
+  @include fontLight300;
+  margin-bottom: 0;
+}
+.mobile-font-18-Nunito-300 {
+  font-size: mvw(18px);
+  line-height: mvw(24px);
+  @include fontLight300;
+  margin-bottom: 0;
+}
+.mobile-font-12-Nunito-400 {
+  font-size: mvw(12px);
+  line-height: mvw(16px);
+  @include fontRegular400;
+  margin-bottom: 0;
+}
+
+.mobile-font-14-Nunito-400 {
+  font-size: mvw(14px);
+  line-height: mvw(19px);
+  @include fontRegular400;
+  margin-bottom: 0;
+}
+.mobile-font-18-Nunito-400 {
+  font-size: mvw(18px);
+  line-height: mvw(24px);
+  @include fontRegular400;
+  margin-bottom: 0;
+}
+.mobile-font-22-Nunito-400 {
+  font-size: mvw(22px);
+  line-height: mvw(35px);
+  @include fontRegular400;
+  margin-bottom: 0;
+}
+.mobile-font-10-Nunito-600 {
+  font-size: mvw(10px);
+  line-height: mvw(13px);
+  @include fontSemiBold600;
+  margin-bottom: 0;
+}
+.mobile-font-11-Nunito-600 {
+  font-size: mvw(11px);
+  line-height: mvw(17px);
+  @include fontSemiBold600;
+  margin-bottom: 0;
+}
+.mobile-font-12-Nunito-600 {
+  font-size: mvw(12px);
+  line-height: mvw(16px);
+  @include fontSemiBold600;
+  margin-bottom: 0;
+}
+
+.mobile-font-14-Nunito-600 {
+  font-size: mvw(14px);
+  line-height: mvw(19px);
+  @include fontSemiBold600;
+  margin-bottom: 0;
+}
+
+.mobile-font-14-Nunito-600--important {
+  font-size: mvw(14px) !important;
+  line-height: mvw(19px) !important;
+  @include fontSemiBold600;
+  margin-bottom: 0;
+}
+.mobile-font-16-Nunito-600 {
+  font-size: mvw(16px);
+  line-height: mvw(22px);
+  @include fontSemiBold600;
+  margin-bottom: 0;
+}
+.mobile-font-18-Nunito-600 {
+  font-size: mvw(18px);
+  line-height: mvw(24px);
+  @include fontSemiBold600;
+  margin-bottom: 0;
+}
+.mobile-font-24-Nunito-600 {
+  font-size: mvw(24px);
+  line-height: mvw(32px);
+  @include fontSemiBold600;
+  margin-bottom: 0;
+}
+.mobile-font-36-Nunito-600 {
+  font-size: mvw(36px);
+  line-height: mvw(49px);
+  @include fontSemiBold600;
+  margin-bottom: 0;
+}
+.mobile-font-10-Nunito-700 {
+  font-size: mvw(10px);
+  line-height: mvw(13px);
+  @include fontBold700;
+  margin-bottom: 0;
+}
+.mobile-font-14-Nunito-700 {
+  font-size: mvw(14px);
+  line-height: mvw(19px);
+  @include fontBold700;
+  margin-bottom: 0;
+}
+.mobile-font-18-Nunito-700 {
+  font-size: mvw(18px);
+  line-height: mvw(24px);
+  @include fontBold700;
+  margin-bottom: 0;
+}
+.mobile-font-24-Nunito-700 {
+  font-size: mvw(24px);
+  line-height: mvw(32px);
+  @include fontBold700;
+  margin-bottom: 0;
+}
+.mobile-font-28-Nunito-700 {
+  font-size: mvw(28px);
+  line-height: mvw(36px);
+  @include fontBold700;
+  margin-bottom: 0;
+}
+
+.mobile-font-32-Nunito-700 {
+  font-size: mvw(32px);
+  line-height: mvw(36px);
+  @include fontBold700;
+  margin-bottom: 0;
+}
+
+.mobile-font-48-Nunito-700 {
+  font-size: mvw(48px);
+  line-height: mvw(65px);
+  @include fontBold700;
+  margin-bottom: 0;
+}
+
+.mobile-font-10-Nunito-800 {
+  font-size: mvw(10px);
+  line-height: mvw(13px);
+  @include fontExtraBold800;
+  margin-bottom: 0;
+}
+
+.mobile-font-12-Nunito-800 {
+  font-size: mvw(12px);
+  line-height: mvw(16px);
+  @include fontExtraBold800;
+  margin-bottom: 0;
+}
+.mobile-font-18-Nunito-800 {
+  font-size: mvw(18px);
+  line-height: mvw(24px);
+  @include fontExtraBold800;
+  margin-bottom: 0;
+}
+.mobile-font-24-Nunito-900 {
+  font-size: mvw(24px);
+  line-height: mvw(32px);
+  @include fontBlack900;
+  margin-bottom: 0;
+}
+.mobile-font-36-Nunito-900 {
+  font-size: mvw(36px);
+  line-height: mvw(49px);
+  @include fontBlack900;
+  margin-bottom: 0;
+}
+.mobile-font-48-Nunito-900 {
+  font-size: mvw(48px);
+  line-height: mvw(65px);
+  @include fontBlack900;
+  margin-bottom: 0;
+}
+
+.mobile-font-14-proxima-400 {
+  font-size: mvw(14px);
+  line-height: mvw(17px);
+  margin-bottom: 0;
+  @include fontProximaRegular;
+}
+.mobile-font-14-proxima-700 {
+  font-size: mvw(14px) !important;
+  line-height: mvw(17px) !important;
+  margin-bottom: 0;
+  @include fontProximaBold;
+}
+
+.mobile-font-18-proxima-700 {
+  font-size: mvw(18px);
+  line-height: mvw(21px);
+  margin-bottom: 0;
+  @include fontProximaBold;
+}
+.mobile-font-20-proxima-700 {
+  font-size: mvw(20px) !important;
+  line-height: mvw(36px) !important;
+  margin-bottom: 0;
+  @include fontProximaBold;
+}
+
+.mobile-font-30-proxima-700 {
+  font-size: mvw(30px) !important;
+  line-height: mvw(40px) !important;
+  margin-bottom: 0;
+  @include fontProximaBold;
+}
+.mobile-font-34-proxima-700 {
+  font-size: mvw(34px);
+  line-height: mvw(44px);
+  margin-bottom: 0;
+  @include fontProximaBold;
+}
+
+.mobile-font-36-proxima-700 {
+  font-size: mvw(36px);
+  line-height: mvw(48px);
+  margin-bottom: 0;
+  @include fontProximaBold;
+}
+
+.mobile-font-32-proxima-800 {
+  font-size: mvw1(32px);
+  line-height: mvw1(48px);
+  margin-bottom: 0;
+  @include fontProximaExtraBold;
+}
+.mobile-font-28-proxima-800 {
+  font-size: mvw1(28px);
+  line-height: mvw1(34px);
+  margin-bottom: 0;
+  @include fontProximaExtraBold;
+}
+.mobile-font-32-proxima-800 {
+  font-size: mvw(32px);
+  line-height: mvw(38px);
+  margin-bottom: 0;
+  @include fontProximaExtraBold;
+}
+.mobile-font-36-proxima-800 {
+  font-size: mvw(36px);
+  line-height: mvw(48px);
+  margin-bottom: 0;
+  @include fontProximaExtraBold;
+}
+.mobile-font-40-proxima-800 {
+  font-size: mvw1(40px);
+  line-height: mvw1(48px);
+  margin-bottom: 0;
+  @include fontProximaExtraBold;
+}
+/*======================================================
+
+for desktop to mobile  fonts
+======================================================*/
+.font-24-NunitoSans-400 {
+  font-size: mvwDivide(24px);
+  line-height: mvwDivide(39px);
+  @include fontRegular400;
+  margin-bottom: 0;
+}
+
+.mobile-ag-font-24-Nunito-600 {
+  font-size: mvwDivide(24px);
+  line-height: mvwDivide(32px);
+  @include fontSemiBold600;
+  margin-bottom: 0;
+}
+.font-48-NunitoSans-600,
+.mobile-ag-font-48-Nunito-600 {
+  font-size: mvwDivide(48px);
+  line-height: mvwDivide(65px);
+  @include fontSemiBold600;
+  margin-bottom: 0;
+}
+.mobile-ag-font-16-Nunito-600 {
+  font-size: mvw1(16px);
+  line-height: mvw1(22px);
+  @include fontSemiBold600;
+  margin-bottom: 0;
+}
+.mobile-ag-font-18-Nunito-300 {
+  font-size: mvwDivide(18px);
+  line-height: mvwDivide(24px);
+  @include fontLight300;
+  margin-bottom: 0;
+}
+.mobile-ag-font-18-Nunito-600 {
+  font-size: mvwDivide(18px);
+  line-height: mvwDivide(24px);
+  @include fontSemiBold600;
+  margin-bottom: 0;
+}
+.mobile-ag-font-36-Nunito-600 {
+  font-size: mvwDivide(36px);
+  line-height: mvwDivide(49px);
+  @include fontSemiBold600;
+  margin-bottom: 0;
+}
+.font-24-NunitoSans-600 {
+  font-size: mvwDivide(24px);
+  line-height: mvwDivide(33px);
+  @include fontSemiBold600;
+  margin-bottom: 0;
+}
+
+.font-24-NunitoSans-700 {
+  font-size: mvwDivide(24px);
+  line-height: mvwDivide(33px);
+  @include fontBold700;
+  margin-bottom: 0;
+}
+
+.font-48-NunitoSans-800 {
+  font-size: mvwDivide(48px);
+  line-height: mvwDivide(65px);
+  @include fontExtraBold800;
+  margin-bottom: 0;
+}
+
+.mobile-font-50-NunitoSans-600 {
+  font-size: mvw1(50px);
+  line-height: mvw1(64px);
+  @include fontSemiBold600;
+  margin-bottom: 0;
+}
+.font-72-NunitoSans-900 {
+  font-size: mvwDivide(72px);
+  line-height: mvwDivide(98px);
+  @include fontBlack900;
+  margin-bottom: 0;
+}
+/*=================================
+           proxima
+==================================*/
+.font-12-proxima-400 {
+  font-size: mvwDivide(12px);
+  line-height: mvwDivide(16px);
+  margin-bottom: 0;
+  @include fontProximaRegular;
+}
+.font-14-proxima-700 {
+  font-size: mvwDivide(14px);
+  line-height: mvwDivide(18px);
+  margin-bottom: 0;
+  @include fontProximaBold;
+}
+.font-16-proxima-700 {
+  font-size: mvwDivide(16px);
+  line-height: mvwDivide(21px);
+  margin-bottom: 0;
+  @include fontProximaBold;
+}
+.font-18-proxima-700 {
+  font-size: mvwDivide(18px);
+  line-height: mvwDivide(24px);
+  margin-bottom: 0;
+  @include fontProximaBold;
+}
+.font-24-proxima-700 {
+  font-size: mvwDivide(24px);
+  line-height: mvwDivide(32px);
+  margin-bottom: 0;
+  @include fontProximaBold;
+}
+
+.font-36-proxima-700 {
+  font-size: mvwDivide(36px);
+  line-height: mvwDivide(48px);
+  margin-bottom: 0;
+  @include fontProximaBold;
+}
+
+.font-72-proxima-800 {
+  font-size: mvwDivide(72px);
+  line-height: mvwDivide(88px);
+  margin-bottom: 0;
+  @include fontProximaExtraBold;
+}
+
+.font-86-proxima-800 {
+  font-size: mvwDivide(86px);
+  line-height: mvwDivide(105px);
+  margin-bottom: 0;
+  @include fontProximaExtraBold;
+}
+/*=================================
+           inter
+==================================*/
+.font-18-inter-400 {
+  font-size: mvwDivide(18px);
+  line-height: mvwDivide(22px);
+  margin-bottom: 0;
+  @include fontInterRegular;
+}
+.font-48-inter-400 {
+  font-size: mvwDivide(48px);
+  line-height: mvwDivide(77px);
+  margin-bottom: 0;
+  @include fontInterRegular;
+}
+.font-13-inter-600 {
+  font-size: mvwDivide(13px);
+  line-height: mvwDivide(16px);
+  margin-bottom: 0;
+  @include fontInterSemiBold;
+}
+.font-14-inter-600 {
+  font-size: mvwDivide(14px);
+  line-height: mvwDivide(17px);
+  margin-bottom: 0;
+  @include fontInterSemiBold;
+}
+.font-18-inter-600 {
+  font-size: mvwDivide(18px);
+  line-height: mvwDivide(22px);
+  margin-bottom: 0;
+  @include fontInterSemiBold;
+}
+.font-24-inter-600 {
+  // font-size: mvwDivide(14px);
+  // line-height: mvwDivide(19px);
+  font-size: mvwDivide(24px);
+  line-height: mvwDivide(29px);
+  margin-bottom: 0;
+  @include fontInterSemiBold;
+}
+.font-36-inter-700 {
+  font-size: mvwDivide(36px);
+  line-height: mvwDivide(44px);
+  // font-size: mvwDivide(20px);
+  // line-height: mvwDivide(24px);
+  margin-bottom: 0;
+  @include fontInterBold;
+}
+.font-64-inter-800 {
+  // font-size: mvwDivide(24px);
+  font-size: mvwDivide(64px);
+  // line-height: mvwDivide(37px);
+  line-height: mvwDivide(77px);
+  margin-bottom: 0;
+  @include fontInterExtraBold;
+}
+
+/*=================================
+           Nunito
+==================================*/
+.font-48-nunito-800 {
+  font-size: mvwDivide(48px);
+  line-height: mvwDivide(77px);
+  margin-bottom: 0;
+  @include fontNunitoExtraBold;
+}
+/*=================================
+           montserrat
+==================================*/
+.mobile-font-14-montserrat-500 {
+  font-size: mvw1(14px);
+  line-height: mvw1(17px);
+  margin-bottom: 0;
+  @include fontMontserratMedium;
+}
+.mobile-font-16-montserrat-500 {
+  font-size: mvw1(16px);
+  line-height: mvw1(17px);
+  margin-bottom: 0;
+  @include fontMontserratMedium;
+}
+.mobile-font-18-montserrat-600 {
+  font-size: mvw(18px) !important;
+  line-height: mvw(23px) !important;
+  margin-bottom: 0;
+  @include fontMontserratSemibold;
+}
+.font-24-montserrat-300 {
+  font-size: mvw1(24px);
+  line-height: mvw1(29px);
+  margin-bottom: 0;
+  @include fontMontserratRegular;
+}
+
+.mobile-font-24-montserrat-500 {
+  font-size: mvw1(24px);
+  line-height: mvw1(29px);
+  margin-bottom: 0;
+  @include fontMontserratMedium;
+}
+
+.mobile-font-24-montserrat-700,
+.font-24-montserrat-700 {
+  font-size: mvw1(24px);
+  line-height: mvw1(29px);
+  margin-bottom: 0;
+  @include fontMontserratBold;
+}
+
+.mobile-font-44-montserrat-700 {
+  font-size: mvw1(44px);
+  line-height: mvw1(58px);
+  margin-bottom: 0;
+  @include fontMontserratBold;
+}
+.mobile-font-32-montserrat-800,
+.font-32-montserrat-800 {
+  font-size: mvw1(32px);
+  line-height: mvw1(38px);
+  margin-bottom: 0;
+  @include fontMontserratExtraBold;
+}
+.mobile-font-36-montserrat-800 {
+  font-size: mvw1(36px);
+  line-height: mvw1(43px);
+  margin-bottom: 0;
+  @include fontMontserratExtraBold;
+}
+
+.font-48-montserrat-600 {
+  font-size: mvwDivide(48px);
+  line-height: mvwDivide(77px);
+  margin-bottom: 0;
+  @include fontMontserratSemibold;
+}
+/*===============================
+               poppins
+==============================*/
+.font-20-poppins-300 {
+  font-size: mvwDivide(20px);
+  line-height: mvwDivide(30px);
+  margin-bottom: 0;
+  @include fontPoppinsLight;
+}
+.font-12-poppins-400 {
+  font-size: mvwDivide(12px);
+  line-height: mvwDivide(20px);
+  margin-bottom: 0;
+  @include fontPoppinsRegular;
+}
+.font-18-poppins-400 {
+  font-size: mvwDivide(18px);
+  line-height: mvwDivide(18px);
+  margin-bottom: 0;
+  @include fontPoppinsRegular;
+}
+.font-36-poppins-400 {
+  font-size: mvwDivide(36px);
+  line-height: mvwDivide(36px);
+  margin-bottom: 0;
+  @include fontPoppinsRegular;
+}
+.font-12-poppins-500 {
+  font-size: mvwDivide(12px);
+  line-height: mvwDivide(20px);
+  margin-bottom: 0;
+  @include fontPoppinsMedium;
+}
+.font-17-poppins-500 {
+  font-size: mvwDivide(17px);
+  line-height: mvwDivide(25px);
+  margin-bottom: 0;
+  @include fontPoppinsMedium;
+}
+.font-32-poppins-500 {
+  font-size: mvwDivide(32px);
+  line-height: mvwDivide(48px);
+  margin-bottom: 0;
+  @include fontPoppinsMedium;
+}
+.font-18-poppins-700 {
+  font-size: mvwDivide(18px);
+  line-height: mvwDivide(31px);
+  margin-bottom: 0;
+  @include fontPoppinsBold;
+}
+.font-24-poppins-700 {
+  font-size: mvwDivide(24px);
+  line-height: mvwDivide(37px);
+  margin-bottom: 0;
+  @include fontPoppinsBold;
+}
+.font-72-poppins-700 {
+  font-size: mvwDivide(72px);
+  line-height: mvwDivide(72px);
+  margin-bottom: 0;
+  @include fontPoppinsBold;
+}
+/*============================
+       Quicksand
+===========================*/
+.font-48-quicksand-400 {
+  font-size: mvwDivide(48px);
+  line-height: mvwDivide(60px);
+  margin-bottom: 0;
+  @include fontQuicksandRegular;
+}
+/*============================
+       helvetica
+===========================*/
+.font-14-helvetica-400 {
+  font-size: mvwDivide(14px);
+  line-height: mvwDivide(17px);
+  margin-bottom: 0;
+  @include fontHelveticaRegular;
+}
+.font-16-helvetica-400 {
+  font-size: mvwDivide(16px);
+  line-height: mvwDivide(17px);
+  margin-bottom: 0;
+  @include fontHelveticaRegular;
+}
+.font-18-helvetica-700 {
+  font-size: mvwDivide(18px);
+  line-height: mvwDivide(21px);
+  margin-bottom: 0;
+  @include fontHelveticaBold;
+}
+.font-28-helvetica-700 {
+  font-size: mvwDivide(28px);
+  line-height: mvwDivide(37px);
+  margin-bottom: 0;
+  @include fontHelveticaBold;
+}
+.mobile-font-20-montserrat-700 {
+  font-size: mvw1(20px);
+  line-height: mvw1(31px);
+  margin-bottom: 0;
+  @include fontMontserratBold;
+}

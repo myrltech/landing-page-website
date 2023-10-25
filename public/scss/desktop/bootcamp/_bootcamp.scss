@@ -1,0 +1,269 @@
+// .bootcamp-main-section {
+// padding: vw(99px) vw(100px);
+// }
+.bootcamp-tags {
+  background-color: #222222;
+  padding: vw(10px) vw(15px);
+  margin-right: vw(30px);
+  margin-bottom: vw(20px);
+  border-radius: vw(8px);
+  position: relative;
+  z-index: 99;
+
+  &:hover {
+    .bootcamp-tags-span-text {
+      display: block;
+      position: absolute;
+      background: white;
+      color: black;
+      width: max-content;
+      padding: vw(10px) vw(15px);
+      text-align: center;
+      left: vw(-30px);
+      top: vw(-75px);
+      border-radius: vw(4px);
+      z-index: 99;
+    }
+    .bootcamp-tags-span-arrow {
+      display: block;
+      position: absolute;
+      background: white;
+      width: vw(26px);
+      height: vw(26px);
+      left: 40%;
+      transform: rotate(44deg);
+      bottom: vw(-5px);
+      z-index: -1;
+    }
+  }
+}
+
+.bootcamp-course-play-icon-icon {
+  width: vw(25px);
+  height: auto;
+  margin-right: vw(10px);
+}
+.bootcamp-clock-icon {
+  width: vw(20px);
+  height: auto;
+  margin-right: vw(10px);
+}
+.bootcamp-tags-span-text {
+  display: none;
+}
+.bootcamp-accordian {
+  padding-top: vw(40px);
+  .accordion__button,
+  .accordion__button:hover {
+    // background: #333333;
+    background: rgba(255, 255, 255, 0.08);
+    color: rgba(255, 255, 255, 0.66);
+    padding: vw(24px) vw(30px);
+    border-radius: vw(8px);
+  }
+
+  .accordion__button {
+    position: relative;
+    &::before {
+      display: none;
+    }
+
+    &::after {
+      position: absolute;
+      display: inline-block;
+      content: "";
+      height: vw(18px);
+      width: vw(18px);
+      margin-left: vw(7px);
+      border-bottom: vw(2px) solid currentColor;
+      border-right: vw(2px) solid currentColor;
+      transform: rotate(45deg);
+      top: vw(30px);
+      right: vw(40px);
+      margin-bottom: vw(4px);
+      transition: all linear 0.3s;
+    }
+
+    &:focus {
+      outline: none;
+    }
+  }
+  .accordion__button[aria-expanded="true"]::after,
+  .accordion__button[aria-selected="true"]::after {
+    transform: rotate(229deg);
+    top: vw(35px);
+    transition: all linear 0.3s;
+  }
+  .accordion__panel {
+    padding: vw(40px) 0;
+  }
+  .bootcamp-accordian-panel-card {
+    padding: vw(30px) 0;
+    border-bottom: vw(0.3px) solid rgba(255, 255, 255, 0.33);
+    position: relative;
+
+    &::after {
+      position: absolute;
+      width: vw(11px);
+      height: vw(11px);
+      background: transparent;
+      border-radius: vw(10px);
+      left: vw(-45px);
+      top: vw(40px);
+      content: "";
+      border: vw(2px) solid white;
+    }
+
+    &::before {
+      width: vw(1px);
+      height: 67%;
+      left: vw(-40px);
+      top: vw(58px);
+      background: white;
+      position: absolute;
+      content: "";
+    }
+  }
+}
+.bootcamp-map-icon {
+  width: vw(25px);
+  height: auto;
+  margin-right: vw(10px);
+}
+/*==================================================================
+                           bootcamp
+==================================================================*/
+.bootcamp-right-section {
+  flex: 0 0 33%;
+  margin-left: vw(80px);
+  flex-direction: column;
+}
+
+.bootcamp-right-block-one {
+  border-radius: vw(10px);
+  margin-bottom: vw(40px);
+  // background: #222222;
+  background: rgba(196, 196, 196, 0.08);
+}
+.bootcamp-right-block-one-row-1 {
+  padding: vw(35px) vw(40px);
+  border-radius: vw(10px);
+  border-bottom: vw(1px) solid rgba(255, 255, 255, 0.1);
+}
+.bootcamp-right-block-one--two {
+  padding: vw(35px) vw(40px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+}
+.bootcamp-ul {
+  padding-top: vw(20px);
+  padding-bottom: vw(40px);
+  border-bottom: vw(1px) solid rgba(255, 255, 255, 0.1);
+  margin-bottom: 0;
+}
+.bootcamp-accordian-panel-card-outer-section {
+  padding-left: vw(50px);
+
+  .bootcamp-accordian-panel-card {
+    &:last-child {
+      border-bottom: none;
+    }
+
+    &:last-child {
+      &::before {
+        display: none;
+      }
+    }
+  }
+}
+.bootcamp-tags-text {
+  margin-right: vw(30px);
+  background: rgba(196, 196, 196, 0.5);
+  padding: vw(10px) vw(20px);
+  border-radius: vw(50px);
+}
+.bootcamp-right-block-three {
+  margin-top: vw(50px);
+  padding: vw(30px);
+  border-radius: vw(10px);
+  // min-height: vw(250px);
+  // overflow: hidden;
+  background-image: url("../../../imgs/desktop/bootcamp/paths-skill-iq-bkgd.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top right;
+  position: relative;
+  z-index: 99;
+  background-color: #1f1f1f;
+
+  &::after {
+    position: absolute;
+    width: vw(5px);
+    height: 100%;
+    content: "";
+    top: 0;
+    left: 0;
+    border-radius: vw(10px) 0 0 vw(10px);
+    z-index: 1;
+    background: linear-gradient(225deg, #00ff88 0%, #ef04ff 100%);
+  }
+}
+.bootcamp-play-icon {
+  font-size: vw(36px);
+  background: -webkit-linear-gradient(225deg, #00ff88 0%, #ef04ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-right: vw(15px);
+}
+.our-product-card-btn--bootcamp,
+.home-new-btn--bootcamp {
+  width: max-content;
+  height: min-content;
+  line-height: vw(10px);
+  padding: vw(18px) vw(34px);
+}
+.our-product-card-btn--bootcamp {
+  margin-top: vw(20px);
+  line-height: inherit;
+  border: none;
+}
+.green-purple-gradient-text--bootcamp {
+  letter-spacing: vw(3px);
+}
+.bootcamp-fold-one-section {
+  padding: vw(100px);
+}
+.yellow-star {
+  color: #f7a614;
+}
+.gray-star {
+  color: #555555;
+}
+/*=======================================================================================================
+                                          fold two
+=======================================================================================================*/
+.bootcamp-fold-two-section {
+  background: rgba(196, 196, 196, 0.05);
+  .bootcamp-fold-two-section-card {
+    &:nth-child(3n + 2),
+    &:nth-child(3n + 3) {
+      padding-left: vw(50px);
+    }
+  }
+}
+.bootcamp-fold-two-section-card {
+  margin-top: vw(100px);
+  padding-right: vw(50px);
+  word-break: normal;
+}
+.bootcamp-fold-two-section-card__img {
+  width: vw(60px);
+  height: vw(60px);
+  border-radius: vw(100px);
+  margin-right: vw(20px);
+}
+.home-new-btn--fold-three {
+  padding-left: vw(60px);
+  padding-right: vw(60px);
+  margin-left: vw(300px);
+  text-transform: uppercase;
+}

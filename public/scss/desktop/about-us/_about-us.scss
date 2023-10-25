@@ -1,0 +1,88 @@
+.about-us-main-section {
+  background-image: url("../../../imgs/desktop/backgrounds-and-gradient/backgrounds/about-us-bg.svg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-clip: padding-box;
+  background-origin: padding-box;
+}
+
+.about-us-agument-div {
+  padding: vw(242px) vw(120px) 0 vw(182px);
+}
+.about-fold-one-para-left-div {
+  padding-right: vw(20px);
+}
+.about-fold-one-para-right-div {
+  padding-left: vw(100px);
+}
+.about-fold-one-para {
+  -webkit-text-stroke-width: vw(1px);
+  -webkit-text-stroke-color: black;
+}
+.about-us-myrl-white-logo {
+  width: vw(316px);
+  height: auto;
+}
+.about-us-fold-one-logo-para-section {
+  padding: vw(115px) 0 vw(168px) 0;
+}
+.about-us-fold-one-logo-para-left-section {
+  padding-right: vw(118px);
+  padding-top: vw(80px);
+  padding-bottom: vw(80px);
+  border-right: vw(2px) solid $theme-border-color-white-66;
+}
+.about-us-fold-one-logo-para-right-section {
+  padding-left: vw(112px);
+}
+.product-teams-card {
+  width: vw(727px);
+  min-height: vw(836px);
+  padding: vw(36px) vw(42px) vw(47px) vw(42px);
+  @include background-with-border-radius-3;
+  margin-right: vw(49px);
+  position: relative;
+}
+.product-teams-card--img-section {
+  width: 100%;
+  height: vw(385px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.02);
+  backdrop-filter: blur(49px);
+  border-radius: vw(18px);
+  margin-bottom: vw(29px);
+  //   img {
+  //     width: auto;
+  //     height: 25%;
+  //   }
+}
+.remote-team-logo {
+  width: vw(164px);
+  height: auto;
+}
+.dominate-logo {
+  width: vw(309px);
+  height: auto;
+}
+.product-teams-cards-section {
+  padding-top: vw(131px);
+  padding-bottom: vw(159px);
+}
+.product-teams-card--btn-section {
+  width: vw(245px);
+  height: vw(67px);
+  position: absolute;
+  left: vw(241px);
+  bottom: vw(50px);
+  border: double vw(1px) transparent;
+  background-image: $black-gradient, $blue-and-green-gradient;
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+  border-radius: vw(44px);
+
+  span {
+    line-height: vw(65px);
+  }
+}

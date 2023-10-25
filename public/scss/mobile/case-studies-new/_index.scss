@@ -1,0 +1,18 @@
+@import "./remote-team-landing-page";
+@import "./dominate-landing-page";
+@import "./airi-landing-page";
+@import "./aquaplan-landing-page";
+@import "./deep-sleep-landing-page";
+@import "./recruitx-landing-page";
+@import "./fintify-landing-page";
+.our-product-card-btn--case-studies {
+  width: mvwDivide(300px);
+  height: mvwDivide(80px);
+  margin-top: mvwDivide(70px) !important;
+  border-radius: mvwDivide(8px);
+
+  .product-card-font-24-NunitoSans-600 {
+    font-size: mvwDivide(24px);
+    line-height: mvwDivide(80px);
+  }
+}

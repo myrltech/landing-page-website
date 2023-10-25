@@ -1,0 +1,50 @@
+@import "./home";
+@import "./technologies-icons";
+@import "./home-new";
+
+.animZoomInOut {
+  animation: zoomInOut 5s ease-in infinite;
+  transition: all 0.2s ease-in-out;
+  overflow: hidden;
+}
+
+@keyframes zoomInOut {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.97);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.gradient-bg-text {
+  position: relative;
+  width: fit-content;
+  z-index: 99;
+
+  &::after {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    content: "";
+    width: vw(268px);
+    height: vw(34px);
+    background-image: url("../../../imgs/desktop/icons/new-gradient-one.svg");
+    z-index: -1;
+    background-size: contain;
+  }
+}
+.gradient-bg-text__technologies {
+  &::after {
+    right: vw(-50px);
+    bottom: vw(-1px);
+  }
+}
+.gradient-bg-text__about-us {
+  &::after {
+    left: vw(30px);
+    bottom: vw(20px);
+  }
+}

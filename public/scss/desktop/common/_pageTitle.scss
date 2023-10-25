@@ -1,0 +1,23 @@
+.case-studies-title {
+  position: relative;
+  width: fit-content;
+  z-index: 99;
+  text-transform: capitalize;
+}
+.case-studies-title--shadow {
+  position: absolute;
+  bottom: vw(50px);
+  left: 0;
+  font-size: vw(288px);
+  line-height: vw(288px);
+  color: rgba(255, 255, 255, 0.03);
+  @include fontBlack900;
+  z-index: -1;
+  white-space: nowrap;
+  user-select: none;
+}
+.deep-sleep-title {
+  .case-studies-title--shadow {
+    bottom: vw(-50px);
+  }
+}

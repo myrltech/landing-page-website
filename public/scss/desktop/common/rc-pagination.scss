@@ -1,0 +1,60 @@
+.myrl_pagination {
+  margin-top: vw(100px);
+  margin-bottom: vw(100px);
+
+  .rc-pagination-item {
+    border: 1px solid rgba(123, 97, 255, 1) !important;
+    background: rgba(49, 54, 88, 0.1);
+    color: #7b61ff;
+    font-size: vw(20px);
+    border-right: vw(4px);
+    padding: 0;
+    margin-left: vw(10px);
+    margin-right: vw(10px);
+    text-align: center;
+    a {
+      padding: 0;
+      text-align: center;
+      width: 100%;
+    }
+  }
+  .rc-pagination-item-active {
+    border: none !important;
+    background: #7b61ff !important;
+    color: white;
+  }
+  .rc-pagination-prev .rc-pagination-item-link,
+  .rc-pagination-next .rc-pagination-item-link {
+    vertical-align: top !important;
+    padding: 0 0 vw(13px) 0;
+    border: double vw(3px) transparent;
+    border-radius: vw(100px);
+    background-image: linear-gradient(
+        87deg,
+        rgba(15, 15, 15, 1),
+        rgba(15, 15, 15, 1)
+      ),
+      linear-gradient(
+        90deg,
+        rgba(0, 194, 255, 0.88) -10.73%,
+        rgba(255, 0, 245, 0.88) 130.69%
+      );
+
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    font-size: vw(25px);
+    &::after {
+      background: linear-gradient(
+          90deg,
+          rgba(0, 194, 255, 0.88) -10.73%,
+          rgba(255, 0, 245, 0.88) 130.69%
+        ),
+        linear-gradient(0deg, #9896f0, #9896f0);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      text-fill-color: transparent;
+      margin-top: vw(-5px);
+    }
+  }
+}

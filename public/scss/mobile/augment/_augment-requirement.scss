@@ -1,0 +1,134 @@
+.augment-requirement-live-main-section {
+  width: 100%;
+}
+.augment-requirement-live-section {
+  padding-left: vw(57px);
+  padding-top: mvw(18px);
+}
+
+.mobile-augment-requirement-card {
+  width: mvw(296px);
+  min-height: mvw(448px);
+  //   background: pink;
+  padding: mvw(38px) vw(27px) mvw(27px) vw(32px);
+  border-radius: vw(15px);
+  @include gradient-border-5;
+  // word-break: break-all;
+  margin: auto;
+  margin-bottom: mvw(30px);
+  border-width: mvw(1px);
+  border-radius: mvw(15px);
+  position: relative;
+}
+.mobile-augment-requirement-card-tag-btn {
+  position: absolute;
+  right: mvw(41px);
+  top: 0;
+  button {
+    background: transparent;
+    border: none;
+  }
+}
+.mobile-augment-requirement-card__row-one {
+  padding: 0 mvw(15px) mvw(20px) mvw(15px);
+}
+.mobile-augment-requirement-card__send-icon {
+  width: mvw(12px);
+  height: auto;
+  margin-right: mvw(8px);
+}
+.mobile-augment-requirement-card__two-user-icon {
+  width: mvw(15px);
+  height: auto;
+  margin-right: mvw(6px);
+}
+.mobile-augment-requirement-card__calendar-icon {
+  width: mvw(12px);
+  height: auto;
+  margin-right: mvw(9px);
+}
+.mobile-augment-requirement-card__location-icon {
+  width: mvw(9px);
+  height: auto;
+  margin-right: mvw(4px);
+}
+.mobile-augment-requirement-card__work-icon {
+  width: mvw(13px);
+  height: auto;
+  margin-right: mvw(6px);
+}
+.mobile-augment-requirement-card__text {
+  //   width: vw(147px);
+  padding-right: vw(26px);
+}
+// .augment-requirement-card__text2 {
+//   width: vw(189px);
+// }
+.mobile-augment-requirement-card__border-tag-icon-btn {
+  width: mvw(15px);
+  height: auto;
+  // margin-right: vw(16px);
+  // margin-top: vw(3px);
+  border: none;
+  background: transparent;
+  padding: 0;
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+.mobile-augment-requirement-card__row-two {
+  padding: mvw(14px) mvw(20px) mvw(17px) mvw(15px);
+  border-top: vw(2px) solid $theme-border-color-white-37;
+}
+.mobile-augment-requirement-card__row-two-key-skill-text {
+  padding-right: mvw(8px);
+}
+.mobile-augment-requirement-card__row-two-skill-name {
+  width: mvw(81px);
+  min-height: mvw(25px);
+  padding: mvw(3px);
+  @include gradient-border-1;
+  border-radius: vw(67px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: mvw(5px);
+  margin-bottom: mvw(7px);
+}
+.mobile-augment-requirement-card__row-two-btn {
+  width: mvw(144px);
+  height: mvw(45px);
+  font-size: mvw(12px);
+  line-height: mvw(45px);
+  padding: 0;
+  border-radius: mvw(46px);
+  @include fontBold700;
+}
+.mobile-augment-requirement-card__row-one-title {
+  text-decoration: underline;
+  // .highlighted_text {
+  // }
+}
+.mobile-augment-requirement-card__row-bottom {
+  padding-top: mvw(17px);
+  border-top: mvw(1px) solid $theme-border-color-white-37;
+}
+.augment-requirement-live-title {
+  position: relative;
+  margin: auto;
+  width: fit-content;
+
+  &::after {
+    position: absolute;
+    width: mvw(123px);
+    height: mvw(5px);
+    left: mvw(50px);
+    bottom: mvw(-4px);
+    content: "";
+    background-image: url("../../../imgs/mobile/backgrounds-and-gradients/gradients/augment-line.svg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+}

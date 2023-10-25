@@ -1,0 +1,186 @@
+.our-portfolio-main-section {
+  padding-top: vw(210px);
+}
+.our-protfolio-products-section {
+  padding: vw(155px) 0 0 vw(99px);
+}
+.our-portfolio-dominate-img {
+  width: vw(511px);
+  height: auto;
+  margin-bottom: vw(87px);
+}
+.our-products-dominate-card {
+  padding-top: vw(126px);
+  position: relative;
+
+  &::after {
+    position: absolute;
+    width: vw(1px);
+    height: 88%;
+    content: "";
+    right: 0;
+    top: 0;
+    background: $theme-bg-white;
+    z-index: 99;
+  }
+}
+.our-protfolio-projects-section {
+  padding: vw(132px) vw(119px) vw(157px) vw(147px);
+  position: relative;
+
+  &::after {
+    position: absolute;
+    width: vw(1px);
+    height: 72%;
+    content: "";
+    left: 50%;
+    top: vw(650px);
+    background: $theme-bg-white;
+    z-index: 99;
+  }
+}
+.our-portfolio-remote-team-img {
+  width: vw(511px);
+  height: auto;
+  margin: auto;
+  margin-bottom: vw(92px);
+}
+.our-products-remote-team-card {
+  padding-top: vw(121px);
+  position: relative;
+
+  &::after {
+    position: absolute;
+    width: vw(1px);
+    height: 88%;
+    content: "";
+    right: 0;
+    top: 0;
+    background: $theme-bg-white;
+    z-index: 99;
+  }
+  // .our-product-card-para {
+  //   padding-bottom: mvw(35px);
+  // }
+}
+.our-portfolio-aquaplan-card {
+  .our-product-card-para {
+    padding-bottom: mvw(12px);
+  }
+}
+.our-products-airi-section {
+  padding-top: vw(81px);
+  // .our-product-card-para {
+  //   padding-bottom: mvw(20px);
+  // }
+}
+.our-portfolio-airi-img {
+  width: vw(445px);
+  height: auto;
+  margin-bottom: vw(102px);
+}
+/*====================================
+          product card
+=======================================*/
+.our-product-card-btn {
+  width: vw(322px);
+  height: vw(89px);
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(49px);
+  border-radius: vw(8px);
+  // display: flex;
+  // justify-content: center;
+  // align-items: center;
+  text-align: center;
+  margin: auto;
+  margin-top: vw(97px);
+
+  .product-card-font-24-NunitoSans-600 {
+    line-height: vw(89px);
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: inherit;
+    padding: mvw(1px);
+    background: $blue-and-green-gradient-5;
+    -webkit-mask: linear-gradient(#fff 0 0) content-box,
+      linear-gradient(#fff 0 0);
+    -webkit-mask-composite: destination-out;
+    mask-composite: exclude;
+    z-index: -1;
+  }
+}
+.our-product-card-para {
+  width: vw(457px);
+  height: auto;
+  margin: auto;
+}
+.our-product-card-text {
+  letter-spacing: 0.145em;
+  background: linear-gradient(225deg, #ef04ff 0%, #00ff88 100%);
+  background-size: 100% 100%;
+  -webkit-background-clip: text;
+  -webkit-text-stroke: vw(2px) transparent;
+}
+/*======================================================
+                    cards
+=====================================================*/
+.our-protfolio-projects-card-section {
+  padding-top: vw(204px);
+}
+.our-portfolio-aquaplan-img {
+  width: vw(511px);
+  height: auto;
+  margin-bottom: vw(76px);
+}
+.our-portfolio-recruitx-img {
+  width: vw(511px);
+  height: auto;
+  margin-bottom: vw(76px);
+}
+.our-portfolio-deep-sleep-img {
+  width: vw(742px);
+  height: auto;
+  margin-bottom: vw(97px);
+}
+.our-portfolio-fintify-card {
+  padding-top: vw(70px);
+}
+.our-portfolio-deep-sleep-card {
+  padding-top: vw(70px);
+
+  .our-product-card-para {
+    padding-bottom: mvw(21px);
+  }
+}
+.our-portfolio-fintify-img {
+  width: vw(614px);
+  height: auto;
+  margin-bottom: vw(55px);
+}
+.our-protfolio-projects-cards-row-two {
+  margin-top: vw(76px);
+  border-top: vw(0.5px) solid $theme-border-color-white;
+}
+.our-portfolio-main-section {
+  .our-product-card-text {
+    font-size: mvw(10px);
+  }
+  .our-product-card-para {
+    font-size: mvw(8px);
+    padding-top: mvw(10px);
+  }
+}
+.our-portfolio-text-section {
+  padding-left: mvw(10px);
+  padding-right: mvw(10px);
+}
+.our-protfolio-products-para {
+  padding-right: mvw(10px);
+}

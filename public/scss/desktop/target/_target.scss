@@ -1,0 +1,153 @@
+/*#########################################################################################################
+
+                                      Fold 1
+
+#########################################################################################################*/
+.web-target-desktop-img {
+  width: vw(1067px);
+  height: auto;
+  margin-top: vw(10px);
+  //padding-top: vw(10px);
+  padding-right: vw(50px);
+}
+
+.web-target-gradient {
+  width: vw(200px);
+  height: auto;
+  margin-top: vw(0px);
+}
+/*###################################################################################################
+
+
+                                            Fold 2
+
+####################################################################################################*/
+.web-target-low-img-div {
+  padding-left: vw(100px);
+}
+.web-target-low-div {
+  padding-top: vw(100px);
+}
+
+.web-target-low-img {
+  width: vw(560px);
+  height: auto;
+  margin-right: vw(36px);
+  vertical-align: top;
+}
+
+.web-target-low-img2 {
+  margin-top: vw(13px);
+}
+
+.web-target-low-div2 {
+  margin-left: vw(-20px);
+}
+
+.web-target-low-div3 {
+  margin-left: vw(-30px);
+}
+
+/*###########################################################################################################
+
+
+                                                      fold 3
+
+######################################################################################################*/
+.web-target-high-div {
+  padding-top: vw(100px);
+  padding-bottom: vw(0px);
+}
+
+.web-target-high-img {
+  width: vw(600px);
+  height: auto;
+  vertical-align: top;
+}
+
+.web-target-high-div2 {
+  margin-left: vw(-100px);
+}
+
+.web-target-high-img2 {
+  margin-top: vw(36px);
+}
+
+.web-target-high-img3 {
+  margin-top: vw(69px);
+}
+/*####################################################################################################
+
+                                              Fold 4
+
+#######################################################################################################*/
+.web-target-ui-div {
+  padding-top: vw(100px);
+}
+
+.web-target-ui-cards {
+  @include fontSemiBold600;
+  font-size: vw(32px);
+  line-height: vw(18px);
+  padding-top: vw(40px);
+}
+.web-target-ui-img {
+  width: vw(230px);
+  height: auto;
+  margin-left: vw(-140px);
+}
+
+.web-target-ui-img2 {
+  width: vw(387px);
+  height: auto;
+  margin-left: vw(-400px);
+}
+
+.web-target-ui-img3 {
+  width: vw(425px);
+  height: auto;
+  margin-left: vw(-200px);
+}
+
+.web-target-ui-div2 {
+  padding-top: vw(50px);
+}
+
+.web-target-ui-button {
+  margin-left: vw(-100px);
+}
+
+.web-target-ui-img4 {
+  width: vw(200px);
+  height: auto;
+  margin-left: vw(-350px);
+  margin-top: vw(20px);
+}
+.web-target-ui-img5 {
+  width: vw(1638px);
+  height: auto;
+  margin-top: vw(50px);
+}
+/*###################################################################################################
+
+
+                                    Fold 5
+
+####################################################################################################*/
+.web-target-prototype-img {
+  width: vw(1784px);
+  height: auto;
+  margin-top: vw(100px);
+  margin-left: vw(100px);
+}
+/*##################################################################################################
+
+
+                                     fold 6
+
+###################################################################################################*/
+.web-target-final-img {
+  width: vw(1784px);
+  height: auto;
+  margin-left: vw(100px);
+}

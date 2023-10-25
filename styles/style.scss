@@ -1,0 +1,49 @@
+//-- common scss file --//
+@import "../public/scss/variables";
+@import "../public/scss/function";
+@import "../public/scss/mixins";
+@import "../public/scss/typography";
+@import "../public/scss/global";
+
+//-- desktop scss files --//
+@media screen and (min-width: 768px) {
+  @import "../public/scss/desktop/common";
+  @import "../public/scss/desktop/home/index";
+  @import "../public/scss/desktop/header-footer/index";
+  @import "../public/scss/desktop/about-us/index";
+  @import "../public/scss/desktop/contact-us/index";
+  @import "../public/scss/desktop/augment/index";
+  @import "../public/scss/desktop/caseStudies/case-studies";
+  @import "../public/scss/desktop/dominate/dominate";
+  @import "../public/scss/desktop/fintify/fintify";
+  @import "../public/scss/desktop/metero/metero";
+  @import "../public/scss/desktop/target/target";
+  @import "../public/scss/desktop/throtl/throtl";
+  @import "../public/scss/desktop/augment-landing-page/index";
+  @import "../public/scss/desktop/case-studies-new/index";
+  @import "../public/scss/desktop/our-portfolio/index";
+  @import "../public/scss/desktop/bootcamp/index";
+  @import "../public/scss/desktop/resources/resources";
+  @import "../public/scss/desktop/articles/index.scss";
+  @import "../public/scss/desktop/blog/index";
+}
+
+@media screen and (max-width: 767px) {
+  @import "../public/scss/mobile/home/index";
+  @import "../public/scss/mobile/common/index";
+  @import "../public/scss/mobile/header-footer/index";
+  @import "../public/scss/mobile/about-us/index";
+  @import "../public/scss/mobile/augment/index";
+  @import "../public/scss/mobile/contact-us/index";
+  @import "../public/scss/mobile/agency/index";
+  @import "../public/scss/mobile/client/index";
+  @import "../public/scss/mobile/augment-landing-page/index";
+  @import "../public/scss/mobile/our-portfolio/_index.scss";
+  @import "../public/scss/mobile/case-studies-new/index";
+  @import "../public/scss/mobile/bootcamp/index";
+  @import "../public/scss/mobile/resources/resources.scss";
+  @import "../public/scss/mobile/home-new/home-new.scss";
+  // .customModal {
+  //   display: none !important;
+  // }
+}

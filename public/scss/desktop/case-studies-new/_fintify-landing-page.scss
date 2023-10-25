@@ -1,0 +1,169 @@
+/*=====================================================
+                        fold one
+======================================================*/
+.fintify-fold-one-div {
+  padding-top: vw(173px);
+  padding-left: vw(158px);
+  padding-right: vw(105px);
+  padding-bottom: vw(134px);
+}
+.fintify-main-img {
+  width: vw(874px);
+  height: auto;
+}
+.fintify-logo {
+  width: vw(120px);
+  height: auto;
+}
+/*=====================================================
+                        fold two
+======================================================*/
+.fintify-low-screen {
+  width: vw(1519px);
+  height: auto;
+}
+.fintify-low-screen-section {
+  padding-left: vw(187px);
+  padding-right: vw(214px);
+}
+/*=====================================================
+                        fold three
+======================================================*/
+.fintify-info-chart {
+  width: vw(1788px);
+  height: auto;
+}
+.fintify-info-chart-section {
+  .remote-teams-information-img-div {
+    padding-left: vw(45px);
+  }
+}
+/*=====================================================
+                        fold four
+======================================================*/
+.fintify-desgin-div {
+  padding-top: vw(295px);
+  padding-left: vw(148px);
+}
+.fintify-design-color-one,
+.fintify-design-color-two,
+.fintify-design-color-three,
+.fintify-design-color-four {
+  @include theme-mixin-radius-width;
+}
+.fintify-design-color-one {
+  background: $theme-fintify-gray-gradient-bg;
+  margin-right: vw(27px);
+}
+.fintify-design-color-two {
+  background: $theme-fintify-red-bg;
+}
+.fintify-design-color-three {
+  background: $theme-fintify-gray-bg;
+  box-shadow: vw(-2px) vw(-2px) vw(4px) rgba(74, 78, 83, 0.5),
+    vw(2px) vw(2px) vw(6px) rgba(35, 37, 39, 0.8),
+    vw(8px) vw(8px) vw(30px) rgba(35, 37, 39, 0.9);
+  margin-right: vw(27px);
+}
+.fintify-design-color-four {
+  background: $theme-fintify-white-bg;
+}
+.fintify-design-font-text3 {
+  color: rgba(255, 255, 255, 0.83);
+}
+.fintify-design-font-text4 {
+  color: #a1a4b2;
+  -webkit-text-stroke-width: vw(0.15px);
+  -webkit-text-stroke-color: #a1a4b2;
+}
+.fintify-design-font-text1 {
+  color: #e6e7f2;
+}
+.fintify-design-tab-img {
+  width: vw(172px);
+  height: auto;
+}
+.fintify-design-component-2 {
+  width: vw(239px);
+  height: vw(90px);
+  filter: drop-shadow(0px 0px 30px rgba(0, 0, 0, 0.157));
+  background: $theme-fintify-gray-gradient-bg;
+  margin-top: vw(43px);
+  border-radius: vw(5px);
+}
+.fintify-navbar-img {
+  width: vw(380px);
+  height: auto;
+  margin-left: vw(-30px);
+  margin-top: vw(30px);
+}
+.fintify-design-component-4 {
+  width: vw(324px);
+  height: vw(183px);
+  background: $theme-fintify-green-gradient-bg;
+  border-radius: vw(5px);
+  margin-top: vw(30px);
+}
+/*=====================================================
+                        fold five
+======================================================*/
+.fintify-hi-screen {
+  width: 100%;
+}
+.fintify-hi-screen-section {
+  border: none;
+  border-radius: vw(16px);
+  backdrop-filter: none;
+  width: vw(1600px);
+  //   background: rgba(239, 240, 247, 0.04);
+  margin-left: vw(124px);
+}
+.fintify-prototype-screen {
+  width: vw(1584px);
+  height: auto;
+  //   margin-right: vw(50px);
+}
+.fintify-prototype-screen-section {
+  padding-right: vw(200px);
+  .remote-teams-fold-two-subtitle--prototype {
+    padding-right: 0;
+    &::after {
+      right: vw(12px);
+    }
+  }
+  .remote-teams-prototype-img-div {
+    padding-right: 0;
+  }
+}
+/*=====================================================
+                        fold six
+======================================================*/
+.fintify-tech-div {
+  padding-top: vw(200px);
+}
+.remote-teams-fold-two-subtitle--fintify-tech {
+  padding-left: vw(124px);
+  &::after {
+    left: vw(328px);
+    bottom: vw(-30px);
+  }
+}
+.fintify-tech-inner-div {
+  padding-top: vw(106px);
+  padding-left: vw(257px);
+  padding-bottom: vw(200px);
+}
+.fintify-react-logo {
+  width: vw(156px);
+  height: auto;
+  margin-right: vw(53px);
+}
+.fintify-firebase-logo {
+  width: vw(151px);
+  height: auto;
+  margin-right: vw(61px);
+}
+.fintify-gcp-logo {
+  width: vw(142px);
+  height: auto;
+}

@@ -1,0 +1,151 @@
+.navbar-mobile-outer-div {
+  position: relative;
+  padding-top: mvw(100px);
+  width: 100%;
+}
+.navbar-mobile {
+  position: absolute;
+  width: 100%;
+  right: 0;
+  top: 0;
+
+  .bm-burger-button {
+    // padding-top: mvw(57px) !important;
+    // margin-right: mvw(16px) !important;
+
+    img,
+    button {
+      width: mvw(27px) !important;
+      height: mvw(15px) !important;
+      left: unset !important;
+      right: mvw(32px) !important;
+      top: mvw(51px) !important;
+      position: absolute;
+    }
+  }
+
+  .myOverlay {
+    background: #000000 !important;
+    width: 100%;
+  }
+  .bm-menu {
+    height: auto !important;
+    overflow: hidden !important;
+  }
+  .bm-menu-wrap {
+    width: 100% !important;
+    display: block;
+    background: transparent;
+    max-width: 100%;
+    top: 0;
+    box-shadow: 0 mvw(4px) mvw(9px) rgba(0, 0, 0, 0.42);
+    backdrop-filter: blur(20px);
+    // border-radius: mvw(22px);
+    background: linear-gradient(rgba(48, 48, 48, 0.9), rgba(48, 48, 48, 0.6)),
+      url("../../../imgs/mobile/backgrounds-and-gradients/backgrounds/new-navbar-bg.svg");
+    // background-image: url("../../../imgs/mobile/backgrounds-and-gradients/backgrounds/new-navbar-bg.svg") !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center;
+    overflow: auto;
+  }
+
+  .menu-item {
+    width: max-content;
+    font-size: mvw(24px);
+    line-height: mvw(30px);
+    @include fontSemiBold600;
+    min-height: mvw(75px);
+    width: 100%;
+    text-align: left;
+    display: flex !important;
+    align-items: center;
+    padding-left: mvw(37px);
+    position: relative;
+
+    &:focus {
+      outline: 0;
+    }
+  }
+  .menu-item--active {
+    // background: pink;
+    background: $blue-and-green-gradient-6;
+    border-radius: mvw(12px);
+  }
+
+  .mobile-home-icon {
+    width: mvw(19px);
+    height: auto;
+    margin-right: mvw(35px);
+  }
+  .mobile-two-user-icon {
+    width: mvw(24px);
+    height: auto;
+    margin-right: mvw(33px);
+  }
+  .mobile-star-icon {
+    width: mvw(18px);
+    height: auto;
+    margin-right: mvw(35px);
+  }
+  .mobile-contact-us-icon {
+    width: mvw(20px);
+    height: auto;
+    margin-right: mvw(35px);
+  }
+  .mobile-arrow-icon {
+    position: absolute;
+    top: 40%;
+    right: mvw(31px);
+    width: mvw(7px);
+    height: auto;
+  }
+  .bm-item-list {
+    padding-top: mvw(140px);
+    // margin-top: mvw(100px);
+    // text-align: center;
+  }
+
+  .bm-cross-button {
+    margin-top: mvw(59px);
+    margin-right: mvw(33px);
+    width: mvw(14px) !important;
+    height: mvw(14px) !important;
+  }
+
+  .web-nav-logo-mobile {
+    width: mvw(100px);
+    height: auto;
+    position: absolute;
+    top: mvw(20px);
+    left: mvw(14px);
+  }
+}
+.menu-myrl-logo-img-div {
+  width: mvw(106px);
+  height: auto;
+  margin-left: mvw(38px);
+  position: absolute;
+  top: mvw(41px);
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+.mobile-header-check-out-div {
+  // margin-top: mvw(128px);
+  margin-top: mvw(58px);
+  padding-top: mvw(16px);
+  position: relative;
+
+  &::after {
+    position: absolute;
+    width: mvw(219px);
+    height: mvw(1px);
+    content: "";
+    left: mvw(65px);
+    background: $blue-and-green-gradient-4;
+    top: 0;
+  }
+}

@@ -1,0 +1,132 @@
+/*#################################################################################################
+
+                                        fold 1
+                           
+######################################################################################################*/
+.web-throtl-desktop-img {
+  width: vw(1016px);
+  height: auto;
+  margin-top: vw(20px);
+  padding-right: vw(20px);
+}
+
+/*####################################################################################################
+
+
+                                  fold 2
+
+#####################################################################################################*/
+.web-throtl-low-img {
+  width: vw(560px);
+  height: auto1;
+  margin-right: vw(51px);
+}
+.web-throtl-low-div {
+  padding-top: vw(100px);
+}
+
+.web-throtl-low-div2 {
+  padding-top: vw(35px);
+}
+/*#######################################################################################################
+
+
+
+                                       fold 3
+
+
+#######################################################################################################*/
+.web-throtl-high-img {
+  width: vw(600px);
+  height: auto;
+  vertical-align: top;
+  margin-right: vw(52px);
+}
+.web-throtl-high-div2 {
+  padding-top: vw(40px);
+  padding-left: vw(30px);
+}
+.web-throtl-high-div {
+  padding-top: vw(86px);
+  padding-left: vw(30px);
+}
+/*#################################################################################################
+
+
+                                    fold 4
+
+##################################################################################################*/
+.web-throtl-ui-cards {
+  @include fontSemiBold600;
+  font-size: vw(32px);
+  line-height: vw(18px);
+  padding-top: vw(40px);
+}
+
+.web-throtl-ui-div {
+  padding-top: vw(120px);
+  padding-left: vw(10px);
+}
+
+.web-throtl-ui-img {
+  width: vw(412px);
+  height: auto;
+  margin-left: vw(-250px);
+  margin-right: vw(14px);
+}
+
+.web-throtl-ui-img2 {
+  width: vw(384px);
+  height: auto;
+  vertical-align: top;
+}
+
+.web-throtl-ui-img3 {
+  width: vw(1349px);
+  height: auto;
+  margin-top: vw(13px);
+  margin-left: vw(20px);
+}
+
+.web-throtl-ui-img4 {
+  width: vw(412px);
+  height: auto;
+  margin-top: vw(20px);
+  margin-left: vw(58px);
+}
+.web-throtl-ui-img5 {
+  margin-left: vw(1px);
+}
+/*####################################################################################################
+
+                                            Fold 5
+
+#####################################################################################################*/
+.web-throtl-prototype {
+  width: vw(1767px);
+  height: auto;
+  margin-left: vw(23px);
+  margin-top: vw(50px);
+}
+/*####################################################################################################
+          
+                                                fold 6
+                                               
+###################################################################################################*/
+
+.web-throlt-final-img {
+  width: vw(1444px);
+  height: auto;
+  margin-top: vw(90px);
+}
+/*###################################################################################################
+
+                     fold 7
+
+###################################################################################################*/
+.web-technology-text-kubernetes {
+  margin-left: vw(-30px);
+}
+.web-tech-docker {
+  padding-top: vw(20px);
+}

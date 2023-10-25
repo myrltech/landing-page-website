@@ -1,0 +1,231 @@
+.mobile-home-fold-one-main-div {
+  padding: mvw(45px) mvw(19px) 0 mvw(35px);
+}
+.mobile-home-fold-one-agile-text {
+  letter-spacing: 0.045em;
+}
+.mobile-home-fold-one-need-special-text {
+  padding-top: mvw(70px);
+  color: $theme-text-color-white-79;
+}
+.mobile-how-it-works-div {
+  padding-top: mvw(47px);
+}
+.mobile-how-its-works-cards {
+  width: 100%;
+  height: mvw(89px);
+  padding: mvw(14px) mvw(6px) mvw(14px) mvw(16px);
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(49px);
+  margin-bottom: mvw(15px);
+  border-radius: mvw(8px);
+
+  border: double vw(1px) transparent;
+  background-image: $black-gradient-2,
+    linear-gradient(255deg, #00ff88 0%, #ef04ff 100%);
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+}
+.mobile-how-its-works-cards--imgs-div {
+  position: relative;
+  width: 25%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &::before {
+    position: absolute;
+    width: mvw(2px);
+    height: 100%;
+    right: 0;
+    top: 0;
+    content: "";
+    background: $blue-and-green-gradient-5;
+    z-index: 99;
+    transform: rotate(180deg);
+  }
+}
+.mobile-how-its-works-cards--para-div {
+  width: 75%;
+  //   height: 100%;
+  padding-left: mvw(10px);
+}
+.home-how-it-works-post-icon {
+  width: mvw(41px);
+  height: auto;
+}
+.home-how-it-works-star-icon {
+  width: mvw(48px);
+  height: auto;
+}
+.home-how-it-works-connect-icon {
+  width: mvw(40px);
+  height: auto;
+}
+.trusted-company-card-carousel-colm {
+  width: 100%;
+  margin-top: mvw(30px);
+}
+.trusted-company-card-slide {
+  width: 100%;
+}
+.trusted-company-card,
+.trusted-company-invisible-card {
+  width: mvw(76px);
+  height: mvw(70px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.trusted-company-card {
+  // background: pink;
+  @include background-with-border-radius-3;
+  border-radius: mvw(18px);
+}
+.home-tursted-outer-div {
+  width: 100%;
+  overflow-x: auto;
+  overflow-y: none;
+}
+.home-tursted-inner-div {
+  width: max-content;
+}
+.trusted-company-revolut {
+  width: mvw(62px);
+  height: auto;
+}
+.trusted-company-citibank {
+  width: mvw(63px);
+  height: auto;
+}
+.trusted-company-fedex {
+  width: mvw(49px);
+  height: auto;
+}
+.trusted-company-honda {
+  width: mvw(54px);
+  height: auto;
+}
+.trusted-company-3m {
+  width: mvw(31px);
+  height: auto;
+}
+.trusted-company-airtable {
+  width: mvw(65px);
+  height: auto;
+}
+.trusted-company-philips {
+  width: mvw(63px);
+  height: auto;
+}
+.trusted-company-notion {
+  width: mvw(32px);
+  height: auto;
+}
+.trusted-company-mastercard {
+  width: mvw(44px);
+  height: auto;
+}
+.trusted-company-moto {
+  width: mvw(34px);
+  height: auto;
+}
+.trusted-company-elephant {
+  width: mvw(29px);
+  height: auto;
+}
+.trusted-company-bose {
+  width: mvw(64px);
+  height: auto;
+}
+.trusted-company-canva {
+  width: mvw(34px);
+  height: auto;
+}
+.trusted-company-adobe {
+  width: mvw(31px);
+  height: auto;
+}
+.trusted-company-hp {
+  width: mvw(34px);
+  height: auto;
+}
+.mobile-trusted-title-icon-div {
+  padding-left: mvw(31px);
+  padding-right: mvw(23px);
+  padding-top: mvw(47px);
+}
+.home-why-they-trust-card {
+  width: mvw(293px);
+  height: auto;
+  @include background-with-border-radius;
+  padding: mvw(27px) mvw(23px) mvw(29px) mvw(25px);
+  word-break: break-all;
+  word-wrap: none;
+  border-radius: mvw(18px);
+}
+
+.home-why-they-trust-card--img-section {
+  @include background-with-border-radius-2;
+  width: mvw(60px);
+  height: mvw(64px);
+  padding: mvw(5px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: vw(31px);
+  img {
+    // width: auto;
+    // height: 60%;
+    width: 100%;
+    height: auto;
+  }
+}
+.mobile-home-why-they-trust {
+  padding-left: mvw(42px);
+  padding-top: mvw(57px);
+  padding-right: mvw(34px);
+  padding-bottom: mvw(83px);
+}
+.carousel {
+  button {
+    background: $theme-bg-color-black-38;
+    border: none;
+    border-radius: 100%;
+    padding: 0;
+    width: mvw(7px);
+    height: mvw(7px);
+    margin-left: mvw(3px);
+    margin-right: mvw(3px);
+  }
+  span {
+    display: none;
+  }
+  &__dot--selected {
+    background: transparent !important;
+    border: mvw(1px) solid $theme-border-color-white !important;
+    opacity: 1 !important;
+    cursor: default !important;
+  }
+}
+.mobile-home-technologies-div {
+  padding-bottom: mvw(59px);
+  // padding-left: mvw(27px);
+}
+.mobile-home-technologies-title {
+  padding-right: mvw(38px);
+}
+.mobile-home-bg {
+  background-image: url("../../../imgs/mobile/backgrounds-and-gradients/backgrounds/home-bg.svg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.mobile-home-fold-one-para-div {
+  padding-left: mvw(4px);
+}
+.home-left-arrow-img {
+  width: mvwDivide(43px);
+  height: auto;
+  margin-right: mvw(6px);
+}

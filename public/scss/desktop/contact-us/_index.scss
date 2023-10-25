@@ -1,0 +1,13 @@
+@import "./contact-us";
+.contact-us-main-div {
+  .myrl-navbar {
+    padding-right: vw(99px);
+  }
+  .weblink-active {
+    padding-right: 0 !important;
+
+    &::after {
+      width: 95%;
+    }
+  }
+}

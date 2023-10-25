@@ -1,0 +1,98 @@
+.augment-requirement-live-section {
+  padding-left: vw(57px);
+}
+.augment-requirement-card {
+  width: vw(1204px);
+  min-height: vw(331px);
+  //   background: pink;
+  padding: vw(38px) vw(40px) vw(43px) vw(32px);
+  border-radius: vw(15px);
+  @include gradient-border-5;
+  word-break: break-all;
+  margin-bottom: vw(30px);
+}
+.augment-requirement-card__row-one {
+  padding-bottom: vw(30px);
+}
+.augment-requirement-card__send-icon {
+  width: vw(20px);
+  height: auto;
+  margin-right: vw(8px);
+}
+.augment-requirement-card__two-user-icon {
+  width: vw(24px);
+  height: auto;
+  margin-right: vw(6px);
+}
+.augment-requirement-card__calendar-icon {
+  width: vw(18px);
+  height: auto;
+  margin-right: vw(9px);
+}
+.augment-requirement-card__location-icon {
+  width: vw(17px);
+  height: auto;
+  margin-right: vw(10px);
+}
+.augment-requirement-card__work-icon {
+  width: vw(24px);
+  height: auto;
+  margin-right: vw(6px);
+}
+.augment-requirement-card__text {
+  //   width: vw(147px);
+  padding-right: vw(26px);
+}
+// .augment-requirement-card__text2 {
+//   width: vw(189px);
+// }
+.augment-requirement-card__border-tag-icon-btn {
+  // .augment-requirement-card__border-tag-icon {
+  width: vw(15px);
+  height: auto;
+  margin-right: vw(16px);
+  margin-top: vw(3px);
+  border: none;
+  background: transparent;
+  padding: 0;
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+.augment-requirement-card__row-two {
+  padding-top: vw(17px);
+  border-top: vw(2px) solid $theme-border-color-white-37;
+}
+.augment-requirement-card__row-two-key-skill-text {
+  padding-right: vw(48px);
+}
+.augment-requirement-card__row-two-skill-name {
+  width: vw(189px);
+  min-height: vw(58px);
+  padding: vw(10px);
+  @include gradient-border-1;
+  border-radius: vw(67px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: vw(11px);
+  // margin-bottom: vw(20px);
+}
+.augment-requirement-card__row-two-btn {
+  width: vw(197px);
+  height: vw(55px);
+  font-size: vw(16px);
+  line-height: vw(53px);
+  padding: 0;
+  @include fontBold700;
+  cursor: pointer;
+}
+// .augment-requirement-card__row-one-title {
+//   // .highlighted_text {
+//   // }
+// }
+.augment-requirement-card__row-one-title-hightlight-text {
+  text-decoration: underline;
+}

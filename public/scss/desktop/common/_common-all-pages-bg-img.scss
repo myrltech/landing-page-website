@@ -1,0 +1,26 @@
+.our-product-main-section,
+.case-studies-bg,
+.mt-auth-platform-bg,
+.home-main-outer-section,
+.mt-dashboard-agency-bg {
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+// .mt-auth-platform-bg {
+//   background-image: url("../../../background-images/auth-platform-welcome-bg.png");
+// }
+
+// .mt-dashboard-agency-bg {
+//   // background-image: url("../../../background-images/gradient-bg-corner-left.png");
+//   background-image: url("../../../background-images/ltr-two-gradients.png");
+// }
+.our-product-main-section,
+.home-main-outer-section {
+  background-image: url("../../../imgs/desktop/backgrounds-and-gradient/backgrounds/home-new-bg.svg");
+}
+.case-studies-bg {
+  background-image: url("../../../imgs/desktop/backgrounds-and-gradient/backgrounds/case-studies-bg.svg");
+}

@@ -1,0 +1,275 @@
+//padding
+.pt-20 {
+  padding-top: vw(20px);
+}
+.pt-10 {
+  padding-top: vw(10px);
+}
+.pt-15 {
+  padding-top: vw(15px);
+}
+.pt-25 {
+  padding-top: vw(25px);
+}
+.pt-30 {
+  padding-top: vw(30px);
+}
+.pt-35 {
+  padding-top: vw(35px);
+}
+.pt-40 {
+  padding-top: vw(40px);
+}
+.pt-44 {
+  padding-top: vw(44px);
+}
+.pt-50 {
+  padding-top: vw(50px);
+}
+.pt-60 {
+  padding-top: vw(60px);
+}
+.pt-75 {
+  padding-top: vw(75px);
+}
+.pt-85 {
+  padding-top: vw(85px);
+}
+.pt-90 {
+  padding-top: vw(90px);
+}
+.pt-100 {
+  padding-top: vw(100px);
+}
+.pt-105 {
+  padding-top: vw(105px);
+}
+.pt-115 {
+  padding-top: vw(115px);
+}
+.pr-25 {
+  padding-right: vw(25px);
+}
+.pr-50 {
+  padding-right: vw(50px);
+}
+.pl-30 {
+  padding-left: vw(30px);
+}
+// margin
+.mt-50 {
+  margin-top: vw(50px);
+}
+.mt-100 {
+  margin-top: vw(100px);
+}
+.mb-10 {
+  margin-bottom: vw(10px);
+}
+.mb-14 {
+  margin-bottom: vw(14px);
+}
+.mb-23 {
+  margin-bottom: vw(23px);
+}
+.mb-25 {
+  margin-bottom: vw(25px);
+}
+.mb-27 {
+  margin-bottom: vw(27px);
+}
+.mb-46 {
+  margin-bottom: vw(46px);
+}
+.mb-55 {
+  margin-bottom: vw(55px);
+}
+.mr-30 {
+  margin-right: vw(30px);
+}
+.ml-20 {
+  margin-left: vw(20px);
+}
+.ml-auto {
+  margin-left: auto;
+}
+// color
+.color-white-66 {
+  color: rgba(255, 255, 255, 0.66);
+}
+.color-white-72 {
+  color: rgba(255, 255, 255, 0.72);
+}
+
+.color-white-35 {
+  color: rgba(255, 255, 255, 0.35);
+}
+.color-white-21 {
+  color: rgba(255, 255, 255, 0.21);
+}
+.color-gray-1 {
+  color: #bdbdbd;
+}
+
+//text color
+.purple-green-gradient-text {
+  width: fit-content;
+  background: $blue-and-green-gradient;
+  background-clip: text;
+  color: transparent;
+}
+
+.green-purple-gradient-text {
+  width: fit-content;
+  background: $blue-and-green-gradient-8;
+  background-clip: text;
+  color: transparent;
+}
+
+// align
+.text-center {
+  text-align: center !important;
+}
+.text-right {
+  text-align: right !important;
+}
+.text-left {
+  text-align: left !important;
+}
+.margin-auto {
+  margin: auto !important;
+}
+.w-80 {
+  width: 80%;
+}
+.arrow-img {
+  width: vw(15px);
+  height: auto;
+}
+.arrow-div {
+  padding-top: vw(94px);
+  margin-left: vw(240px);
+}
+
+.arrow-text {
+  @include fontRegular400;
+  font-size: vw(32px);
+  padding-left: vw(10px);
+}
+.web-metero-desktop-img {
+  width: vw(1000px);
+  height: auto;
+  margin-top: vw(200px);
+  margin-bottom: vw(0px);
+  //margin-left: vw(200px);
+  padding-right: vw(100px);
+}
+
+.web-metero-text-div {
+  padding-top: vw(100px);
+  margin-left: vw(240px);
+}
+.web-metero-gradient {
+  width: vw(150px);
+  height: auto;
+  position: absolute;
+  margin-top: vw(-13px);
+  margin-left: vw(20px);
+}
+.web-metero-head {
+  @include fontRegular400;
+  font-size: vw(60px);
+  line-height: vw(84px);
+  position: relative;
+  text-transform: uppercase;
+}
+
+.web-metero-sub-tittle {
+  padding-top: vw(100px);
+  font-size: vw(48px);
+  @include fontSemiBold600;
+  position: relative;
+  line-height: vw(8px);
+}
+
+.web-introduction-gradient {
+  position: absolute;
+  width: vw(200px);
+  height: auto;
+  margin-top: vw(20px);
+}
+
+.web-metero-para {
+  padding-top: vw(80px);
+  @include fontRegular400;
+  font-size: vw(24px);
+  line-height: vw(40px);
+}
+
+.web-low-desktop-gradient {
+  position: absolute;
+  margin-top: vw(40px);
+  width: mvw(40px);
+}
+
+.low-metero-desktop-div {
+  margin-left: mvw(5px);
+  padding-bottom: mvw(0px);
+}
+
+.web-technology-div {
+  padding-top: vw(134px);
+  padding-left: vw(100px);
+}
+.web-home-fold1__btn {
+  width: vw(266px);
+  height: vw(74px);
+  background: $blue-and-green-gradient;
+  font-size: vw(21px);
+  @include fontRegular400;
+  color: $color-white;
+  border: 0;
+  border-radius: vw(40px);
+  cursor: pointer;
+  margin-top: vw(20px);
+}
+.case-studies-button {
+  margin-top: vw(50px);
+  //padding-: vw(10px);
+  padding-bottom: vw(0px);
+  margin-bottom: vw(0px);
+  cursor: pointer;
+  // position: absolute;
+}
+.custom-d-flex {
+  display: flex;
+}
+b {
+  @include fontBold700;
+}
+.width-max-content {
+  width: max-content;
+}
+.letter-spacing-003 {
+  letter-spacing: 0.03em;
+}
+.border-none {
+  border: none !important;
+}
+.find-out-btn {
+  background: linear-gradient(265.23deg, #00ff88 -4.08%, #ef04ff 104.71%);
+  border-radius: vw(4px);
+  border: none;
+  padding: vw(12px) vw(18px);
+  font-size: vw(16px);
+  @include fontMontserratSemibold;
+}
+.color-grey {
+  color: #e9e9e9;
+}
+.color-grey-2 {
+  color: #dbdbdb;
+}
+.mx-auto {
+  margin: auto;
+}

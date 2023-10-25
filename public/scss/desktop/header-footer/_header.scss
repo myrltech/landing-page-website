@@ -1,0 +1,53 @@
+.myrl-navbar {
+  // padding: vw(62px) 0 0 vw(154px);
+  padding: vw(45px) 0 0 vw(154px);
+  ul {
+    li {
+      list-style: none;
+    }
+  }
+  .navbar-myrl-tech-logo {
+    // width: vw(159px);
+    width: vw(145px);
+    height: auto;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  .navbar-myrl-tech-logo--active {
+    &:hover {
+      cursor: default;
+    }
+  }
+  // .navbar-myrl-tech-logo2 {
+  //   width: vw(260px);
+  // }
+  .myrl-navbar-link-section {
+    li {
+      cursor: pointer;
+      color: $theme-text-color-white-66;
+      padding: 0;
+    }
+    span {
+      padding: 0 vw(37px) vw(8px) vw(37px);
+    }
+    .weblink-active {
+      color: $color-white;
+      position: relative;
+      cursor: default;
+
+      &::after {
+        position: absolute;
+        content: "";
+        left: 0;
+        bottom: vw(-8px);
+        background-image: url("../../../imgs/desktop/backgrounds-and-gradient/gradients/weblink-active.svg");
+        background-repeat: no-repeat;
+        width: 100%;
+        height: vw(8px);
+        background-size: cover;
+      }
+    }
+  }
+}

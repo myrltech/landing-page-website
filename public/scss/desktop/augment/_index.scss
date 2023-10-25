@@ -1,0 +1,8 @@
+@import "./augment-login";
+@import "./augment-requirement-live";
+@import "./augment-preview";
+@import "./augment-preview-modal";
+
+.augment-main-section {
+  padding: vw(68px) vw(74px) vw(113px) vw(63px);
+}

@@ -1,0 +1,140 @@
+/*####################################################################################
+
+                                 fold 1
+
+####################################################################################*/
+.web-fintify-desktop-img {
+  width: vw(400px);
+  height: auto;
+  margin-top: vw(50px);
+  margin-left: vw(100px);
+}
+
+.web-fintify-low {
+  width: vw(282px);
+  height: auto;
+  margin-top: vw(75px);
+  margin-right: vw(60px);
+}
+
+/*###################################################################################################
+
+
+                                fold 3
+                               
+####################################################################################################*/
+.web-fintify-high-div {
+  padding-top: vw(100px);
+}
+
+.web-fintify-high-img {
+  width: vw(303px);
+  height: auto;
+  //margin-top: vw(50px);
+  margin-right: vw(74px);
+}
+
+.web-fintify-high-img1 {
+  vertical-align: top;
+  margin-top: vw(100px);
+}
+
+.web-fintify-high-img3 {
+  vertical-align: top;
+  margin-top: vw(200px);
+}
+
+/*###################################################################################################
+
+                                            fold 4
+
+####################################################################################################*/
+.web-fintify-ui-div {
+  padding-top: vw(100px);
+  padding-left: vw(50px);
+}
+
+.web-fintify-ui-cards {
+  @include fontSemiBold600;
+  font-size: vw(32px);
+  line-height: vw(18px);
+}
+
+.web-fintify-img {
+  width: vw(324px);
+  height: auto;
+  margin-left: vw(246px);
+}
+
+.web-fintify-img2 {
+  width: vw(239px);
+  height: auto;
+  margin-left: vw(64px);
+}
+
+.web-fintify-img3 {
+  width: vw(324px);
+  height: auto;
+  margin-left: vw(360px);
+}
+
+.web-fintify-img4 {
+  width: vw(340px);
+  height: auto;
+  margin-left: vw(50px);
+}
+
+.web-fintify-img5 {
+  width: vw(450px);
+  height: auto;
+  margin-left: vw(80px);
+}
+
+/*############################################################################################
+
+                                     Fold 5
+
+#############################################################################################*/
+.web-fintify-prototype {
+  width: vw(1774px);
+  height: auto;
+  margin-top: vw(100px);
+  margin-left: vw(-200px);
+}
+
+.web-fintify-final-img {
+  width: vw(360px);
+  height: auto;
+  margin-right: vw(80px);
+  margin-top: vw(100px);
+}
+
+.web-fintify-final-img2 {
+  width: vw(339px);
+  height: auto;
+}
+
+/*###################################################################################################
+
+
+                                        fold 7
+
+###################################################################################################*/
+.web-technology-img {
+  width: vw(108px);
+  height: auto;
+  margin-right: vw(100px);
+}
+.web-technology-text {
+  font-size: vw(30px);
+  @include fontSemiBold600;
+  line-height: vw(41px);
+  padding: vw(10px);
+  margin-top: vw(30px);
+  // width: vw(100px);
+}
+.web-technology-text2 {
+  width: vw(198px);
+  text-align: center;
+  margin-left: vw(-50px);
+}

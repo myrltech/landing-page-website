@@ -1,0 +1,110 @@
+/*===============================================================
+                    
+                    case studies
+                    
+==================================================================*/
+.case-desktop-left-bg {
+  position: relative;
+  width: vw(600px);
+  height: auto;
+  background: black;
+  margin-left: mvw(10px);
+  //padding-bottom: vw(100px);
+}
+.web-desktop-first-div {
+  padding-left: vw(100px);
+}
+.case-studies-main-div {
+  padding-left: vw(210px);
+  padding-top: vw(100px);
+  padding-right: vw(210px);
+}
+.metero-desktop-img {
+  width: vw(550px);
+  position: absolute;
+  margin-left: vw(70px);
+  margin-top: vw(-470px);
+  //  background: black;
+  cursor: pointer;
+}
+
+.web-desktop-second-div {
+  position: relative;
+  text-align: left;
+  box-shadow: 0px 2px 5px #000000;
+  opacity: vw(0.01px);
+  margin-left: vw(-20px);
+  text-align: center;
+  padding-top: vw(10px);
+  //width: vw(500px);
+  height: vw(580px);
+}
+
+.case-desktop-studies-head {
+  font-size: vw(48px);
+  @include fontSemiBold600;
+  line-height: vw(56px);
+  padding-top: vw(50px);
+  padding-bottom: vw(0px);
+}
+
+.case-desktop-studies-para {
+  @include fontSemiBold600;
+  font-size: vw(18px);
+  line-height: mvw(8px);
+  padding-left: vw(100px);
+  padding-right: vw(100px);
+  text-align: left;
+  padding-top: vw(70px);
+  padding-bottom: vw(0px);
+}
+
+.case-studies-button {
+  margin-top: vw(50px);
+  //padding-: vw(10px);
+  padding-bottom: vw(0px);
+  margin-bottom: vw(0px);
+  cursor: pointer;
+  // position: absolute;
+}
+
+.case-desktop-right-bg {
+  width: mvw(90px);
+  //  position: absolute;
+  margin-right: vw(20px);
+  margin-top: vw(-700px);
+  padding-bottom: vw(35px);
+  padding-top: vw(80px);
+}
+
+/*#######################################################################################################
+
+                                               fold 2
+
+#################################################################################################*/
+
+.fintify-desktop-img {
+  width: vw(230px);
+  height: auto;
+  position: absolute;
+  margin-top: vw(-485px);
+  margin-left: mvw(45px);
+}
+
+// .web-desktop-second-div-target {
+//   margin-top: vw(20px);
+// }
+/*#######################################################################################################
+
+                                               fold 5
+
+#################################################################################################*/
+.dominate-desktop-img {
+  width: vw(400px);
+  height: auto;
+  margin-left: vw(120px);
+  margin-top: vw(-420px);
+}
+.case-studies-main-div--dominate {
+  padding-bottom: vw(200px);
+}

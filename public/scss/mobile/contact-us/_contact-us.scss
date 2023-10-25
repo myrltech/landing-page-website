@@ -1,0 +1,48 @@
+.contact-personal-details-div {
+  // background: rgba(255, 255, 255, 0.02);
+  background: rgba(0, 0, 0, 1);
+  // backdrop-filter: blur(20px);
+  border-radius: mvw(8px);
+  width: mvw(335px);
+  min-height: mvw(378px);
+  margin: auto;
+  padding: mvw(23px) mvw(20px) mvw(25px) mvw(17px);
+  margin-bottom: mvw(7px);
+
+  input {
+    padding-left: mvw(13px);
+  }
+}
+.augment-input-div--textarea {
+  height: mvw(116px);
+  border-top: mvw(1px) solid $theme-border-color-white-17;
+  padding-top: mvw(10px);
+  padding-left: mvw(13px);
+}
+.contact-personal-details-div--message {
+  min-height: mvw(197px);
+  padding-bottom: mvw(27px);
+}
+.mobile-get-in-touch-text {
+  padding-left: mvw(28px);
+  padding-bottom: mvw(18px);
+}
+.mobile-get-in-touch-div {
+  padding-top: mvw(52px);
+  padding-bottom: mvw(166px);
+}
+.mobile-get-in-touch-bg-div {
+  background-image: url("../../../imgs/mobile/backgrounds-and-gradients/backgrounds/conatct-us-bg.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-clip: padding-box;
+  background-origin: padding-box;
+  background-position: top;
+}
+.gradient-btn--contact {
+  margin-top: mvw(37px);
+  width: mvw(144px);
+  height: mvw(45px);
+  line-height: mvw(44px);
+  font-size: mvw(12px);
+}

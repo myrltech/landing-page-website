@@ -1,0 +1,152 @@
+/*=================================================
+            fold one
+=====================================================*/
+.recruitx-main-img {
+  width: vw(957px);
+  height: auto;
+}
+.recruitx-fold-one-div {
+  padding: vw(414px) vw(158px) vw(160px) vw(158px);
+}
+/*=================================================
+            fold two
+=====================================================*/
+
+.recruitx-low-screen {
+  width: vw(1600px);
+  height: auto;
+}
+/*=================================================
+            fold three
+=====================================================*/
+.recruitx-info-chart {
+  width: vw(1742px);
+  height: auto;
+}
+.recruitx-info-chart-section {
+  .remote-teams-information-img-div {
+    padding-left: vw(100px);
+  }
+}
+/*=================================================
+            fold four
+=====================================================*/
+.recruitx-desgin-div {
+  padding-top: vw(220px);
+  padding-left: vw(272px);
+}
+.recruitx-design-color-one,
+.recruitx-design-color-two,
+.recruitx-design-color-three,
+.recruitx-design-color-four {
+  @include theme-mixin-radius-width;
+}
+.recruitx-design-color-one {
+  background: $theme-recruitx-blue-gradient;
+  margin-right: vw(27px);
+}
+.recruitx-design-color-two {
+  background: $theme-recruitx-gray-bg;
+}
+.recruitx-design-color-three {
+  background: $theme-recruitx-white-one-bg;
+  margin-right: vw(27px);
+}
+.recruitx-design-color-four {
+  background: $theme-recruitx-white-one-bg;
+}
+.recruitx-design-com-1 {
+  width: vw(293px);
+  height: auto;
+  margin-top: vw(75px);
+}
+.recruitx-design-com-2 {
+  width: vw(318px);
+  height: auto;
+  margin-top: vw(56px);
+}
+.recruitx-design-com-3 {
+  width: vw(334px);
+  height: auto;
+  margin-top: vw(30px);
+}
+.recruitx-design-com-4 {
+  width: vw(349px);
+  height: auto;
+  margin-top: vw(58px);
+}
+.recruitx-design-com-5 {
+  width: vw(318px);
+  height: auto;
+  margin-top: vw(56px);
+}
+/*=================================================
+            fold five
+===================================================*/
+.recruitx-hi-screen {
+  width: 100%;
+  height: auto;
+}
+.recruitx-hi-screen-outer {
+  background: rgba(239, 240, 247, 0.002);
+  backdrop-filter: none;
+  margin-left: vw(133px);
+}
+.recruitx-prototype-img {
+  width: vw(1600px);
+  height: auto;
+}
+.recruitx-prototype-img-section {
+  .remote-teams-prototype-img-div {
+    padding-right: vw(160px);
+  }
+}
+/*=================================================
+            fold six
+===================================================*/
+.recruitx-tech-div {
+  padding-top: vw(206px);
+}
+.remote-teams-fold-two-subtitle--recruitx-tech {
+  padding-left: vw(134px);
+
+  &::after {
+    left: vw(328px);
+    bottom: vw(-30px);
+  }
+}
+.recruitx-tech-inner-div {
+  padding-top: vw(154px);
+  padding-left: vw(228px);
+  padding-bottom: vw(200px);
+}
+.recruitx-nextjs-logo {
+  width: vw(166px);
+  height: auto;
+  margin-right: vw(79px);
+}
+.recruitx-nodejs-logo {
+  width: vw(181px);
+  height: auto;
+  margin-right: vw(78px);
+}
+.recruitx-graphql-logo {
+  width: vw(188px);
+  height: auto;
+  margin-right: vw(79px);
+}
+.recruitx-mongodb-logo {
+  width: vw(221px);
+  height: auto;
+  margin-right: vw(78px);
+}
+.recruitx-apache-logo {
+  width: vw(371px);
+  height: auto;
+  margin-right: vw(251px);
+}
+.recruitx-apache-kafka-logo {
+  width: vw(258px);
+  height: auto;
+  margin-top: vw(73px);
+}

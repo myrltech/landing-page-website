@@ -1,0 +1,290 @@
+.resources-fold-one-section {
+  padding: vw(172px) vw(500px) vw(418px) vw(200px);
+  position: relative;
+  z-index: 99;
+
+  &::before {
+    width: 100%;
+    height: vw(1px);
+    content: "";
+    background: white;
+    position: absolute;
+    left: vw(80px);
+    top: vw(40px);
+  }
+
+  &::after {
+    width: vw(700px);
+    height: vw(900px);
+    position: absolute;
+    left: 0;
+    bottom: vw(-200px);
+    background-image: url("../../../imgs/desktop/resources/top-left-gradient.svg");
+    background-size: cover;
+    content: "";
+    z-index: -1;
+  }
+}
+.agument-btn--resources {
+  font-size: vw(20px);
+  @include fontMontserratSemibold;
+  height: vw(60px);
+  border-radius: 0 vw(12px) vw(12px) 0;
+  padding: 0 vw(25px);
+}
+.myrl-input-outer-div--resoures {
+  width: vw(365px);
+  .myrl-input-div {
+    &::after {
+      width: vw(200px);
+      left: vw(82px);
+    }
+  }
+}
+.resource-fold-one-img-section {
+  position: absolute;
+  width: vw(585px);
+  top: vw(280px);
+  right: vw(186px);
+  z-index: -1;
+  img {
+    width: 100%;
+  }
+}
+.resources-fold-one-section-para {
+  width: fit-content;
+  margin: auto;
+  padding-bottom: vw(15px);
+  border-bottom: vw(1px) solid rgba(255, 255, 255, 0.38);
+}
+.resources-getstarted-block {
+  padding: vw(54px) vw(150px) 0 vw(180px);
+  position: relative;
+  z-index: 99;
+
+  &::before {
+    width: vw(1000px);
+    height: vw(854px);
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-image: url("../../../imgs/desktop/resources/resources-bg-3.svg");
+    background-size: cover;
+    content: "";
+    z-index: -1;
+  }
+
+  &::after {
+    width: vw(935px);
+    height: vw(950px);
+    position: absolute;
+    // background: violet;
+    left: 0;
+    top: vw(50px);
+    background-image: url("../../../imgs/desktop/resources/resources-bg-3.svg");
+    background-size: cover;
+    content: "";
+    z-index: -1;
+  }
+}
+.resources-tag-one {
+  padding: vw(15px) vw(26px);
+}
+.resources-tag-two {
+  // background: #333333;
+  border-radius: vw(12px);
+  // margin-right: vw(48px);
+  width: vw(344px);
+  margin-bottom: vw(48px);
+  padding: vw(49px) vw(19px) vw(28px) vw(30px);
+  background: linear-gradient(
+    275.19deg,
+    rgba(0, 194, 255, 0.245) 4.13%,
+    rgba(239, 4, 255, 0.27) 110.07%
+  );
+  min-height: vw(367px);
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: inherit;
+    padding: vw(3px);
+    background: linear-gradient(
+      180deg,
+      rgba(239, 4, 255, 0.5) 0%,
+      rgba(0, 194, 255, 0.5) 100%
+    );
+    -webkit-mask: linear-gradient(#fff 0 0) content-box,
+      linear-gradient(#fff 0 0);
+    -webkit-mask-composite: destination-out;
+    mask-composite: exclude;
+    z-index: -1;
+  }
+}
+.resources-tag-two-title {
+  color: #b5b5b5;
+}
+
+.resources-four-icon {
+  width: vw(40px);
+  height: auto;
+  margin-bottom: vw(31px);
+}
+.resource-arrow-icon {
+  width: vw(78px);
+  margin-top: vw(46px);
+}
+.gradient-bg-text--resources {
+  &::after {
+    width: vw(148px);
+    background-repeat: no-repeat;
+    right: vw(550px);
+    z-index: -1;
+  }
+}
+/*======================================================================
+                          fold two
+====================================================================*/
+.resources-fold-two-section {
+  padding: vw(747px) vw(290px) vw(747px) vw(377px);
+  position: relative;
+  z-index: 999;
+}
+.resources-fold-two-card {
+  background: linear-gradient(
+      109.86deg,
+      rgba(244, 238, 244, 0.17) -59.62%,
+      rgba(98, 28, 100, 0) 140.65%,
+      #fa06ff 140.67%
+    ),
+    radial-gradient(
+        123.11% 288.11% at 44.46% 13%,
+        rgba(156, 51, 51, 0.2) 0%,
+        rgba(0, 0, 0, 0) 100%,
+        rgba(5, 5, 5, 0.2) 100%
+      )
+      /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+    linear-gradient(
+      255.43deg,
+      rgba(15, 10, 240, 0.12) 1.61%,
+      rgba(22, 18, 206, 0.02) 137.06%
+    ),
+    linear-gradient(
+      105.08deg,
+      rgba(235, 0, 255, 0.2) -58.44%,
+      rgba(222, 5, 241, 0.05) 178.74%
+    );
+  backdrop-filter: blur(29px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: vw(31px);
+  padding: vw(82px);
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: inherit;
+    padding: vw(3px);
+    background: radial-gradient(
+        105.62% 386.66% at -5.62% -4.82%,
+        #ffffff 0%,
+        rgba(100, 128, 199, 0.6) 0.01%,
+        rgba(0, 26, 255, 0.1) 98.96%
+      )
+      /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    -webkit-mask: linear-gradient(#fff 0 0) content-box,
+      linear-gradient(#fff 0 0);
+    -webkit-mask-composite: destination-out;
+    mask-composite: exclude;
+    z-index: -1;
+  }
+}
+.resources-fold-two-img-section {
+  position: absolute;
+  width: vw(1500px);
+  height: 90%;
+  top: vw(200px);
+  left: vw(200px);
+  z-index: -1;
+  img {
+    width: 100%;
+    z-index: -1;
+  }
+}
+.myrl-input-outer-div--resoures--two {
+  width: vw(598px);
+}
+.resources-main-section {
+  position: relative;
+
+  &::before {
+    position: absolute;
+    width: vw(1px);
+    height: 100%;
+    content: "";
+    top: 0;
+    left: vw(80px);
+    background: white;
+  }
+  .web-footer {
+    position: relative;
+    z-index: 9999;
+  }
+}
+
+.resources-tag-one {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(49px);
+  border-radius: vw(8px);
+  text-align: center;
+  position: relative;
+  padding: 0 vw(26px);
+  margin-right: vw(24px);
+  height: vw(56px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: vw(54px);
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: inherit;
+    padding: vw(2px);
+    background: $blue-and-green-gradient-5;
+    -webkit-mask: linear-gradient(#fff 0 0) content-box,
+      linear-gradient(#fff 0 0);
+    -webkit-mask-composite: destination-out;
+    mask-composite: exclude;
+    z-index: -1;
+  }
+}
+.resources-fold-main-section {
+  position: relative;
+  z-index: 99;
+  &::after {
+    width: vw(1000px);
+    height: vw(1000px);
+    position: absolute;
+    right: vw(40px);
+    top: vw(180px);
+    background-image: url("../../../imgs/desktop/resources/top-right-gradient.svg");
+    background-size: cover;
+    content: "";
+    z-index: -1;
+  }
+}

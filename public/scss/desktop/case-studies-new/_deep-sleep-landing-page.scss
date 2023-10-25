@@ -1,0 +1,172 @@
+/*===================================================
+                   fold  one
+==================================================*/
+.deep-sleep-fold-one-div {
+  // padding: vw(182px) vw(167px) vw(400px) vw(158px);
+  padding: vw(182px) vw(167px) vw(167px) vw(158px);
+}
+.deep-sleep-logo {
+  width: vw(120px);
+  height: auto;
+}
+.deep-sleep-main-img {
+  width: vw(900px);
+  height: auto;
+}
+.deep-sleep-prototype-img {
+  width: vw(1584px);
+  height: auto;
+}
+/*===================================================
+                   fold  two
+==================================================*/
+.deep-sleep-low-screen {
+  width: vw(1600px);
+  height: auto;
+}
+.deep-sleep-low-screen-section {
+  padding-left: vw(119px);
+  padding-right: vw(201px);
+}
+/*===================================================
+                   fold  three
+==================================================*/
+.deep-sleep-info-chart {
+  width: vw(1676px);
+  height: auto;
+}
+.deep-sleep-info-chart-section {
+  .remote-teams-information-img-div {
+    padding-left: vw(122px);
+  }
+}
+/*===================================================
+                   fold  four
+==================================================*/
+.deep-sleep-desgin-div {
+  padding-top: vw(195px);
+  padding-left: vw(240px);
+}
+.deep-sleep-design-color-one,
+.deep-sleep-design-color-two,
+.deep-sleep-design-color-three,
+.deep-sleep-design-color-four {
+  @include theme-mixin-radius-width;
+}
+
+.deep-sleep-design-color-one {
+  margin-right: vw(27px);
+  background: $theme-deep-sleep-blue-bg-one;
+}
+
+.deep-sleep-design-color-two {
+  background: $theme-deep-sleep-blue-bg-two;
+}
+.deep-sleep-design-color-three {
+  background: $theme-deep-sleep-white-bg;
+  margin-right: vw(27px);
+}
+.deep-sleep-design-color-four {
+  background: $theme-deep-sleep-blue-bg-three;
+}
+.deep-sleep-design-font-list-text1 {
+  color: #e6e7f2;
+}
+.deep-sleep-design-font-list-text3 {
+  color: rgba(255, 255, 255, 0.83);
+}
+
+.deep-sleep-design-font-list-text4 {
+  color: #a1a4b2;
+  // tex: 0.15px solid #a1a4b2;
+  -webkit-text-stroke-width: vw(1px);
+  -webkit-text-stroke-color: #a1a4b2;
+}
+.deep-sleep-design-com-1 {
+  width: vw(374px);
+  height: auto;
+  margin-top: vw(100px);
+  margin-left: vw(-20px);
+}
+.deep-sleep-design-com-2 {
+  width: vw(345px);
+  height: auto;
+  margin-top: vw(15px);
+}
+.deep-sleep-design-com-3 {
+  width: vw(412px);
+  height: auto;
+  margin-top: vw(70px);
+}
+.deep-sleep-design-com-4 {
+  width: vw(520px);
+  height: auto;
+  // margin-top: vw(20px);
+  margin-left: vw(-50px);
+}
+.deep-sleep-design-com-5 {
+  width: vw(319px);
+  height: auto;
+}
+/*===================================================
+                   fold  five
+==================================================*/
+.deep-sleep-hi-section {
+  background: transparent;
+  border: none;
+  border-radius: vw(12px);
+  //   background: rgba(239, 240, 247, 0.06);
+  backdrop-filter: none;
+  margin-left: vw(150px);
+}
+.deep-sleep-prototype-section {
+  .remote-teams-prototype-img-div {
+    padding-right: vw(157px);
+  }
+  .remote-teams-fold-two-subtitle--prototype {
+    padding-right: vw(264px);
+    &::after {
+      right: vw(280px);
+    }
+  }
+}
+.deep-sleep-hi-screen {
+  width: 100%;
+}
+/*===================================================
+                   fold  six
+==================================================*/
+.deep-sleep-tech-div {
+  padding-top: vw(197px);
+}
+.remote-teams-fold-two-subtitle--deep-sleep-tech {
+  padding-left: vw(150px);
+  &::after {
+    left: vw(350px);
+    bottom: vw(-56px);
+  }
+}
+.deep-sleep-tech-inner-div {
+  padding-top: vw(139px);
+  padding-left: vw(269px);
+  padding-bottom: vw(200px);
+}
+.deep-sleep-firebase-logo {
+  width: vw(190px);
+  height: auto;
+  margin-right: vw(132px);
+}
+.deep-sleep-go-logo {
+  width: vw(158px);
+  height: auto;
+  margin-right: vw(132px);
+}
+.deep-sleep-flutter-logo {
+  width: vw(165px);
+  height: auto;
+  margin-right: vw(132px);
+}
+.deep-sleep-app-engine-logo {
+  width: vw(212px);
+  height: auto;
+}

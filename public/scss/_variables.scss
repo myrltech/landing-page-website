@@ -1,0 +1,174 @@
+// colors
+$color-white: #ffffff;
+$theme-text-color-1: #ffffff;
+$theme-text-color-white-79: rgba(255, 255, 255, 0.79);
+$theme-text-color-white-60: rgba(255, 255, 255, 0.6);
+$theme-text-color-white-66: rgba(255, 255, 255, 0.66);
+$theme-text-color-white-22: rgba(255, 255, 255, 0.22);
+$theme-text-color-white-93: rgba(255, 255, 255, 0.93);
+$theme-text-color-white-83: rgba(255, 255, 255, 0.83);
+$theme-text-color-white-85: rgba(255, 255, 255, 0.85);
+$theme-text-color-gray: #7b7b7b;
+
+// background
+$theme-bg-main: rgba(15, 15, 15, 1);
+$theme-scrollbar-thumb-bg: #6f5adc;
+$theme-bg-color-white-01: rgba(255, 255, 255, 0.01);
+$theme-bg-color-1: #1e2428;
+$theme-bg-color-white-03: rgba(255, 255, 255, 0.03);
+$theme-dropdown-hover-bg: rgba(255, 255, 255, 0.09);
+$theme-bg-white-66: rgba(255, 255, 255, 0.66);
+$theme-bg-color-dropdown-options-list: #202020;
+$theme-text-color-on-dropdown-hover: #6f5adc;
+$theme-bg-color-3: #202020;
+$theme-bg-white: #ffffff;
+$theme-bg-black-1: rgba(32, 32, 32, 0.26);
+$theme-bg-color-gray: #c4c4c4;
+$theme-bg-color-black-28: rgba(29, 29, 29, 0.28);
+$theme-bg-color-black-95: rgba(15, 15, 15, 0.95);
+$theme-bg-color-04: rgba(0, 0, 0, 0.4);
+$theme-bg-input-color: #1f1f1f;
+$theme-bg-color-32: #161616;
+$theme-bg-color-black-03: rgba(196, 196, 196, 0.03);
+$theme-bg-color-color-3: rgba(229, 229, 229, 0.17);
+$theme-bg-color-black-38: rgba(196, 196, 196, 0.38);
+$theme-bg-black-02: rgba(32, 32, 32, 0.2);
+$theme-bg-white-06: rgba(255, 255, 255, 0.06);
+$theme-bg-color-overlay: rgba(29, 29, 29, 0.28);
+$theme-bg-black-3: #2d3135;
+$theme-dominate-black-one: #191f23;
+$theme-dominate-blue-one: rgba(111, 90, 220, 1);
+$theme-dominate-black-two: rgba(161, 142, 255, 1);
+$theme-dominate-white: rgba(255, 255, 255, 0.09);
+$theme-aquaplan-black-bg: rgba(31, 34, 51, 1);
+$theme-aquaplan-gray-bg: rgba(56, 58, 71, 1);
+$theme-aquaplan-white-bg: rgba(255, 255, 255, 1);
+$theme-recruitx-gray-bg: rgba(212, 213, 217, 1);
+$theme-recruitx-white-one-bg: rgba(235, 236, 240, 1);
+$theme-airi-white-bg: rgba(255, 255, 255, 1);
+$theme-airi-gray-bg: #4f4f6f;
+$theme-airi-yellow-bg: rgba(250, 235, 228, 1);
+$theme-fintify-red-bg: rgba(198, 25, 96, 1);
+$theme-fintify-gray-bg: rgba(55, 63, 76, 1);
+$theme-fintify-white-bg: rgba(255, 255, 255, 1);
+$theme-deep-sleep-blue-bg-one: rgba(9, 15, 44, 1);
+$theme-deep-sleep-blue-bg-two: rgba(142, 151, 253, 1);
+$theme-deep-sleep-white-bg: rgba(255, 255, 255, 1);
+$theme-deep-sleep-blue-bg-three: rgba(77, 63, 121, 1);
+// arrow
+$theme-text-color-popup-close: rgba(255, 255, 255, 0.83);
+
+// font family
+$font-family-regular-NunitoSans-Regular: "NunitoSans-Regular", sans-serif,
+  "Helvetica";
+
+// gradient
+$green-btn-gradient: linear-gradient(
+  195deg,
+  #00ff88 0%,
+  #6298b9 41.15%,
+  #a84fdc 70.31%,
+  #ef04ff 100%
+);
+$black-gradient: linear-gradient(
+  321deg,
+  rgba(45, 49, 53, 1) 24%,
+  rgba(53, 57, 62, 1) 72%
+);
+$black-gradient-2: linear-gradient(
+  321deg,
+  rgba(29, 29, 29, 1) 0,
+  rgba(29, 29, 29, 1) 100%
+);
+$blue-and-green-gradient: linear-gradient(225deg, #00ff88 0%, #ef04ff 100%);
+$blue-and-green-gradient-2: linear-gradient(
+  225deg,
+  rgba(0, 255, 136, 0.2) 0%,
+  rgba(239, 4, 255, 0.2) 100%
+);
+$blue-and-green-gradient-3: linear-gradient(
+  225deg,
+  rgba(0, 255, 136, 0.8) 0%,
+  rgba(239, 4, 255, 0.8) 100%
+);
+
+$blue-and-green-gradient-5: linear-gradient(
+  225deg,
+  rgba(0, 255, 136, 0.3) 0%,
+  rgba(239, 4, 255, 0.3) 100%
+);
+
+$blue-and-green-gradient-4: linear-gradient(
+  175deg,
+  rgba(0, 255, 136, 0.45) 0%,
+  rgba(239, 4, 255, 0.45) 100%
+);
+
+// $blue-and-green-gradient-5: linear-gradient(
+//   243.44deg,
+//   #00ff88 0%,
+//   #ef04ff 46.45%
+// );
+
+$blue-and-green-gradient-6: linear-gradient(
+  225deg,
+  rgba(0, 255, 136, 0.3) 0%,
+  rgba(239, 4, 255, 0.3) 100%
+);
+
+$blue-and-green-gradient-7: linear-gradient(
+  225deg,
+  rgba(0, 255, 136, 0.69) 0%,
+  rgba(239, 4, 255, 0.69) 100%
+);
+
+$black-gradient: linear-gradient(175deg, #202020 0%, #202020 100%);
+$black-gradient-3: linear-gradient(175deg, #161616 0%, #161616 100%);
+$green-gradient-1: linear-gradient(
+  92.79deg,
+  rgba(87, 203, 161, 0.9) 5.49%,
+  rgba(23, 134, 139, 0.9) 100.05%
+);
+$black-gray-gradient: linear-gradient(321.7deg, #2d3135 24.16%, #35393e 72.5%);
+$blue-purple-gradient: linear-gradient(90deg, #5ee7df 0%, #b490ca 100%);
+$theme-aquaplan-blue-gradient: linear-gradient(
+  180deg,
+  rgba(102, 113, 237, 1) 0%,
+  rgba(40, 64, 255, 1) 88.36%
+);
+$theme-recruitx-blue-gradient: linear-gradient(
+  90deg,
+  rgba(0, 122, 223, 1) 0%,
+  rgba(0, 236, 188, 1) 100%
+);
+$theme-fintify-gray-gradient-bg: linear-gradient(
+  180deg,
+  rgba(88, 96, 108, 1) 0%,
+  rgba(55, 63, 76, 1) 100%
+);
+$theme-fintify-green-gradient-bg: linear-gradient(
+  224.27deg,
+  #79a1ff 0%,
+  #52ff68 98.77%
+);
+
+$blue-and-green-gradient-8: linear-gradient(
+  225deg,
+  rgba(239, 4, 255, 1) 0%,
+  rgba(0, 255, 136, 1) 100%
+);
+
+// border color
+$theme-border-color-white: rgba(255, 255, 255, 1);
+$theme-border-color-white-21: rgba(255, 255, 255, 0.21);
+$theme-border-color-white-03: rgba(255, 255, 255, 0.3);
+$theme-border-color-white-37: rgba(255, 255, 255, 0.37);
+$theme-border-color-1: rgba(255, 255, 255, 0.37);
+$theme-border-color-2: rgba(32, 32, 32, 0.26);
+$theme-border-color-white-66: rgba(255, 255, 255, 0.66);
+$theme-border-color-3: rgba(255, 255, 255, 0.02);
+$theme-border-color-black: #000000;
+$theme-border-color-white-2: rgba(255, 255, 255, 0.2);
+$theme-border-color-white-22: rgba(255, 255, 255, 0.22);
+$theme-border-color-white-18: rgba(255, 255, 255, 0.18);
+$theme-border-color-white-17: rgba(255, 255, 255, 0.17);

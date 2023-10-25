@@ -1,0 +1,270 @@
+// /* ===============================================================
+
+//                         react select
+
+// ================================================================== */
+// .react-select-container {
+//   padding: 0;
+//   text-align: center !important;
+//   color: white !important;
+//   text-transform: capitalize;
+//   background: $theme-bg-input-color !important;
+//   height: vw(53px);
+//   filter: drop-shadow(vw(15px) vw(15px) vw(25px) rgba(255, 238, 238, 0.22));
+//   position: relative;
+
+//   &::after,
+//   &::before {
+//     position: absolute;
+//     content: "";
+//     z-index: 99;
+//     background: $blue-and-green-gradient;
+//   }
+
+//   &::after {
+//     width: vw(258px);
+//     height: vw(2px);
+//     left: vw(106px);
+//     top: vw(-2px);
+//   }
+//   &::before {
+//     width: 100%;
+//     height: vw(7.35px);
+//     left: 0;
+//     bottom: vw(-7px);
+//   }
+// }
+
+// .react-select-elements__placeholder {
+//   text-align: left !important;
+//   margin-left: vw(15px) !important;
+//   font-size: vw(18px) !important;
+//   color: rgba(255, 255, 255, 0.79) !important;
+// }
+
+// .react-select-elements {
+//   &__control {
+//     border: 0 !important;
+//     position: relative !important;
+//     width: 100% !important;
+//     height: 100% !important;
+//     box-shadow: 0 0 0 !important;
+//     text-align: left !important;
+//     padding-left: 0;
+//     background: transparent !important;
+//     border-radius: none !important;
+//     min-height: vw(54px) !important;
+//     color: rgba(255, 255, 255, 0.79) !important;
+//     cursor: pointer !important;
+//   }
+//   &__placeholder {
+//     color: $theme-text-color-gray !important;
+//     font-size: vw(16px) !important;
+//     @include fontSemiBold600;
+//     line-height: vw(22px);
+//   }
+//   &__indicator-separator {
+//     display: none !important;
+//   }
+
+//   &__indicator {
+//     color: $color-white !important;
+//     padding: 0 !important;
+//     text-align: center !important;
+//     padding-left: vw(18px) !important;
+
+//     svg {
+//       width: vw(20px) !important;
+//       height: vw(20px) !important;
+//       margin-right: vw(29px) !important;
+//     }
+//   }
+
+//   &__control--is-focused {
+//     box-shadow: 0 0 0 !important;
+//     outline: none !important;
+//   }
+
+//   &__single-value {
+//     text-align: left !important;
+//     margin-left: vw(13px) !important;
+//     font-size: vw(16px) !important;
+//     line-height: vw(21px) !important;
+//     @include fontBold700;
+//     color: $color-white !important;
+//   }
+
+//   &__menu-notice--no-options,
+//   &__option,
+//   &__option--is-focused,
+//   &__option--is-selected {
+//     font-size: vw(16px) !important;
+//     @include fontSemiBold600;
+//     line-height: vw(24px) !important;
+//     text-align: center !important;
+//     // background-color: rgba(74, 80, 85, 0.46) !important;
+//   }
+
+//   &__option {
+//     padding: vw(15px) vw(15px) !important;
+//     // background: #4a5055;
+//     text-align: left !important;
+//     padding-left: vw(35px) !important;
+//     cursor: pointer !important;
+//     background: linear-gradient(
+//       260deg,
+//       rgba(0, 255, 136, 0.7) 0%,
+//       rgba(239, 4, 255, 0.7) 100%
+//     ) !important;
+//     border-bottom: vw(2px) solid pink;
+//   }
+//   &__option:last-child {
+//     border-bottom: 0;
+//   }
+
+//   &__option--is-focused {
+//     background-color: rgba(255, 255, 255, 0.1) !important;
+//   }
+
+//   &__option--is-selected {
+//     color: #ffffff !important;
+//     background-color: rgba(255, 255, 255, 0.1) !important;
+//   }
+
+//   &__menu {
+//     margin-top: vw(1px) !important;
+//     // box-shadow: 0 0 0 !important;
+//     box-shadow: vw(13px) vw(16px) vw(20px) rgba(255, 255, 255, 0.5) !important;
+//     text-align: center !important;
+//     border-radius: 0 0 vw(27px) vw(27px) !important;
+//     background: transparent !important;
+//   }
+
+//   &__menu-list {
+//     // background-color: rgba(74, 80, 85, 1) !important;
+//     // background: transparent;
+//     color: #ffffff !important;
+//     padding-top: 0 !important;
+//     padding-bottom: 0 !important;
+//     border-radius: 0 !important;
+//     margin-top: vw(1px);
+//     box-shadow: 0 vw(3px) vw(6px) rgba(0, 0, 0, 0.16);
+//     height: max-content !important;
+//     background-color: #1f1f1f !important;
+//   }
+// }
+/* ===============================================================
+                    
+                        react select 
+                    
+================================================================== */
+
+.react-select-container {
+  width: 100%;
+  box-shadow: vw(15px) vw(15px) vw(25px) rgba(255, 238, 238, 0.22) !important;
+  // filter: drop-shadow(vw(15px) vw(15px) vw(25px) rgba(255, 238, 238, 0.22));
+}
+
+.react-select-elements {
+  &__control {
+    border: 0 !important;
+    border-radius: 0 !important;
+    background-color: $theme-bg-input-color !important;
+    color: $color-white !important;
+    position: relative !important;
+    height: vw(55px) !important;
+    min-height: vw(55px) !important;
+
+    &::before {
+      content: "";
+      // width: vw(187px);
+      // height: vw(2px);
+      display: block;
+      background: #ef04ff;
+      background: $blue-and-green-gradient;
+      position: absolute;
+      // left: vw(100px);
+      // top: 0;
+      width: vw(258px);
+      height: vw(2px);
+      left: vw(106px);
+      top: 0;
+    }
+
+    &::after {
+      content: "";
+      width: 100%;
+      height: vw(7px);
+      display: block;
+      margin-top: vw(-5px);
+      background: #ef04ff;
+      background: $blue-and-green-gradient;
+      // bottom: 0;
+    }
+  }
+
+  &__indicator-separator {
+    display: none !important;
+  }
+
+  &__indicator {
+    color: $color-white !important;
+    padding: vw(13px) !important;
+
+    svg {
+      width: vw(28px) !important;
+      height: vw(28px) !important;
+    }
+  }
+
+  &__control--is-focused {
+    box-shadow: 0 0 0 !important;
+  }
+
+  &__single-value {
+    color: $color-white !important;
+    font-size: vw(16px) !important;
+    line-height: vw(21px) !important;
+    @include fontBold700;
+    // @include fontNunitoSans-Regular;
+  }
+
+  &__option,
+  &__option--is-focused,
+  &__option--is-selected {
+    font-size: vw(16px) !important;
+    line-height: vw(21px) !important;
+    @include fontBold700;
+  }
+
+  &__option--is-focused {
+    background-color: rgba(255, 255, 255, 0.1) !important;
+  }
+
+  &__option--is-selected {
+    color: $color-white !important;
+    background-color: rgba(255, 255, 255, 0.1) !important;
+  }
+
+  &__option {
+    padding: vw(13px) vw(18px) !important;
+    border-bottom: 1px solid #ffffff67;
+    background: $blue-and-green-gradient;
+  }
+
+  &__option:last-child {
+    border-bottom: 0;
+  }
+
+  &__menu {
+    margin-top: vw(5px) !important;
+    box-shadow: vw(13px) vw(16px) vw(20px) rgba(255, 255, 255, 0.5) !important;
+  }
+
+  &__menu-list {
+    background-color: $theme-bg-input-color !important;
+    color: $color-white !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+}

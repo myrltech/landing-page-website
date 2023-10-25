@@ -1,0 +1,51 @@
+.myrl-input-modal-outer-div {
+  width: 90%;
+
+  label {
+    margin-bottom: vw(23px);
+  }
+
+  .myrl-input-div-modal {
+    width: 100%;
+    height: vw(53px);
+    position: relative;
+    filter: drop-shadow(vw(15px) vw(15px) vw(25px) rgba(255, 238, 238, 0.22));
+
+    &::after,
+    &::before {
+      position: absolute;
+      content: "";
+      background: $blue-and-green-gradient;
+      display: block;
+    }
+
+    &::after {
+      width: vw(258px);
+      height: vw(2px);
+      left: vw(106px);
+      top: vw(-2px);
+    }
+    &::before {
+      width: 100%;
+      height: vw(7.35px);
+      left: 0;
+      bottom: vw(-7px);
+    }
+
+    input {
+      width: 100%;
+      height: 100%;
+      background: $theme-bg-input-color;
+      border: none;
+      padding: 0 vw(15px);
+      //   line-height: vw(22px);
+      font-size: vw(16px);
+      @include fontBold700;
+
+      &::placeholder {
+        color: $theme-text-color-gray;
+        @include fontSemiBold600;
+      }
+    }
+  }
+}

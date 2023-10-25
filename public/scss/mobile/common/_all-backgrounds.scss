@@ -1,0 +1,18 @@
+.mobile-home-new-main-section,
+.our-product-main-section,
+.home-main-outer-section,
+.case-studies-bg {
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+.case-studies-bg {
+  background-image: url("../../../imgs/desktop/backgrounds-and-gradient/backgrounds/case-studies-bg.svg");
+}
+.home-main-outer-section,
+.our-product-main-section,
+.mobile-home-new-main-section {
+  background-image: url("../../../imgs/mobile/backgrounds-and-gradients/backgrounds/home-new-bg.svg");
+}

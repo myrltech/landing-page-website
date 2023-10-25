@@ -1,0 +1,51 @@
+.mobile-augment-client-tech-partner-card {
+  background: rgba(255, 255, 255, 0.12);
+  opacity: 0.6;
+  backdrop-filter: blur(600px);
+  border-radius: mvw(10px) mvw(20px) mvw(20px) mvw(10px);
+  margin-bottom: mvw(25px);
+  padding: mvw(18px) mvw(24px) mvw(22px) mvw(24px);
+  position: relative;
+
+  &::before {
+    content: "";
+    width: vw(8px);
+    height: 86%;
+    position: absolute;
+    top: 7%;
+    left: 0;
+    opacity: 0.6;
+    backdrop-filter: blur(600px);
+    border-radius: mvw(20px);
+    @include gradient-border-1;
+  }
+}
+
+.mobile-augment-client-here-title-block {
+  padding: mvw(68px) mvw(3px) mvw(59px) mvw(10px);
+}
+
+.mobile-augment-client-tech-partner-card__hr {
+  height: vw(8px) !important;
+  background-color: rgba(255, 255, 255, 1);
+  margin-top: mvw(6px);
+  margin-bottom: mvw(6px);
+  width: 80%;
+}
+
+.mobile-augment-client-benefits-title {
+  padding: mvw(10px) mvw(3px) mvw(11px) mvw(20px);
+  position: relative;
+
+  &::after {
+    position: absolute;
+    content: "";
+    right: mvw(30px);
+    bottom: mvw(13px);
+    background-image: url("../../../imgs/mobile/backgrounds-and-gradients/gradients/client-gradient.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: mvw(141px);
+    height: mvw(25px);
+  }
+}

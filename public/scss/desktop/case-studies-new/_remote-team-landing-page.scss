@@ -1,0 +1,237 @@
+.remote-teams-fold-one-div {
+  // padding: vw(195px) 0 vw(200px) vw(158px);
+  padding: vw(195px) 0 vw(100px) vw(158px);
+}
+.remote-teams-img {
+  width: vw(950px);
+  height: auto;
+}
+.remote-teams-logo {
+  width: vw(120px);
+  height: auto;
+}
+.remote-teams-para {
+  letter-spacing: 0.03em;
+  width: vw(689px);
+}
+.remote-teams-low-screen-img {
+  width: vw(1600px);
+  height: auto;
+}
+.remote-teams-fold-two-div {
+  padding-left: vw(158px);
+  padding-right: vw(162px);
+}
+
+.remote-teams-low-screen-img-div {
+  padding-top: vw(120px);
+}
+.remote-teams-information-div {
+  padding: vw(216px) 0 0 0;
+}
+.remote-teams-information-img-div {
+  padding-top: vw(201px);
+  padding-left: vw(64px);
+}
+.remote-teams-information-img {
+  width: vw(1800px);
+  height: auto;
+}
+.remote-teams-design-inner-titles {
+  color: $theme-text-color-white-60;
+  letter-spacing: 0.185em;
+}
+.remote-teams-design-div {
+  padding-top: vw(222px);
+  padding-left: vw(194px);
+}
+.remote-teams-design-color-one,
+.remote-teams-design-color-two,
+.remote-teams-design-color-three,
+.remote-teams-design-color-four {
+  // width: vw(113px);
+  // height: vw(113px);
+  // border-radius: vw(19px);
+  @include theme-mixin-radius-width;
+}
+.remote-teams-design-color-one {
+  box-shadow: vw(-2px) vw(-2px) vw(4px) rgba(74, 78, 83, 0.5),
+    vw(2px) vw(2px) vw(6px) rgba(35, 37, 39, 0.8),
+    vw(8px) vw(8px) vw(30px) rgba(35, 37, 39, 0.9),
+    vw(-6px) vw(-6px) vw(20px) rgba(74, 78, 83, 0.7);
+  background: $green-gradient-1;
+  margin-right: vw(27px);
+}
+.remote-teams-design-color-two {
+  background: $theme-bg-black-3;
+}
+
+.remote-teams-design-color-three {
+  box-shadow: vw(-2px) vw(-2px) vw(4px) rgba(74, 78, 83, 0.5),
+    vw(2px) vw(2px) vw(6px) rgba(35, 37, 39, 0.8),
+    vw(8px) vw(8px) vw(30px) rgba(35, 37, 39, 0.9);
+  background: $black-gray-gradient;
+  margin-right: vw(21px);
+}
+.remote-teams-design-color-four {
+  background: $blue-purple-gradient;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.remote-design-com-1 {
+  width: vw(394px);
+  height: auto;
+  margin-top: vw(75px);
+  margin-left: vw(-20px);
+}
+.remote-design-com-2 {
+  margin-left: vw(-20px);
+  width: vw(300px);
+  height: auto;
+  margin-top: vw(32px);
+}
+.remote-design-com-3 {
+  width: vw(391px);
+  height: auto;
+}
+.remote-design-com-4 {
+  width: vw(338px);
+  height: auto;
+  margin-left: vw(-20px);
+}
+.remote-design-com-5 {
+  width: vw(321px);
+  height: auto;
+}
+
+.remote-teams-hi-fidelity-div {
+  padding-top: vw(178px);
+}
+.remote-teams-hi-screen-img-div {
+  margin-top: vw(160px);
+  border: vw(13px) solid rgba(255, 255, 255, 0.13);
+  backdrop-filter: blur(35px);
+  border-radius: vw(29px);
+  width: vw(1653px);
+  height: auto;
+  margin-left: vw(164px);
+}
+.remote-teams-hi-screen-img {
+  width: 100%;
+  height: auto;
+  border-radius: inherit;
+}
+.remote-teams-prototype-div {
+  padding-top: vw(199px);
+  //   padding-right: vw(130px);
+  text-align: right;
+}
+.remote-teams-prototype-img-div {
+  padding-top: vw(127px);
+  padding-right: vw(103px);
+}
+.remote-teams-prototype-img {
+  width: vw(1694px);
+  height: auto;
+}
+.remote-teams-tech-div {
+  padding-top: vw(196px);
+  //   padding-left: vw(164px);
+  //   padding-right: vw(159px);
+}
+.remote-teams-tech-inner-div {
+  padding-top: vw(158px);
+  padding-left: vw(254px);
+}
+.remote-teams-react-logo {
+  width: vw(168px);
+  height: auto;
+  margin-right: vw(49px);
+}
+.remote-teams-nodejs-logo {
+  width: vw(181px);
+  height: auto;
+  margin-right: vw(47px);
+}
+.remote-teams-ansible-logo {
+  width: vw(249px);
+  height: auto;
+  margin-right: vw(68px);
+}
+.remote-teams-mongodb-logo {
+  width: vw(229px);
+  height: auto;
+  margin-right: vw(57px);
+}
+.remote-teams-jenkins-logo {
+  width: vw(196px);
+  height: auto;
+  margin-right: vw(48px);
+}
+.remote-teams-docker-logo {
+  width: vw(219px);
+  height: auto;
+  margin-right: vw(68px);
+}
+.remote-teams-aws-logo {
+  width: vw(101px);
+  height: auto;
+  margin-top: vw(67px);
+}
+.remote-teams-fold-two-subtitle {
+  position: relative;
+  span {
+    padding-right: vw(30px);
+  }
+
+  &::after {
+    position: absolute;
+    width: vw(305px);
+    height: vw(1px);
+    background: white;
+    bottom: vw(-44px);
+    right: vw(50px);
+    content: "";
+  }
+}
+.remote-teams-fold-two-subtitle--info {
+  padding-left: vw(151px);
+  &::after {
+    bottom: vw(-30px);
+    left: vw(180px);
+  }
+}
+.remote-teams-fold-two-subtitle--design {
+  padding-right: vw(265px);
+  &::after {
+    bottom: vw(-35px);
+    right: vw(265px);
+  }
+}
+.remote-teams-design-inner-div {
+  padding-top: vw(265px);
+  padding-bottom: vw(200px);
+}
+.remote-teams-fold-two-subtitle--hi {
+  // padding-left: vw(30px);
+  padding-left: vw(190px);
+  &::after {
+    left: vw(200px);
+    bottom: vw(-33px);
+  }
+}
+.remote-teams-fold-two-subtitle--prototype {
+  padding-right: vw(130px);
+  &::after {
+    width: vw(202px);
+    right: vw(130px);
+    bottom: vw(-35px);
+  }
+}
+.remote-teams-fold-two-subtitle--tech {
+  padding-left: vw(164px);
+  &::after {
+    left: vw(358px);
+    bottom: vw(-30px);
+  }
+}

@@ -1,0 +1,27 @@
+.augment_pagination {
+  .rc-pagination-item {
+    // @include fontRegular;
+    border: vw(2px) solid $theme-border-color-white-22 !important;
+    background: $theme-bg-color-3;
+    color: $theme-text-color-white-22;
+
+    a {
+      width: 100%;
+    }
+  }
+  .rc-pagination-item-active {
+    // border: vw(1px) solid rgba(0, 0, 0, 1) !important;
+    // background: white !important;
+    // @include fontSemibold;
+    @include gradient-border-1--important;
+    color: $color-white;
+  }
+  .rc-pagination-prev .rc-pagination-item-link,
+  .rc-pagination-next .rc-pagination-item-link {
+    background: transparent !important;
+    color: $theme-border-color-white-22 !important;
+    border: none !important;
+    vertical-align: top !important;
+    padding: 0 0 vw(13px) 0;
+  }
+}

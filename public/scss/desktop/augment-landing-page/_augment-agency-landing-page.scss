@@ -1,0 +1,543 @@
+.augment-agency-landing-page-bg {
+  background: url("../../../imgs/desktop/backgrounds-and-gradient/backgrounds/augment-agency-landing-page-desktop-bg.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.mta-title-fold {
+  padding: vw(186px) vw(138px) vw(102px) vw(178px);
+}
+
+.mta-title-fold-text1 {
+  letter-spacing: 0.185em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.6);
+  margin-bottom: vw(28px);
+  width: max-content;
+  position: relative;
+  z-index: 1;
+
+  &::after {
+    content: "";
+    position: absolute;
+    width: vw(224px);
+    height: vw(17px);
+    background-image: url("../../../imgs/desktop/backgrounds-and-gradient/gradients/agency-title-fold-gradient-line.svg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    left: vw(28px);
+    bottom: 0;
+    z-index: -1;
+  }
+}
+
+.mta-title-fold-text2 {
+  font-size: vw(72px);
+  line-height: vw(98px);
+  @include fontExtraLight200;
+  margin-bottom: vw(13px);
+}
+
+.mta-title-fold-text3 {
+  @include fontSemiBold600;
+}
+
+.mta-title-fold-text4 {
+  color: rgba(255, 255, 255, 0.6);
+  margin-bottom: vw(48px);
+}
+
+.agument-btn--growNow {
+  padding-right: vw(108px);
+  padding-left: vw(108px);
+  height: vw(81px);
+  line-height: vw(79px);
+}
+
+.mta-time-and-money-title {
+  font-size: vw(64px);
+  line-height: vw(87px);
+  @include fontExtraLight200;
+  margin-bottom: vw(13px);
+  padding-right: vw(158px);
+  padding-left: vw(158px);
+  padding-bottom: vw(165px);
+  position: relative;
+  z-index: 1;
+
+  b {
+    @include fontSemiBold600;
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    width: vw(341px);
+    height: vw(34px);
+    background-image: url("../../../imgs/desktop/backgrounds-and-gradient/gradients/home-gradient.svg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    right: vw(158px);
+    top: vw(45px);
+    z-index: -1;
+  }
+}
+.mta-time-and-money-title--client {
+  &::after {
+    display: none;
+  }
+}
+.mta-time-and-money-title--clientWorkFlow {
+  margin-top: vw(297px);
+  margin-bottom: vw(21px);
+  padding-bottom: 0;
+
+  &::after {
+    top: 76%;
+    right: unset;
+    left: 18%;
+  }
+}
+.mta-time-and-money-title--clientBenefits {
+  text-align: right;
+  padding-right: vw(108px);
+  padding-bottom: vw(135px);
+  margin-bottom: 0;
+
+  &::after {
+    width: vw(248px);
+    top: 14%;
+    right: 19%;
+    left: unset;
+  }
+}
+
+.mta-gray-text-1 {
+  font-size: vw(144px);
+  line-height: vw(196px);
+  @include fontBlack900;
+  margin-bottom: 0;
+  color: rgba(255, 255, 255, 0.17);
+  position: relative;
+  width: max-content;
+  padding-right: vw(480px);
+}
+
+.mta-gray-text-1__white {
+  font-size: vw(72px);
+  line-height: vw(81px);
+  @include fontSemiBold600;
+  letter-spacing: 0.1em;
+  color: #f2f2f2;
+}
+
+.mta-gray-text-1__white--1 {
+  position: absolute;
+  bottom: 11%;
+  left: 12%;
+}
+
+.mta-gray-text-1__white--2 {
+  position: absolute;
+  bottom: 11%;
+  left: 15%;
+}
+
+.mta-time-money-colm-without-augment {
+  padding-left: vw(123px) !important;
+
+  .mta-gray-text-1 {
+    margin-left: vw(23px);
+  }
+}
+
+.mta-time-money-colm-with-augment {
+  padding-left: vw(161px) !important;
+  padding-right: vw(73px) !important;
+}
+
+.mta-gray-text-2 {
+  font-size: vw(96px);
+  line-height: vw(152px);
+  @include fontBlack900;
+  color: rgba(248, 255, 252, 0.8);
+  margin-bottom: 0;
+}
+
+.mta-gray-text-2--mlColm1 {
+  margin-left: 13%;
+  margin-bottom: vw(85px);
+}
+
+.mta-time-money-colm-without-augment__li {
+  padding-bottom: vw(135px);
+}
+
+.mta-time-money-colm-without-augment__li-colm1 {
+  width: vw(499px);
+  margin-right: vw(59px);
+}
+
+.mta-time-money-colm-without-augment__li-price {
+  font-size: vw(48px);
+  line-height: vw(76px);
+  @include fontBlack900;
+  margin-bottom: 0;
+}
+
+.mta-time-money-colm-with-augment__li {
+  padding-bottom: vw(220px);
+}
+
+.mta-journey-fold {
+  padding-left: vw(137px);
+}
+
+.mta-agency-journey-fold-with-augment-img-fold {
+  padding: 0 vw(76px) vw(167px) vw(113px);
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.agency-time-and-money-image-fold {
+  margin-right: vw(52px);
+  width: vw(130px);
+  height: auto;
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.agency-time-and-money-with-augment-image-fold {
+  margin-right: vw(40px);
+  width: vw(350px);
+  height: auto;
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.mta-journey-fold__with-augment-title__ampersand {
+  color: $color-white;
+  padding-right: vw(28px);
+  padding-bottom: vw(13px);
+}
+
+.mta-journey-fold__with-augment-title {
+  .mta-gray-text-1__white--2 {
+    left: 23%;
+  }
+}
+
+.mta-augment-price-fold-title-text-1 {
+  font-size: vw(64px);
+  line-height: vw(87px);
+  @include fontExtraLight200;
+  margin-bottom: vw(4px);
+}
+.mta-augment-price-fold-title-text-1--priceFold {
+  margin-bottom: vw(160px);
+  padding-left: vw(96px);
+}
+.mta-augment-price-fold-font-weight-bold {
+  @include fontBold700;
+}
+
+.mta-augment-price-fold-all-card-block {
+  padding-right: vw(183px);
+  padding-left: vw(108px);
+}
+
+.mta-augment-price-fold-card {
+  background: #0f0f0f;
+  border-radius: vw(21px);
+  padding: 0 vw(93px) 0 vw(150px);
+  height: vw(371px);
+  margin-bottom: vw(155px);
+
+  border: double vw(2px) transparent;
+  background-image: linear-gradient(195deg, #0f0f0f 0%, #0f0f0f 100%),
+    linear-gradient(
+      191deg,
+      rgba(0, 255, 136, 0.5) 0%,
+      rgba(239, 4, 255, 0.5) 100%
+    );
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+}
+
+.mta-augment-price-fold-card__text-1 {
+  font-size: vw(64px);
+  line-height: vw(44px);
+  @include fontBold700;
+  margin-bottom: vw(28px);
+  padding: vw(5px) 0;
+}
+
+.mta-augment-price-fold-card__text-2 {
+  font-size: vw(24px);
+  line-height: vw(38px);
+  margin-bottom: 0;
+  @include fontRegular400;
+  color: #f2f2f2;
+}
+
+.mta-augment-price-fold-card__text-3 {
+  font-size: vw(72px);
+  line-height: vw(81px);
+  @include fontExtraBold800;
+  width: max-content;
+  margin-left: auto;
+  margin-bottom: vw(7px);
+  background: linear-gradient(
+    225deg,
+    rgba(0, 255, 136, 0.5) 0%,
+    rgba(239, 4, 255, 0.5) 100%
+  );
+  background-clip: text;
+  color: transparent;
+}
+
+.mta-augment-price-fold-card__text-4 {
+  font-size: vw(22px);
+  line-height: vw(46px);
+  margin-bottom: 0;
+  @include fontRegular400;
+}
+
+.mta-agency-contact-fold {
+  padding-top: vw(71px);
+  padding-bottom: vw(138px);
+  position: relative;
+  background: rgba(0, 0, 0, 0.44);
+  border-radius: vw(19px);
+  margin-bottom: vw(155px);
+
+  img {
+    position: absolute;
+    bottom: -42%;
+    left: 0;
+    width: vw(582px);
+    height: auto;
+    opacity: 0.3;
+  }
+}
+
+.mta-agency-journey-fold-without-augment-text-1 {
+  font-size: vw(48px);
+  line-height: vw(65px);
+  @include fontExtraLight200;
+  margin-bottom: vw(129px);
+  padding-top: vw(121px);
+}
+
+.mta-agency-journey-fold-without-augment-btn {
+  font-size: vw(24px);
+  line-height: vw(33px);
+  @include fontSemiBold600;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  border: none;
+  color: rgba(255, 255, 255, 0.54);
+  padding: 0;
+  margin-bottom: vw(57px);
+  background: transparent;
+  width: max-content;
+  white-space: nowrap;
+  text-align: left;
+}
+
+.mta-agency-journey-fold-without-augment-details-text-1 {
+  font-size: vw(42px);
+  line-height: vw(57px);
+  @include fontSemiBold600;
+  margin-bottom: vw(47px);
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.mta-agency-journey-fold-without-augment-details-text-2,
+.mta-agency-journey-fold-without-augment-details-text-3 {
+  font-size: vw(24px);
+  line-height: vw(38px);
+  @include fontSemiBold600;
+  margin-bottom: vw(30px);
+  color: rgba(255, 255, 255, 0.72);
+}
+
+.mta-agency-journey-fold-without-augment-details-text-3 {
+  color: $color-white;
+}
+
+.mta-agency-journey-fold-without-augment-details-desc-section {
+  width: vw(483px);
+}
+
+.mta-agency-journey-fold-without-augment-btns-div {
+  margin-bottom: vw(200px);
+  padding-left: vw(53px);
+  position: relative;
+
+  &::before {
+    content: "";
+    width: vw(1px);
+    height: 100%;
+    background: rgba(255, 255, 255, 0.54);
+    position: absolute;
+    top: -2%;
+    left: 0;
+    display: block;
+  }
+}
+
+.mta-agency-journey-fold-without-augment-btns-div__textDescBlock {
+  position: relative;
+
+  &::before {
+    content: "";
+    width: vw(28px);
+    height: vw(28px);
+    border: vw(2px) solid rgba(255, 255, 255, 0.54);
+    display: block;
+    position: absolute;
+    top: vw(3px);
+    left: vw(-67px);
+    border-radius: vw(57px);
+    background: #0f0f0f;
+  }
+}
+
+.mta-agency-journey-fold-without-augment-details-text-colm {
+  width: vw(637px);
+  margin-right: vw(23px);
+}
+
+.mta-agency-journey-fold-without-augment-content-row {
+  margin-bottom: vw(57px);
+  position: relative;
+}
+
+.mta-agency-journey-fold-without-augment-details-card {
+  width: vw(474px);
+  height: vw(780px);
+  background: rgba(0, 0, 0, 0.44);
+  backdrop-filter: blur(200px);
+  border-radius: vw(19px);
+  margin-right: vw(60px);
+  border: double vw(2px) transparent;
+  background-image: linear-gradient(195deg, #0f0f0f 0%, #0f0f0f 100%),
+    linear-gradient(
+      191deg,
+      rgba(0, 255, 136, 0.5) 0%,
+      rgba(239, 4, 255, 0.5) 100%
+    );
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+  padding: vw(80px) vw(41px) vw(60px) vw(53px);
+}
+
+.mta-agency-journey-fold-without-augment-details-card--displaySelector {
+  position: relative;
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 45%;
+    right: -14%;
+    width: vw(62px);
+    height: vw(15px);
+    display: block;
+    background: linear-gradient(
+      191deg,
+      rgba(0, 255, 136, 0.5) 0%,
+      rgba(239, 4, 255, 0.5) 100%
+    );
+  }
+}
+
+.mta-agency-journey-fold-without-augment-details-card__imgBlock {
+  width: vw(283px);
+  height: vw(223px);
+  margin: 0 auto;
+  margin-bottom: vw(60px);
+  text-align: center;
+
+  img {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+  }
+}
+
+.mta-agency-journey-fold-without-augment-details-card__btn {
+  width: vw(363px);
+  height: vw(63px);
+  background: linear-gradient(
+    225deg,
+    rgba(0, 255, 136, 0.5) 0%,
+    rgba(239, 4, 255, 0.5) 100%
+  );
+  border-radius: vw(44px);
+  font-size: vw(18px);
+  line-height: vw(60px);
+  @include fontSemiBold600;
+  color: #ffffff;
+  border: none;
+  margin-bottom: vw(31px);
+  text-align: center;
+  padding: 0;
+}
+
+.mta-agency-journey-fold-without-augment-details-card__hr {
+  height: vw(4px) !important;
+  width: vw(58px);
+  margin: 0;
+  background-color: rgba(242, 242, 242, 0.49);
+  margin: 0 auto;
+  margin-bottom: vw(36px);
+  border-radius: vw(10px);
+}
+
+.mta-agency-journey-fold-without-augment-details-cards-colm {
+  position: absolute;
+  top: 0;
+  left: 33%;
+  width: 65%;
+  overflow-x: auto;
+  overflow-y: none;
+}
+.mta-agency-journey-fold-without-augment-content-row--disc {
+  padding-bottom: vw(332px);
+
+  .mta-agency-journey-fold-without-augment-details-cards-colm {
+    left: 52%;
+  }
+}
+
+.mta-agency-journey-fold-without-augment-content-row--automation {
+  padding-bottom: vw(287px);
+
+  .mta-agency-journey-fold-without-augment-details-cards-colm {
+    left: 34%;
+  }
+}
+
+.mta-agency-journey-fold-without-augment-details-text-4 {
+  letter-spacing: 0.315em;
+  color: rgba(255, 255, 255, 0.73);
+  margin-bottom: vw(30px);
+
+  img {
+    margin-left: vw(33px);
+    width: vw(42px);
+    margin-bottom: vw(3px);
+  }
+}

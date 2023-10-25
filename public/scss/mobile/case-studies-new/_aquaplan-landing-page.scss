@@ -1,0 +1,165 @@
+/*=======================================================
+               fold one
+======================================================*/
+.aquaplan-fold-one-div {
+  padding-top: vw(190px);
+  padding-left: vw(158px);
+  padding-bottom: vw(157px);
+  padding-right: vw(158px);
+}
+.aquaplan-logo {
+  width: vw(120px);
+  height: auto;
+}
+.aquaplan-main-img {
+  width: vw(1008px);
+  height: auto;
+}
+/*=======================================================
+               fold two
+======================================================*/
+.aquaplan-low-screen-img {
+  width: vw(1600px);
+  height: auto;
+}
+.aquaplan-low-screen-setion {
+  padding-left: vw(187px);
+  padding-right: vw(133px);
+}
+/*=======================================================
+               fold three
+======================================================*/
+.aquaplan-info-chart-img {
+  width: vw(1603px);
+  height: auto;
+  // margin-left: vw(90px);
+}
+.aquaplan-info-chart-img-section {
+  .remote-teams-information-img-div {
+    padding-left: vw(157px);
+  }
+}
+/*=======================================================
+               fold four
+======================================================*/
+.aquaplan-design-color-one,
+.aquaplan-design-color-two,
+.aquaplan-design-color-three,
+.aquaplan-design-color-four {
+  @include theme-mixin-radius-width;
+}
+.aquaplan-design-color-one {
+  background: $theme-aquaplan-blue-gradient;
+  margin-right: vw(27px);
+}
+.aquaplan-design-color-two {
+  background: $theme-aquaplan-black-bg;
+}
+.aquaplan-design-color-three {
+  background: $theme-aquaplan-gray-bg;
+  margin-right: vw(27px);
+}
+.aquaplan-design-color-four {
+  background: $theme-aquaplan-white-bg;
+}
+.aquaplan-desgin-div {
+  padding-top: vw(243px);
+  padding-left: vw(168px);
+}
+.aquaplan-design-com-1 {
+  width: vw(449px);
+  height: auto;
+  margin-top: vw(99px);
+}
+.aquaplan-design-com-2 {
+  width: vw(395px);
+  height: auto;
+  margin-top: vw(74px);
+}
+.aquaplan-design-com-3 {
+  width: vw(291px);
+  height: auto;
+  margin-top: vw(43px);
+}
+.aquaplan-design-com-4 {
+  width: vw(465px);
+  height: auto;
+  margin-top: vw(36px);
+  margin-left: vw(-20px);
+}
+/*=======================================================
+               fold five
+======================================================*/
+.aquaplan-prototype-img {
+  width: vw(1653px);
+  height: auto;
+}
+.aquaplan-hi-screen {
+  //   width: vw(1600px);
+  width: 100%;
+  height: auto;
+}
+.aquaplan-hi-screen-section {
+  // .remote-teams-hi-screen-img-div {
+  margin-left: vw(134px);
+  // }
+}
+.aquaplan-prototype-screen-section {
+  .remote-teams-prototype-img-div {
+    padding-right: vw(133px);
+  }
+}
+/*=======================================================
+               fold six
+======================================================*/
+.aquaplan-tech-div {
+  padding-top: vw(212px);
+}
+.remote-teams-fold-two-subtitle--aquaplan-tech {
+  padding-left: vw(134px);
+  &::after {
+    left: vw(328px);
+    bottom: vw(-30px);
+  }
+}
+.aquaplan-tech-inner-div {
+  padding-top: vw(154px);
+  padding-left: vw(228px);
+  padding-right: vw(391px);
+  padding-bottom: vw(200px);
+}
+.aquaplan-nextjs-logo {
+  width: vw(166px);
+  height: auto;
+  margin-right: vw(58px);
+}
+.aquaplan-kubernets-logo {
+  width: vw(216px);
+  height: auto;
+  margin-right: vw(66px);
+}
+.aquaplan-graphql-logo {
+  width: vw(188px);
+  height: auto;
+  margin-right: vw(57px);
+}
+.aquaplan-tensorflow-logo {
+  width: vw(234px);
+  height: auto;
+  margin-right: vw(41px);
+}
+.aquaplan-aws-congnito-logo {
+  width: vw(271px);
+  height: auto;
+}
+.aquaplan-aws-lambda-logo {
+  margin-top: vw(85px);
+  width: vw(275px);
+  height: auto;
+  margin-right: vw(54px);
+}
+.aquaplan-aws-api-gateway-logo {
+  width: vw(339px);
+  height: auto;
+  margin-top: vw(76px);
+}

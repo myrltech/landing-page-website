@@ -1,0 +1,151 @@
+/*==============================================
+                 fold one
+===============================================*/
+.airi-fold-one-div {
+  padding: vw(237px) vw(99px) vw(207px) vw(158px);
+}
+.airi-logo {
+  width: vw(123px);
+  height: auto;
+}
+.airi-main-img {
+  width: vw(915px);
+  height: auto;
+}
+/*================================================
+                  fold two
+================================================*/
+.airi-low-screen {
+  width: vw(1600px);
+  height: auto;
+}
+
+.airi-low-screen-setion {
+  padding-left: vw(186px);
+  padding-right: vw(134px);
+}
+.airi-info-chart {
+  width: vw(1673px);
+  height: auto;
+  //   margin-left: vw(50px);
+}
+.airi-info-chart-section {
+  .remote-teams-information-img-div {
+    padding-left: vw(146px);
+  }
+}
+/*================================================
+                  fold four
+================================================*/
+.airi-desgin-div {
+  padding-top: vw(290px);
+  padding-left: vw(204px);
+}
+.airi-design-color-one,
+.airi-design-color-two,
+.airi-design-color-three,
+.airi-design-color-four {
+  @include theme-mixin-radius-width;
+}
+.airi-design-color-one {
+  margin-right: vw(27px);
+}
+.airi-design-color-two {
+  background: $theme-airi-white-bg;
+}
+.airi-design-color-three {
+  background: $theme-airi-gray-bg;
+  margin-right: vw(27px);
+}
+.airi-design-color-four {
+  background: $theme-airi-yellow-bg;
+}
+.airi-font-list-text {
+  color: $theme-text-color-white-85;
+}
+.airi-design-com-1 {
+  width: vw(259px);
+  height: auto;
+  margin-left: vw(-20px);
+  margin-top: vw(100px);
+}
+.airi-design-com-2 {
+  width: vw(411px);
+  height: auto;
+  margin-top: vw(20px);
+}
+.airi-design-com-3 {
+  width: vw(276px);
+  height: auto;
+  margin-top: vw(37px);
+}
+.airi-design-com-4 {
+  width: vw(356px);
+  height: auto;
+  margin-top: vw(37px);
+}
+.airi-design-color-one {
+  width: vw(110px);
+  height: auto;
+}
+/*================================================
+                  fold five
+================================================*/
+.airi-hi-screen {
+  width: 100%;
+}
+.airi-hi-screen-section {
+  border: none;
+  width: vw(1600px);
+}
+.airi-prototype-img {
+  width: vw(1577px);
+  height: auto;
+}
+.airi-prototype-img-section {
+  .remote-teams-prototype-img-div {
+    padding-right: vw(182px);
+  }
+}
+/*================================================
+                  fold six
+================================================*/
+.airi-tech-div {
+  padding-top: vw(199px);
+}
+.remote-teams-fold-two-subtitle--airi-tech {
+  padding-left: vw(161px);
+  &::after {
+    left: vw(349px);
+    bottom: vw(-56px);
+  }
+}
+.airi-tech-inner-div {
+  padding-top: vw(160px);
+  padding-left: vw(228px);
+  padding-bottom: vw(200px);
+}
+.airi-react-native-logo {
+  width: vw(266px);
+  height: auto;
+  margin-right: vw(58px);
+}
+.airi-sagemaker-logo {
+  width: vw(226px);
+  height: auto;
+  margin-right: vw(59px);
+}
+.airi-firebase-logo {
+  width: vw(190px);
+  height: auto;
+  margin-right: vw(59px);
+}
+.airi-go-logo {
+  width: vw(158px);
+  height: auto;
+  margin-right: vw(66px);
+}
+.airi-dialogflow-logo {
+  width: vw(225px);
+  height: auto;
+}

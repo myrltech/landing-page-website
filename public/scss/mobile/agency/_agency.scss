@@ -1,0 +1,153 @@
+.mv-agency-main-bg-div {
+  background-image: url("../../../imgs/mobile/backgrounds-and-gradients/backgrounds/client-bg.svg");
+  background-position: top;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.mv-agency-main-div {
+  padding: mvw(103px) mvw(23px) mvw(100px) mvw(23px);
+}
+.gradient-btn--agency {
+  width: mvw(244px);
+  height: mvw(59px);
+  line-height: mvw(58px);
+}
+.mv-agency-how-it-work-outer-div {
+  padding-top: mvw(53px);
+}
+.mv-agency-how-it-work-card {
+  width: 100%;
+  height: auto;
+  //   padding: mvw(13px) mvw(63px) mvw(10px) mvw(18px);
+  padding: mvw(13px) mvw(68px) mvw(10px) mvw(12px);
+  background: rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(600px);
+  border-radius: mvw(20px);
+  margin-bottom: mvw(13px);
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: mvw(20px);
+    padding: mvw(1px);
+    background: $blue-and-green-gradient-7;
+    -webkit-mask: linear-gradient(#fff 0 0) content-box,
+      linear-gradient(#fff 0 0);
+    -webkit-mask-composite: destination-out;
+    mask-composite: exclude;
+  }
+}
+.mv-agency-how-it-work-money-section {
+  background: linear-gradient(225deg, #00ff88 0%, #ef04ff 100%);
+  border-radius: mvw(30px) mvw(5px) mvw(5px) mvw(30px);
+  //   padding: mvw(7px) mvw(10px);
+  width: mvw(70px);
+  height: mvw(35px);
+  position: absolute;
+  right: 0;
+  top: 27%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mv-agency-how-it-work-left-section {
+  padding-right: mvw(13px);
+}
+.mv-agency-how-it-work-right-section {
+  border-left: mvw(1px) solid $theme-border-color-white-18;
+  padding-left: mvw(13px);
+}
+.mv-agency-how-it-work-right-para {
+  letter-spacing: 0.015em;
+}
+/*=====================================================================
+
+                      Fold Two
+
+===================================================================*/
+.mobile-augmnt-with-text-title {
+  position: relative;
+  width: fit-content;
+  span {
+    position: absolute;
+    bottom: mvw(-3px);
+    left: mvw(27px);
+    letter-spacing: 0.1em;
+  }
+}
+.mobile-augmnt-with-text-para {
+  color: $theme-text-color-white-93;
+}
+/*========================================================================
+
+                        Fold Three
+
+=========================================================================*/
+.mv-agency-interested-text {
+  font-size: mvw(18px);
+  line-height: mvw(25px);
+  // letter-spacing: 0.275em;
+  // text-transform: uppercase;
+  @include fontExtraLight200;
+  color: $theme-text-color-white-66;
+  margin-bottom: 0;
+}
+
+.mv-agency-form-section {
+  padding-top: mvw(77px);
+}
+
+.mv-agency-get-started-text {
+  // font-size: mvw(24px);
+  // line-height: mvw(33px);
+  // @include fontExtraLight200;
+  // margin-bottom: mvw(28px);
+  font-size: mvw(36px);
+  line-height: mvw(49px);
+  @include fontSemiBold600;
+  margin-bottom: mvw(32px);
+}
+.mv-agency-form-card {
+  width: 100%;
+  min-height: mvw(567px);
+  background: rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(600px);
+  border-radius: 20px;
+  position: relative;
+  padding: mvw(28px) mvw(45px) mvw(40px) mvw(20px);
+  z-index: 99;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: mvw(20px);
+    padding: mvw(1px);
+    background: $blue-and-green-gradient-7;
+    -webkit-mask: linear-gradient(#fff 0 0) content-box,
+      linear-gradient(#fff 0 0);
+    -webkit-mask-composite: destination-out;
+    mask-composite: exclude;
+    z-index: -1;
+  }
+}
+.mv-agency-form-card-title-div {
+  padding-bottom: mvw(12px);
+  border-bottom: mvw(2px) solid $theme-border-color-white-17;
+}
+.gradient-btn--agency-form {
+  width: mvw(144px);
+  height: mvw(45px);
+  margin-top: mvw(33px);
+  line-height: mvw(43px);
+  font-size: mvw(12px);
+}
