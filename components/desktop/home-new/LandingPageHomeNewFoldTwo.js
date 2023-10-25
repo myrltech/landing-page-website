@@ -9,19 +9,19 @@ import ProductCard from "../ourPortfolio/ProductCard";
 ============================================= */
 const whatNewArray = [
   {
-    imgPath: "/imgs/desktop/home-new/what-new-img-1.svg",
+    imgPath: "./imgs/desktop/home-new/what-new-img-1.svg",
     name: "Working with 2 NFT Startups!",
   },
   {
-    imgPath: "/imgs/desktop/home-new/what-new-img-2.svg",
+    imgPath: "./imgs/desktop/home-new/what-new-img-2.svg",
     name: "Working with 1 Ed-tech startup",
   },
   {
-    imgPath: "/imgs/desktop/home-new/what-new-img-3.svg",
+    imgPath: "./imgs/desktop/home-new/what-new-img-3.svg",
     name: "Working with  3 Health-tech startups.",
   },
   {
-    imgPath: "/imgs/desktop/home-new/what-new-img-4.svg",
+    imgPath: "./imgs/desktop/home-new/what-new-img-4.svg",
     // imgClass: "home-new-what-new-img-4",
     name: "Working with Honda North America (workshop job automation).",
   },
@@ -33,32 +33,32 @@ const whatNewArray = [
 const servicesArray = [
   {
     id: 1,
-    imgPath: "/imgs/desktop/home-new/home-services-icon-1.svg",
+    imgPath: "./imgs/desktop/home-new/home-services-icon-1.svg",
 
     imgClass: "home-services-icon-1",
     text: "Smart Contract and ICO Development",
   },
   {
     id: 2,
-    imgPath: "/imgs/desktop/home-new/home-services-icon-2.svg",
+    imgPath: "./imgs/desktop/home-new/home-services-icon-2.svg",
     imgClass: "home-services-icon-2",
     text: "Crypto Exchange Development",
   },
   {
     id: 3,
-    imgPath: "/imgs/desktop/home-new/home-services-icon-3.svg",
+    imgPath: "./imgs/desktop/home-new/home-services-icon-3.svg",
     imgClass: "home-services-icon-3",
     text: "Crypto Tracking and Trading Bots Development",
   },
   {
     id: 4,
-    imgPath: "/imgs/desktop/home-new/home-services-icon-4.svg",
+    imgPath: "./imgs/desktop/home-new/home-services-icon-4.svg",
     imgClass: "home-services-icon-4",
     text: "Customized Blockchain Solutions",
   },
   {
     id: 5,
-    imgPath: "/imgs/desktop/home-new/home-services-icon-5.svg",
+    imgPath: "./imgs/desktop/home-new/home-services-icon-5.svg",
     imgClass: "home-services-icon-5",
     text: "NFT Marketplace Development",
   },
@@ -69,23 +69,23 @@ const servicesArray = [
 ============================================= */
 const testArray = [
   {
-    imgPath: "/imgs/desktop/home/testomonial/clutch.svg",
+    imgPath: "./imgs/desktop/home/testomonial/clutch.svg",
     imgClass: "clutch-img",
   },
   {
-    imgPath: "/imgs/desktop/home/testomonial/winter.svg",
+    imgPath: "./imgs/desktop/home/testomonial/winter.svg",
     imgClass: "winter-img",
   },
   {
-    imgPath: "/imgs/desktop/home/testomonial/trustpilot.svg",
+    imgPath: "./imgs/desktop/home/testomonial/trustpilot.svg",
     imgClass: "trustpilot-img",
   },
   {
-    imgPath: "/imgs/desktop/home/testomonial/capterra.svg",
+    imgPath: "./imgs/desktop/home/testomonial/capterra.svg",
     imgClass: "capterra-img",
   },
   {
-    imgPath: "/imgs/desktop/home/testomonial/gartner.svg",
+    imgPath: "./imgs/desktop/home/testomonial/gartner.svg",
     imgClass: "gartner-img",
   },
 ];
