@@ -9,6 +9,7 @@ export default function Header({ activeLink }) {
                   return
 
 ============================================================*/
+console.log("activeLink",activeLink)
   return (
     <div className="d-flex flex-nowrap align-items-center justify-content-between myrl-navbar">
       <nav>
@@ -125,16 +126,16 @@ export default function Header({ activeLink }) {
                            Our Products
           =====================================================*/}{" "}
         <li>
-          <Link href="/resources">
+          <Link href="/">
             <a>
               <span
                 className={
-                  activeLink === "resources"
+                  activeLink === undefined
                     ? "weblink-active font-24-NunitoSans-400"
                     : "font-24-NunitoSans-400"
                 }
               >
-                Resources
+                Home
               </span>
             </a>
           </Link>
@@ -178,13 +179,13 @@ export default function Header({ activeLink }) {
         {/*======================================================
                            blogs
           =====================================================*/}{" "}
-        <li>
+        {/* <li>
           <a
             href={"https://www.designandtech.cc/"}
             rel="noopener noreferrer"
             target="_blank"
           >
-            {/* <Link href="/"> */}
+          
             <span
               className={
                 activeLink === "blogs"
@@ -195,8 +196,8 @@ export default function Header({ activeLink }) {
               Blogs
             </span>
           </a>
-          {/* </Link> */}
-        </li>
+         
+        </li> */}
         {/*======================================================
                            contactUs
           =====================================================*/}{" "}

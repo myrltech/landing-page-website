@@ -50,20 +50,13 @@ export default function LandingPageHomeNewFoldOne() {
     <>
       <div className="text-center home-new-agile-section">
         <h1 className="font-76-montserrat-800 font-32-montserrat-800 home-new-agile-section-title">
-          WEB3.0 Bootcamp and Product Development Lab
+          Custom A.I. Agents and Agentic workflows for Enterprises.
         </h1>
         <p className="font-20-montserrat-400 pt-10  home-new-agile-section-para d-none d-md-block">
-          We build Web3.0 and SAAS products for startups and top enterprise
-          clients.
-          <br /> At the same time, we conduct Web3.0 bootcamps specially
-          handcrafted for you.
+          We have a deep expertise in building AI products with custom A.I. Agents and Agentic workflows.
         </p>
         <p className="mobile-font-16-montserrat-500  mv-pt-32 home-new-agile-section-para d-block d-md-none">
-          We build Web3.0 and SAAS products for startups and top enterprise
-          clients.
-          <br />
-          <br /> At the same time, we conduct Web3.0 bootcamps specially
-          handcrafted for you.
+          We have a deep expertise in building AI products with custom A.I. Agents and Agentic workflows.
         </p>
         {/* <div className="d-flex align-items-center justify-content-center">
           <Link href="/contact-us">
@@ -79,9 +72,8 @@ export default function LandingPageHomeNewFoldOne() {
           {list?.map((data, key) => (
             <div
               key={key}
-              className={`text-center col-2 sm:col-12 home-list ${
-                key === 3 ? "border-none" : ""
-              }`}
+              className={`text-center col-2 sm:col-12 home-list ${key === 3 ? "border-none" : ""
+                }`}
             >
               <h5 className="font-24-montserrat-400 color-grey-2 font-24-montserrat-700">
                 <Link href={data.link}>
@@ -116,9 +108,8 @@ export default function LandingPageHomeNewFoldOne() {
           {listTwo?.map((data, key) => (
             <div
               key={key}
-              className={`text-center  home-list home-list__two ${
-                key === 4 ? "border-none" : ""
-              }`}
+              className={`text-center  home-list home-list__two ${key === 4 ? "border-none" : ""
+                }`}
             >
               <h5 className="font-24-montserrat-400 ">{data.title} </h5>
             </div>

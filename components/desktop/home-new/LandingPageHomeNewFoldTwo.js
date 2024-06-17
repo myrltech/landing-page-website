@@ -146,7 +146,7 @@ export default function LandingPageHomeNewFoldTwo() {
         {/*=====================================================================
                                     Our Products
       =======================================================================*/}
-        <div className="d-flex flex-nowrap  home-new-our-product-text-section justify-content-between align-items-end">
+        {/* <div className="d-flex flex-nowrap  home-new-our-product-text-section justify-content-between align-items-end">
           <h3 className="font-65-proxima-800 mobile-font-40-proxima-800">
             our <br />
             <span className="green-purple-gradient-text"> products</span>{" "}
@@ -162,7 +162,7 @@ export default function LandingPageHomeNewFoldTwo() {
             using the latest / cutting edge tech to enhance user experience.
             Here are three products that we’ve launched recently in North-Am.
           </p>
-        </div>
+        </div> */}
         <div className="d-flex home-new-our-product-cards-section flex-nowrap">
           <div className="col-md-4 col-12 p-0">
             <div className="home-new-dominate-card mobile-new-dominate-card">

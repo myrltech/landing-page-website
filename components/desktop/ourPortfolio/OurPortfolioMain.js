@@ -8,15 +8,11 @@ export default function OurPortfolioMain() {
   const renderOurProduct = () => {
     return (
       <div className="our-protfolio-products-section">
-        <h3 className="font-72-proxima-800">
+        {/* <h3 className="font-72-proxima-800">
           our<span className="green-purple-gradient-text"> products</span>{" "}
         </h3>
         <div className="d-none d-md-block">
           <p className="color-white-66 font-24-NunitoSans-600 pt-20 mv-pt-20">
-            {/* We build products across industries and have a deep expertise in
-            using the latest / cutting edge tech to <br />
-            enhance user experience. Here are three products that we’ve launched
-            recently in North-Am.{" "} */}
             Apart from building tech products for our clients, we also build,
             own
             <br />
@@ -25,7 +21,7 @@ export default function OurPortfolioMain() {
             <br />
             we&apos;ve launched in North America
           </p>
-        </div>
+        </div> */}
         <div className="d-block d-md-none">
           <p className="color-white-66 font-24-NunitoSans-600 pt-20 mv-pt-20 our-protfolio-products-para">
             {/* We build products across industries and have <br /> a deep expertise
@@ -85,7 +81,7 @@ export default function OurPortfolioMain() {
   const renderClientProject = () => {
     return (
       <div className="our-protfolio-projects-section">
-        <h3 className="font-72-proxima-800">
+        {/* <h3 className="font-72-proxima-800">
           <span className="green-purple-gradient-text">clients </span>Projects{" "}
         </h3>
         <div className="d-none d-md-block">
@@ -100,7 +96,7 @@ export default function OurPortfolioMain() {
             We work with the top enterprise firms in the world to help them
             build cutting edge tech products. Here are some examples -{" "}
           </p>
-        </div>
+        </div> */}
         <div className="d-flex our-protfolio-projects-card-section flex-nowrap">
           {/**=================================================================
            *                         aquaplan
@@ -172,12 +168,12 @@ export default function OurPortfolioMain() {
           <h2 className="font-86-proxima-800">Our portfolio</h2>
           <p className="font-36-NunitoSans-700 mobile-font-14-Nunito-700 pt-30 mv-pt-40 d-none d-md-block">
             {/* We specialize in building SAAS products.{" "} */}
-            We specialize in building WEB 3.0 &amp; SAAS products
+            We specialize in building A.I Agent Workflows
           </p>
           <p className="font-36-NunitoSans-700 mobile-font-14-Nunito-700 pt-30 mv-pt-40 d-block d-md-none">
             {/* We specialize in building SAAS products.{" "} */}
-            We specialize in building WEB 3.0 &amp; <br />
-            SAAS products
+            
+            We specialize in building A.I Agent Workflows
           </p>
           <div className="d-none d-md-block">
             <p className="pt-20 font-24-NunitoSans-600">
@@ -186,19 +182,21 @@ export default function OurPortfolioMain() {
               <br />
               same time, build for enterprise clients. */}
               {/* We’ve built, (and now) own and operate multiple tech products.{" "} */}
-              We build WEB 3.0 products for startups
+
+              We have 5+ years experience of building custom A.I Agent workflows and A.I products for enterprises.
+              {/* We build WEB 3.0 products for startups */}
               <br />
-              At the same time, we also build SAAS products for top enterprise
-              clients.
+              {/* At the same time, we also build SAAS products for top enterprise
+              clients. */}
+              Here are some projects we’ve worked on
             </p>
           </div>
           <div className="d-block d-md-none">
             <p className="pt-10 font-24-NunitoSans-600 mv-pt-20">
               {/* We’ve built, (and now) own and operate <br />
               multiple tech products.  */}
-              We build WEB 3.0 products for startups <br />
-              At the same time, we also build SAAS <br /> products for top
-              enterprise clients.
+               We have 5+ years experience of building custom A.I Agent workflows and A.I products for enterprises. <br />
+               Here are some projects we’ve worked on
             </p>
           </div>
         </div>
