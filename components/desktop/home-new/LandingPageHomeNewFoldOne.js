@@ -6,22 +6,22 @@ import LandingPageHomeNewFoldThree from "./LandingPageHomeNewFoldThree";
 
 const list = [
   {
-    title: "Bootcamp",
+    title: "Development",
     imgPath: "./imgs/desktop/icons/arrow-circle-icon.svg",
     link: "/",
-  },
-  {
-    title: "Web3 Resources",
-    imgPath: "./imgs/desktop/icons/arrow-circle-icon.svg",
-    link: "/resources",
   },
   {
     title: "Consultancy",
     imgPath: "./imgs/desktop/icons/arrow-circle-icon.svg",
+    link: "/resources",
+  },
+  {
+    title: "Engineering",
+    imgPath: "./imgs/desktop/icons/arrow-circle-icon.svg",
     link: "/",
   },
   {
-    title: "Community",
+    title: "Operations",
     imgPath: "./imgs/desktop/icons/arrow-circle-icon.svg",
     link: "/",
   },
@@ -76,22 +76,22 @@ export default function LandingPageHomeNewFoldOne() {
                 }`}
             >
               <h5 className="font-24-montserrat-400 color-grey-2 font-24-montserrat-700">
-                <Link href={data.link}>
-                  <a>
-                    {data.title}
-                    <img
+                {/* <Link href={data.link}> */}
+                <a>
+                  {data.title}
+                  {/* <img
                       src={"./imgs/desktop/icons/arrow-circle-icon.svg"}
                       alt="arrow"
                       className="home-arrow-with-circle-icon"
-                    />{" "}
-                  </a>
-                </Link>
+                    />{" "} */}
+                </a>
+                {/* </Link> */}
               </h5>
             </div>
           ))}
           <div className="col-1"></div>
         </div>
-        <p className="pt-115 text-center font-40-montserrat-300 color-grey font-24-montserrat-300 mv-pt-65">
+        {/* <p className="pt-115 text-center font-40-montserrat-300 color-grey font-24-montserrat-300 mv-pt-65">
           Join our Industry-Standard
           <span className="font-44-montserrat-800 font-24-montserrat-700">
             {" "}
@@ -102,8 +102,8 @@ export default function LandingPageHomeNewFoldOne() {
           <span className="font-44-montserrat-800 font-24-montserrat-700">
             Real-World dApps
           </span>
-        </p>
-        <div className="d-md-flex d-none justify-content-center align-items-center home-list-main-section pt-75">
+        </p> */}
+        {/* <div className="d-md-flex d-none justify-content-center align-items-center home-list-main-section pt-75">
           <div className="col-1"></div>
           {listTwo?.map((data, key) => (
             <div
@@ -115,7 +115,7 @@ export default function LandingPageHomeNewFoldOne() {
             </div>
           ))}
           <div className="col-1"></div>
-        </div>
+        </div> */}
 
         <div className="d-md-none d-flex justify-content-center flex-wrap new-home-bootcamp-section">
           {listTwo.map((data, key) => (
@@ -129,7 +129,7 @@ export default function LandingPageHomeNewFoldOne() {
           <Link href="/">
             <a>
               <div className="find-out-btn">
-                Explore Bootcamp &nbsp;
+                Share Your Requirements &nbsp;
                 <i className="fa fa-arrow-right" aria-hidden="true"></i>
               </div>
             </a>
