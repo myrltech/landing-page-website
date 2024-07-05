@@ -6,22 +6,22 @@ import LandingPageHomeNewFoldThree from "./LandingPageHomeNewFoldThree";
 
 const list = [
   {
-    title: "Development",
+    title: "Research",
     imgPath: "./imgs/desktop/icons/arrow-circle-icon.svg",
     link: "/",
-  },
-  {
-    title: "Consultancy",
-    imgPath: "./imgs/desktop/icons/arrow-circle-icon.svg",
-    link: "/resources",
   },
   {
     title: "Engineering",
     imgPath: "./imgs/desktop/icons/arrow-circle-icon.svg",
+    link: "/resources",
+  },
+  {
+    title: "Consultancy",
+    imgPath: "./imgs/desktop/icons/arrow-circle-icon.svg",
     link: "/",
   },
   {
-    title: "Operations",
+    title: "Training",
     imgPath: "./imgs/desktop/icons/arrow-circle-icon.svg",
     link: "/",
   },
