@@ -126,7 +126,7 @@ export default function LandingPageHomeNewFoldOne() {
         </div>
 
         <div className="d-flex justify-content-center  align-items-center pt-60">
-          <Link href="/">
+          <Link href="/contact-us">
             <a>
               <div className="find-out-btn">
                 Share Your Requirements &nbsp;
